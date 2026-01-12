@@ -248,6 +248,34 @@
   opacity: 0;
 }
 
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Motion reduce utility classes */
+.motion-reduce\:animate-none {
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motion-reduce\:animate-none {
+    animation: none !important;
+  }
+}
+
+/* Static gradient fallback for reduced motion */
+.motion-reduce\:text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-bpc-teal to-bpc-navy;
+}
+
 /* Selection color */
 ::selection {
   @apply bg-bpc-teal/20 text-bpc-navy-900;

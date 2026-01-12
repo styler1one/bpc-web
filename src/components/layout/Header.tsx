@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
@@ -9,6 +9,7 @@ import { LanguageSwitcher } from './LanguageSwitcher';
 
 export function Header() {
   const t = useTranslations('navigation');
+  const tCommon = useTranslations('common');
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -17,16 +18,44 @@ export function Header() {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
     };
-    window.addEventListener('scroll', handleScroll);
+    
+    // Check on mount
+    handleScroll();
+    
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Close mobile menu on escape key
+  const handleKeyDown = useCallback((event: KeyboardEvent) => {
+    if (event.key === 'Escape' && mobileMenuOpen) {
+      setMobileMenuOpen(false);
+    }
+  }, [mobileMenuOpen]);
+
+  useEffect(() => {
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, [handleKeyDown]);
+
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [mobileMenuOpen]);
+
   const navItems = [
-    { href: '/', label: t('home') },
-    { href: '/diensten', label: t('services') },
-    { href: '/aanpak', label: t('approach') },
-    { href: '/over-ons', label: t('about') },
-    { href: '/contact', label: t('contact') },
+    { href: '/', label: t('home'), id: 'home' },
+    { href: '/diensten', label: t('services'), id: 'services' },
+    { href: '/aanpak', label: t('approach'), id: 'approach' },
+    { href: '/over-ons', label: t('about'), id: 'about' },
+    { href: '/contact', label: t('contact'), id: 'contact' },
   ];
 
   return (
@@ -37,14 +66,15 @@ export function Header() {
           ? 'bg-white/90 backdrop-blur-xl shadow-lg shadow-bpc-navy/5 py-3' 
           : 'bg-transparent py-5'
       )}
+      role="banner"
     >
-      <nav className="container-content">
+      <nav className="container-content" aria-label="Hoofdnavigatie">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 focus-ring rounded-lg group">
             <Image
               src="/logo.png"
-              alt="Best Practice Company"
+              alt="Best Practice Company - Terug naar home"
               width={200}
               height={50}
               className={cn(
@@ -57,11 +87,13 @@ export function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-1">
+          <div className="hidden lg:flex items-center gap-1" role="menubar">
             {navItems.map((item) => (
               <Link
-                key={item.href}
+                key={item.id}
                 href={item.href}
+                role="menuitem"
+                aria-current={pathname === item.href ? 'page' : undefined}
                 className={cn(
                   'relative px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 focus-ring',
                   pathname === item.href
@@ -71,7 +103,10 @@ export function Header() {
               >
                 {item.label}
                 {pathname === item.href && (
-                  <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-bpc-teal" />
+                  <span 
+                    className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-bpc-teal" 
+                    aria-hidden="true" 
+                  />
                 )}
               </Link>
             ))}
@@ -86,11 +121,17 @@ export function Header() {
                 'group inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold transition-all duration-300',
                 'bg-gradient-to-r from-bpc-teal to-bpc-teal-600 text-white',
                 'shadow-lg shadow-bpc-teal/20 hover:shadow-xl hover:shadow-bpc-teal/30',
-                'hover:-translate-y-0.5'
+                'hover:-translate-y-0.5 focus-ring'
               )}
             >
               <span>{t('cta')}</span>
-              <svg className="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg 
+                className="w-4 h-4 transition-transform group-hover:translate-x-0.5" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+                aria-hidden="true"
+              >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
@@ -104,7 +145,9 @@ export function Header() {
               scrolled ? 'bg-bpc-navy/5 hover:bg-bpc-navy/10' : 'bg-white/50 hover:bg-white/80'
             )}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label="Toggle menu"
+            aria-expanded={mobileMenuOpen}
+            aria-controls="mobile-menu"
+            aria-label={tCommon('toggle_menu')}
           >
             <svg
               className="w-6 h-6 text-bpc-navy-700"
@@ -112,6 +155,7 @@ export function Header() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
+              aria-hidden="true"
             >
               {mobileMenuOpen ? (
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -127,39 +171,50 @@ export function Header() {
         </div>
 
         {/* Mobile Navigation */}
-        {mobileMenuOpen && (
-          <div className="lg:hidden absolute top-full left-0 right-0 bg-white/95 backdrop-blur-xl border-t border-gray-100 shadow-xl animate-fade-in">
-            <div className="container-content py-6">
-              <div className="flex flex-col gap-2">
-                {navItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className={cn(
-                      'px-4 py-3 rounded-xl text-base font-medium transition-all duration-300',
-                      pathname === item.href
-                        ? 'text-bpc-teal bg-bpc-teal/10'
-                        : 'text-bpc-navy-700 hover:text-bpc-teal hover:bg-gray-50'
-                    )}
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-                <div className="pt-4 mt-2 border-t border-gray-100 flex items-center justify-between">
-                  <LanguageSwitcher />
-                  <Link
-                    href="/contact"
-                    className="btn-primary text-sm"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    {t('cta')}
-                  </Link>
-                </div>
+        <div 
+          id="mobile-menu"
+          className={cn(
+            'lg:hidden fixed inset-x-0 top-[72px] bg-white/95 backdrop-blur-xl border-t border-gray-100 shadow-xl transition-all duration-300',
+            mobileMenuOpen 
+              ? 'opacity-100 translate-y-0 pointer-events-auto' 
+              : 'opacity-0 -translate-y-4 pointer-events-none'
+          )}
+          aria-hidden={!mobileMenuOpen}
+        >
+          <div className="container-content py-6">
+            <div className="flex flex-col gap-2" role="menu">
+              {navItems.map((item) => (
+                <Link
+                  key={item.id}
+                  href={item.href}
+                  role="menuitem"
+                  tabIndex={mobileMenuOpen ? 0 : -1}
+                  aria-current={pathname === item.href ? 'page' : undefined}
+                  className={cn(
+                    'px-4 py-3 rounded-xl text-base font-medium transition-all duration-300',
+                    pathname === item.href
+                      ? 'text-bpc-teal bg-bpc-teal/10'
+                      : 'text-bpc-navy-700 hover:text-bpc-teal hover:bg-gray-50'
+                  )}
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+              <div className="pt-4 mt-2 border-t border-gray-100 flex items-center justify-between">
+                <LanguageSwitcher />
+                <Link
+                  href="/contact"
+                  className="btn-primary text-sm"
+                  onClick={() => setMobileMenuOpen(false)}
+                  tabIndex={mobileMenuOpen ? 0 : -1}
+                >
+                  {t('cta')}
+                </Link>
               </div>
             </div>
           </div>
-        )}
+        </div>
       </nav>
     </header>
   );

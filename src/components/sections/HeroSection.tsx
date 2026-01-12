@@ -2,12 +2,13 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import { generateStableId } from '@/lib/utils';
 
 function FloatingArrows() {
   return (
-    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+    <div className="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
       {/* Large floating arrow shapes inspired by BPC logo */}
-      <div className="absolute top-20 right-[10%] w-16 h-24 opacity-10 animate-float">
+      <div className="absolute top-20 right-[10%] w-16 h-24 opacity-10 animate-float motion-reduce:animate-none">
         <svg viewBox="0 0 40 60" fill="none" className="w-full h-full">
           <path d="M20 0L40 45L20 35L0 45L20 0Z" fill="url(#arrowGrad1)" />
           <defs>
@@ -19,7 +20,7 @@ function FloatingArrows() {
         </svg>
       </div>
       
-      <div className="absolute top-40 right-[25%] w-10 h-16 opacity-20 animate-float-slow animation-delay-500">
+      <div className="absolute top-40 right-[25%] w-10 h-16 opacity-20 animate-float-slow motion-reduce:animate-none animation-delay-500">
         <svg viewBox="0 0 40 60" fill="none" className="w-full h-full">
           <path d="M20 0L40 45L20 35L0 45L20 0Z" fill="url(#arrowGrad2)" />
           <defs>
@@ -31,13 +32,13 @@ function FloatingArrows() {
         </svg>
       </div>
 
-      <div className="absolute bottom-32 right-[15%] w-8 h-12 opacity-15 animate-float-slower animation-delay-300">
+      <div className="absolute bottom-32 right-[15%] w-8 h-12 opacity-15 animate-float-slower motion-reduce:animate-none animation-delay-300">
         <svg viewBox="0 0 40 60" fill="none" className="w-full h-full">
           <path d="M20 0L40 45L20 35L0 45L20 0Z" fill="#7dd3e8" />
         </svg>
       </div>
 
-      <div className="absolute top-60 left-[5%] w-12 h-18 opacity-10 animate-float animation-delay-700">
+      <div className="absolute top-60 left-[5%] w-12 h-18 opacity-10 animate-float motion-reduce:animate-none animation-delay-700">
         <svg viewBox="0 0 40 60" fill="none" className="w-full h-full rotate-[-15deg]">
           <path d="M20 0L40 45L20 35L0 45L20 0Z" fill="url(#arrowGrad3)" />
           <defs>
@@ -50,8 +51,8 @@ function FloatingArrows() {
       </div>
 
       {/* Geometric circles */}
-      <div className="absolute top-1/3 right-[5%] w-64 h-64 rounded-full border border-bpc-teal/10 animate-spin-slow" />
-      <div className="absolute top-1/3 right-[5%] w-48 h-48 rounded-full border border-bpc-navy/5 animate-spin-slow" style={{ animationDirection: 'reverse', animationDuration: '30s' }} />
+      <div className="absolute top-1/3 right-[5%] w-64 h-64 rounded-full border border-bpc-teal/10 animate-spin-slow motion-reduce:animate-none" />
+      <div className="absolute top-1/3 right-[5%] w-48 h-48 rounded-full border border-bpc-navy/5 animate-spin-slow motion-reduce:animate-none" style={{ animationDirection: 'reverse', animationDuration: '30s' }} />
       
       {/* Gradient lines */}
       <div className="absolute top-0 right-1/3 w-px h-40 bg-gradient-to-b from-transparent via-bpc-teal/20 to-transparent" />
@@ -62,64 +63,82 @@ function FloatingArrows() {
 
 function BackgroundEffects() {
   return (
-    <>
+    <div aria-hidden="true">
       {/* Animated gradient orbs */}
-      <div className="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-gradient-to-br from-bpc-teal/20 via-bpc-sky/10 to-transparent blur-3xl animate-pulse-soft" />
-      <div className="absolute top-1/2 -left-40 w-[500px] h-[500px] rounded-full bg-gradient-to-tr from-bpc-navy/10 via-bpc-teal/5 to-transparent blur-3xl animate-pulse-soft animation-delay-1000" />
-      <div className="absolute -bottom-20 right-1/4 w-[400px] h-[400px] rounded-full bg-gradient-to-t from-bpc-teal/10 to-transparent blur-3xl animate-pulse-soft animation-delay-500" />
+      <div className="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-gradient-to-br from-bpc-teal/20 via-bpc-sky/10 to-transparent blur-3xl animate-pulse-soft motion-reduce:animate-none" />
+      <div className="absolute top-1/2 -left-40 w-[500px] h-[500px] rounded-full bg-gradient-to-tr from-bpc-navy/10 via-bpc-teal/5 to-transparent blur-3xl animate-pulse-soft motion-reduce:animate-none animation-delay-1000" />
+      <div className="absolute -bottom-20 right-1/4 w-[400px] h-[400px] rounded-full bg-gradient-to-t from-bpc-teal/10 to-transparent blur-3xl animate-pulse-soft motion-reduce:animate-none animation-delay-500" />
       
       {/* Grid pattern */}
       <div className="absolute inset-0 bg-grid opacity-50" />
       
       {/* Subtle radial gradient overlay */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-bpc-teal/5 via-transparent to-transparent" />
-    </>
+    </div>
   );
+}
+
+interface TrustBadge {
+  id: string;
+  icon: string;
+  text: string;
 }
 
 export function HeroSection() {
   const t = useTranslations('hero');
 
-  const trustBadges = [
-    { icon: '🛡️', text: t('trust_badges.eu_ai_act') },
-    { icon: '🇪🇺', text: t('trust_badges.eu_hosting') },
-    { icon: '✓', text: t('trust_badges.gdpr') },
+  const trustBadges: TrustBadge[] = [
+    { id: 'eu-ai-act', icon: '🛡️', text: t('trust_badges.eu_ai_act') },
+    { id: 'eu-hosting', icon: '🇪🇺', text: t('trust_badges.eu_hosting') },
+    { id: 'gdpr', icon: '✓', text: t('trust_badges.gdpr') },
   ];
 
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-white via-gray-50/50 to-white">
+    <section 
+      className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-white via-gray-50/50 to-white"
+      aria-labelledby="hero-title"
+    >
       <BackgroundEffects />
       <FloatingArrows />
 
       <div className="container-content py-20">
         <div className="max-w-4xl">
           {/* Tagline badge */}
-          <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/80 backdrop-blur-sm border border-bpc-teal/20 shadow-lg shadow-bpc-teal/5 mb-8 animate-fade-in">
-            <span className="relative flex h-3 w-3">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-bpc-teal opacity-75"></span>
+          <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/80 backdrop-blur-sm border border-bpc-teal/20 shadow-lg shadow-bpc-teal/5 mb-8 animate-fade-in motion-reduce:animate-none">
+            <span className="relative flex h-3 w-3" aria-hidden="true">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-bpc-teal opacity-75 motion-reduce:animate-none"></span>
               <span className="relative inline-flex rounded-full h-3 w-3 bg-bpc-teal"></span>
             </span>
             <span className="text-bpc-navy-800 font-semibold tracking-wide">{t('tagline')}</span>
           </div>
 
           {/* Main headline */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-bpc-navy-900 mb-3 animate-fade-in-up">
+          <h1 
+            id="hero-title"
+            className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-bpc-navy-900 mb-3 animate-fade-in-up motion-reduce:animate-none"
+          >
             {t('title')}
           </h1>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-8 animate-fade-in-up animation-delay-100">
-            <span className="text-gradient-animated">{t('subtitle')}</span>
-          </h2>
+          <p className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-8 animate-fade-in-up motion-reduce:animate-none animation-delay-100">
+            <span className="text-gradient-animated motion-reduce:text-gradient">{t('subtitle')}</span>
+          </p>
 
           {/* Description */}
-          <p className="text-xl md:text-2xl text-bpc-navy-600 leading-relaxed mb-12 max-w-2xl animate-fade-in-up animation-delay-200">
+          <p className="text-xl md:text-2xl text-bpc-navy-600 leading-relaxed mb-12 max-w-2xl animate-fade-in-up motion-reduce:animate-none animation-delay-200">
             {t('description')}
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-16 animate-fade-in-up animation-delay-300">
+          <div className="flex flex-col sm:flex-row gap-4 mb-16 animate-fade-in-up motion-reduce:animate-none animation-delay-300">
             <Link href="/contact" className="btn-primary text-lg px-10 py-5 group">
               <span>{t('cta_primary')}</span>
-              <svg className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg 
+                className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+                aria-hidden="true"
+              >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
@@ -129,27 +148,27 @@ export function HeroSection() {
           </div>
 
           {/* Trust indicators */}
-          <div className="animate-fade-in animation-delay-500">
+          <div className="animate-fade-in motion-reduce:animate-none animation-delay-500">
             <p className="text-sm font-medium text-bpc-navy-500 mb-4 uppercase tracking-wider">
               {t('trust_line')}
             </p>
-            <div className="flex flex-wrap items-center gap-6">
-              {trustBadges.map((item, index) => (
-                <div 
-                  key={index}
+            <ul className="flex flex-wrap items-center gap-6" role="list">
+              {trustBadges.map((badge) => (
+                <li 
+                  key={badge.id}
                   className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/60 backdrop-blur-sm border border-gray-200/50 shadow-sm hover:shadow-md hover:border-bpc-teal/30 transition-all duration-300"
                 >
-                  <span className="text-lg">{item.icon}</span>
-                  <span className="text-sm font-medium text-bpc-navy-700">{item.text}</span>
-                </div>
+                  <span className="text-lg" aria-hidden="true">{badge.icon}</span>
+                  <span className="text-sm font-medium text-bpc-navy-700">{badge.text}</span>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         </div>
       </div>
 
       {/* Bottom gradient fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" aria-hidden="true" />
     </section>
   );
 }

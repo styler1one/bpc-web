@@ -21,3 +21,15 @@ export function formatPhoneNumber(phone: string): string {
 export function getCurrentYear(): number {
   return new Date().getFullYear();
 }
+
+/**
+ * Generate a stable ID from a string
+ * Useful for creating keys from translated content
+ */
+export function generateStableId(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '')
+    .slice(0, 32);
+}

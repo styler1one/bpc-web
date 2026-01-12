@@ -2,7 +2,8 @@
   "metadata": {
     "title": "Best Practice Company | AI die werkt",
     "description": "Best Practice Company helpt organisaties transformatie realiseren door AI van idee naar productie te brengen. Van besluit naar productie in 8-12 weken.",
-    "keywords": "AI implementatie, digitale transformatie, AI consulting, AI productie, enterprise AI, AI governance"
+    "keywords": "AI implementatie, digitale transformatie, AI consulting, AI productie, enterprise AI, AI governance",
+    "og_image_alt": "Best Practice Company - AI die werkt"
   },
   "navigation": {
     "home": "Home",
@@ -10,7 +11,8 @@
     "about": "Over ons",
     "approach": "Aanpak",
     "contact": "Contact",
-    "cta": "Start gesprek"
+    "cta": "Start gesprek",
+    "skip_to_content": "Ga naar inhoud"
   },
   "hero": {
     "tagline": "AI die werkt.",
@@ -267,7 +269,8 @@
     "company": "Best Practice Company",
     "tagline": "AI die werkt.",
     "description": "Van AI-ambitie naar productie in 8 tot 12 weken.",
-    "services": "Diensten",
+    "services_title": "Diensten",
+    "company_title": "Bedrijf",
     "about": "Over ons",
     "contact": "Contact",
     "privacy": "Privacy",
@@ -281,6 +284,22 @@
     "duration": "Doorlooptijd",
     "back": "Terug",
     "next": "Volgende",
-    "close": "Sluiten"
+    "close": "Sluiten",
+    "toggle_menu": "Menu openen/sluiten"
+  },
+  "structured_data": {
+    "organization_description": "Best Practice Company helpt organisaties transformatie realiseren door AI van idee naar productie te brengen.",
+    "slogan": "AI die werkt.",
+    "service_type": "AI Consulting",
+    "discovery_description": "Identificeer waar AI de meeste waarde kan toevoegen in jouw organisatie. 2-4 weken.",
+    "delivery_description": "Van besluit naar werkende AI-oplossing in productie. 4-8 weken.",
+    "continuity_description": "Beheer, monitoring en doorontwikkeling van AI-oplossingen."
+  },
+  "contact": {
+    "phone_label": "Telefoon",
+    "email_label": "E-mail",
+    "phone_number": "+31 85 000 0000",
+    "email_address": "info@bestpractice.company",
+    "phone_number_note": "Vul hier het echte telefoonnummer in"
   }
 }

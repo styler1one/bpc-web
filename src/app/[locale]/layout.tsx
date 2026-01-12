@@ -1,10 +1,12 @@
 import { Inter, Plus_Jakarta_Sans } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, unstable_setRequestLocale } from 'next-intl/server';
+import { getMessages, getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import { locales, type Locale } from '@/i18n/config';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
+import { SkipToContent } from '@/components/layout/SkipToContent';
+import { siteConfig } from '@/lib/config';
 import '@/app/globals.css';
 
 const inter = Inter({
@@ -28,20 +30,19 @@ export async function generateMetadata({
 }: {
   params: { locale: Locale };
 }) {
-  const messages = await getMessages({ locale });
-  const metadata = messages.metadata as Record<string, string>;
+  const t = await getTranslations({ locale, namespace: 'metadata' });
 
   return {
     title: {
-      default: metadata.title,
+      default: t('title'),
       template: `%s | Best Practice Company`,
     },
-    description: metadata.description,
-    keywords: metadata.keywords,
+    description: t('description'),
+    keywords: t('keywords'),
     authors: [{ name: 'Best Practice Company' }],
     creator: 'Best Practice Company',
     publisher: 'Best Practice Company',
-    metadataBase: new URL('https://bestpractice.company'),
+    metadataBase: new URL(siteConfig.url),
     alternates: {
       canonical: '/',
       languages: {
@@ -52,24 +53,15 @@ export async function generateMetadata({
     openGraph: {
       type: 'website',
       locale: locale === 'nl' ? 'nl_NL' : 'en_GB',
-      url: 'https://bestpractice.company',
+      url: siteConfig.url,
       siteName: 'Best Practice Company',
-      title: metadata.title,
-      description: metadata.description,
-      images: [
-        {
-          url: '/og-image.png',
-          width: 1200,
-          height: 630,
-          alt: 'Best Practice Company - AI die werkt',
-        },
-      ],
+      title: t('title'),
+      description: t('description'),
     },
     twitter: {
       card: 'summary_large_image',
-      title: metadata.title,
-      description: metadata.description,
-      images: ['/og-image.png'],
+      title: t('title'),
+      description: t('description'),
     },
     robots: {
       index: true,
@@ -83,6 +75,104 @@ export async function generateMetadata({
       },
     },
   };
+}
+
+async function StructuredData({ locale }: { locale: Locale }) {
+  const t = await getTranslations({ locale, namespace: 'structured_data' });
+  const tServices = await getTranslations({ locale, namespace: 'services' });
+
+  const organizationData = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Best Practice Company',
+    description: t('organization_description'),
+    url: siteConfig.url,
+    logo: `${siteConfig.url}/logo.png`,
+    sameAs: [],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'sales',
+      telephone: siteConfig.contact.phone,
+      email: siteConfig.contact.email,
+      availableLanguage: ['Dutch', 'English'],
+    },
+    areaServed: {
+      '@type': 'Place',
+      name: 'Europe',
+    },
+    knowsAbout: [
+      'Artificial Intelligence',
+      'AI Implementation',
+      'Digital Transformation',
+      'Enterprise AI',
+      'AI Governance',
+      'Cloud Modernization',
+    ],
+    slogan: t('slogan'),
+    foundingDate: '2024',
+    address: {
+      '@type': 'PostalAddress',
+      addressCountry: 'NL',
+    },
+  };
+
+  const serviceData = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: t('service_type'),
+    provider: {
+      '@type': 'Organization',
+      name: 'Best Practice Company',
+    },
+    areaServed: 'Europe',
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: locale === 'nl' ? 'AI Diensten' : 'AI Services',
+      itemListElement: [
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: tServices('discovery.name'),
+            description: t('discovery_description'),
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: tServices('delivery.name'),
+            description: t('delivery_description'),
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: tServices('continuity.name'),
+            description: t('continuity_description'),
+          },
+        },
+      ],
+    },
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(organizationData),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(serviceData),
+        }}
+      />
+    </>
+  );
 }
 
 export default async function LocaleLayout({
@@ -106,98 +196,15 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={`${inter.variable} ${plusJakarta.variable}`}>
       <head>
-        {/* Structured Data for SEO and AI/LLM */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'Organization',
-              name: 'Best Practice Company',
-              description:
-                'Best Practice Company helpt organisaties transformatie realiseren door AI van idee naar productie te brengen.',
-              url: 'https://bestpractice.company',
-              logo: 'https://bestpractice.company/logo.png',
-              sameAs: [],
-              contactPoint: {
-                '@type': 'ContactPoint',
-                contactType: 'sales',
-                availableLanguage: ['Dutch', 'English'],
-              },
-              areaServed: {
-                '@type': 'Place',
-                name: 'Europe',
-              },
-              knowsAbout: [
-                'Artificial Intelligence',
-                'AI Implementation',
-                'Digital Transformation',
-                'Enterprise AI',
-                'AI Governance',
-                'Cloud Modernization',
-              ],
-              slogan: 'AI die werkt.',
-              foundingDate: '2024',
-              address: {
-                '@type': 'PostalAddress',
-                addressCountry: 'NL',
-              },
-            }),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'Service',
-              serviceType: 'AI Consulting',
-              provider: {
-                '@type': 'Organization',
-                name: 'Best Practice Company',
-              },
-              areaServed: 'Europe',
-              hasOfferCatalog: {
-                '@type': 'OfferCatalog',
-                name: 'AI Services',
-                itemListElement: [
-                  {
-                    '@type': 'Offer',
-                    itemOffered: {
-                      '@type': 'Service',
-                      name: 'AI Value Discovery',
-                      description:
-                        'Identificeer waar AI de meeste waarde kan toevoegen in jouw organisatie. 2-4 weken.',
-                    },
-                  },
-                  {
-                    '@type': 'Offer',
-                    itemOffered: {
-                      '@type': 'Service',
-                      name: 'AI Delivery Sprint',
-                      description:
-                        'Van besluit naar werkende AI-oplossing in productie. 4-8 weken.',
-                    },
-                  },
-                  {
-                    '@type': 'Offer',
-                    itemOffered: {
-                      '@type': 'Service',
-                      name: 'AI Continuity',
-                      description:
-                        'Beheer, monitoring en doorontwikkeling van AI-oplossingen.',
-                    },
-                  },
-                ],
-              },
-            }),
-          }}
-        />
+        <StructuredData locale={locale} />
       </head>
       <body className="min-h-screen flex flex-col font-sans">
         <NextIntlClientProvider messages={messages}>
+          <SkipToContent />
           <Header />
-          <main className="flex-grow pt-20">{children}</main>
+          <main id="main-content" className="flex-grow pt-20" tabIndex={-1}>
+            {children}
+          </main>
           <Footer />
         </NextIntlClientProvider>
       </body>

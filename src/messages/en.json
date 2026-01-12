@@ -2,7 +2,8 @@
   "metadata": {
     "title": "Best Practice Company | AI that works",
     "description": "Best Practice Company helps organizations realize transformation by bringing AI from idea to production. From decision to production in 8-12 weeks.",
-    "keywords": "AI implementation, digital transformation, AI consulting, AI production, enterprise AI, AI governance"
+    "keywords": "AI implementation, digital transformation, AI consulting, AI production, enterprise AI, AI governance",
+    "og_image_alt": "Best Practice Company - AI that works"
   },
   "navigation": {
     "home": "Home",
@@ -10,7 +11,8 @@
     "about": "About us",
     "approach": "Approach",
     "contact": "Contact",
-    "cta": "Start conversation"
+    "cta": "Start conversation",
+    "skip_to_content": "Skip to content"
   },
   "hero": {
     "tagline": "AI that works.",
@@ -267,7 +269,8 @@
     "company": "Best Practice Company",
     "tagline": "AI that works.",
     "description": "From AI ambition to production in 8-12 weeks.",
-    "services": "Services",
+    "services_title": "Services",
+    "company_title": "Company",
     "about": "About us",
     "contact": "Contact",
     "privacy": "Privacy",
@@ -281,6 +284,22 @@
     "duration": "Duration",
     "back": "Back",
     "next": "Next",
-    "close": "Close"
+    "close": "Close",
+    "toggle_menu": "Toggle menu"
+  },
+  "structured_data": {
+    "organization_description": "Best Practice Company helps organizations realize transformation by bringing AI from idea to production.",
+    "slogan": "AI that works.",
+    "service_type": "AI Consulting",
+    "discovery_description": "Identify where AI can add the most value in your organization. 2-4 weeks.",
+    "delivery_description": "From decision to working AI solution in production. 4-8 weeks.",
+    "continuity_description": "Management, monitoring and continuous development of AI solutions."
+  },
+  "contact": {
+    "phone_label": "Phone",
+    "email_label": "Email",
+    "phone_number": "+31 85 000 0000",
+    "email_address": "info@bestpractice.company",
+    "phone_number_note": "Fill in the actual phone number here"
   }
 }
