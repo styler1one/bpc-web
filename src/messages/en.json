@@ -170,6 +170,27 @@
       ]
     }
   },
+  "proof": {
+    "section_label": "Already in production",
+    "title": "This is what we've built",
+    "product": {
+      "name": "Volentis HR Agent",
+      "tagline": "AI assistant for HR",
+      "description": "Our AI assistant that automatically answers 50-70% of HR questions. Live at multiple organizations, built by our team.",
+      "highlights": [
+        "2-4 weeks to go live",
+        "EU-hosted",
+        "GDPR-compliant"
+      ],
+      "cta_primary": "Explore Volentis",
+      "url": "https://volentis.ai"
+    },
+    "footer": {
+      "text": "Want something similar for your domain?",
+      "link_text": "Explore our Creations",
+      "link_url": "/diensten/creations"
+    }
+  },
   "experience": {
     "section_label": "How does it work?",
     "title": "What you can expect from us",
