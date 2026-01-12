@@ -478,7 +478,7 @@
       "items": [
         {
           "name": "AI assistants and agents",
-          "description": "Smart assistants that help employees with their daily work. Integrated into CRM, ERP, or other systems where your people work."
+          "description": "Smart assistants that help employees with their daily work. Integrated into Teams, CRM, ERP, or other systems where your people work."
         },
         {
           "name": "Document processing",
@@ -498,6 +498,38 @@
         }
       ]
     },
+    "featured_product": {
+      "section_label": "From our workshop",
+      "badge": "Live product",
+      "title": "Volentis HR Agent",
+      "subtitle": "Ready-to-deploy AI assistant for HR",
+      "description": "80% of all HR questions are repetitive. Volentis answers them automatically — based on your policies, handbook, and procedures. Integrated into Teams, intranet, or your HR portal.",
+      "stats": [
+        {
+          "value": "50-70%",
+          "label": "fewer HR tickets"
+        },
+        {
+          "value": "2-4",
+          "label": "weeks to go live"
+        },
+        {
+          "value": "24/7",
+          "label": "available"
+        }
+      ],
+      "features": [
+        "Answers questions about leave, policies, procedures",
+        "Guides employees through HR processes",
+        "Every answer with source citation",
+        "100% GDPR-compliant, EU-hosted"
+      ],
+      "integrations_label": "Integrates with",
+      "integrations": "AFAS, SAP, Dynamics, Workday, Personio, Outlook",
+      "cta_primary": "More about Volentis",
+      "cta_secondary": "Or let us build something custom",
+      "external_url": "https://volentis.ai"
+    },
     "approach": {
       "title": "How we build",
       "items": [
@@ -516,13 +548,25 @@
       ]
     },
     "track_record": {
-      "title": "What we've built",
-      "intro": "15+ AI solutions in production. Some examples:",
+      "title": "Proven in production",
+      "intro": "No demos or proofs of concept. This runs daily at real organizations:",
       "items": [
-        "AI assistants in use by hundreds of employees in financial services",
-        "Document classification processing thousands of documents per week",
-        "Knowledge systems answering questions in seconds instead of hours",
-        "Agents that prepare and substantiate decisions for management"
+        {
+          "stat": "50-70%",
+          "description": "fewer HR service tickets through AI assistants that answer questions directly"
+        },
+        {
+          "stat": "1000+",
+          "description": "documents per week automatically classified for legal departments"
+        },
+        {
+          "stat": "Seconds",
+          "description": "instead of hours for answering policy questions via knowledge systems"
+        },
+        {
+          "stat": "+30%",
+          "description": "higher employee satisfaction through 24/7 self-service"
+        }
       ]
     },
     "for_who": {
@@ -538,8 +582,21 @@
     },
     "cta": {
       "title": "Ready to build?",
-      "description": "Let's discuss what you want to achieve.",
-      "button": "Schedule a call"
+      "description": "Whether you want to start immediately with a proven solution or have something fully custom built — we're happy to help.",
+      "options": [
+        {
+          "title": "Start directly",
+          "description": "Explore our ready-made solutions like Volentis",
+          "button": "Go to Volentis",
+          "url": "https://volentis.ai"
+        },
+        {
+          "title": "Build custom",
+          "description": "Let us build something specifically for your situation",
+          "button": "Schedule a call",
+          "url": "/contact"
+        }
+      ]
     }
   },
   "contracting_page": {

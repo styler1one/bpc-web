@@ -478,7 +478,7 @@
       "items": [
         {
           "name": "AI-assistenten en agents",
-          "description": "Slimme assistenten die medewerkers helpen bij hun dagelijkse werk. Geïntegreerd in CRM, ERP of andere systemen waar jouw mensen werken."
+          "description": "Slimme assistenten die medewerkers helpen bij hun dagelijkse werk. Geïntegreerd in Teams, CRM, ERP of andere systemen waar jouw mensen werken."
         },
         {
           "name": "Documentverwerking",
@@ -498,6 +498,38 @@
         }
       ]
     },
+    "featured_product": {
+      "section_label": "Uit onze werkplaats",
+      "badge": "Live product",
+      "title": "Volentis HR Agent",
+      "subtitle": "Direct inzetbare AI-assistent voor HR",
+      "description": "80% van alle HR-vragen zijn repetitief. Volentis beantwoordt ze automatisch — op basis van jouw CAO, handboek en beleid. Geïntegreerd in Teams, intranet of je HR-portaal.",
+      "stats": [
+        {
+          "value": "50-70%",
+          "label": "minder HR-tickets"
+        },
+        {
+          "value": "2-4",
+          "label": "weken live"
+        },
+        {
+          "value": "24/7",
+          "label": "beschikbaar"
+        }
+      ],
+      "features": [
+        "Beantwoordt vragen over verlof, beleid, procedures",
+        "Begeleidt medewerkers door HR-processen",
+        "Elk antwoord met bronvermelding",
+        "100% GDPR-compliant, EU-hosted"
+      ],
+      "integrations_label": "Integreert met",
+      "integrations": "AFAS, SAP, Dynamics, Workday, Personio, Outlook",
+      "cta_primary": "Meer over Volentis",
+      "cta_secondary": "Of laat ons iets op maat bouwen",
+      "external_url": "https://volentis.ai"
+    },
     "approach": {
       "title": "Hoe wij bouwen",
       "items": [
@@ -516,13 +548,25 @@
       ]
     },
     "track_record": {
-      "title": "Wat we hebben gebouwd",
-      "intro": "15+ AI-oplossingen in productie. Enkele voorbeelden:",
+      "title": "Bewezen in productie",
+      "intro": "Geen demo's of proofs of concept. Dit draait dagelijks bij echte organisaties:",
       "items": [
-        "AI-assistenten in gebruik bij honderden medewerkers in financiële dienstverlening",
-        "Documentclassificatie die duizenden documenten per week verwerkt",
-        "Kennissystemen die vragen beantwoorden in seconden in plaats van uren",
-        "Agents die beslissingen voorbereiden en onderbouwen voor management"
+        {
+          "stat": "50-70%",
+          "description": "minder HR service tickets door AI-assistenten die vragen direct beantwoorden"
+        },
+        {
+          "stat": "1000+",
+          "description": "documenten per week automatisch geclassificeerd voor juridische afdelingen"
+        },
+        {
+          "stat": "Seconden",
+          "description": "in plaats van uren voor het beantwoorden van beleidsvragen via kennissystemen"
+        },
+        {
+          "stat": "+30%",
+          "description": "hogere medewerkerstevredenheid door 24/7 self-service"
+        }
       ]
     },
     "for_who": {
@@ -538,8 +582,21 @@
     },
     "cta": {
       "title": "Klaar om te bouwen?",
-      "description": "Laten we bespreken wat je wilt realiseren.",
-      "button": "Plan een gesprek"
+      "description": "Of je nu direct wilt starten met een bewezen oplossing of iets volledig op maat wilt laten maken — we helpen je graag verder.",
+      "options": [
+        {
+          "title": "Direct starten",
+          "description": "Bekijk onze kant-en-klare oplossingen zoals Volentis",
+          "button": "Naar Volentis",
+          "url": "https://volentis.ai"
+        },
+        {
+          "title": "Op maat bouwen",
+          "description": "Laat ons iets bouwen specifiek voor jouw situatie",
+          "button": "Plan een gesprek",
+          "url": "/contact"
+        }
+      ]
     }
   },
   "contracting_page": {
