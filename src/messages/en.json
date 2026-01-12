@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "title": "Best Practice Company | AI that works",
+    "description": "Best Practice Company helps organizations realize transformation by bringing AI from idea to production. From decision to production in 8-12 weeks.",
+    "keywords": "AI implementation, digital transformation, AI consulting, AI production, enterprise AI, AI governance"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About us",
+    "approach": "Approach",
+    "contact": "Contact",
+    "cta": "Start conversation"
+  },
+  "hero": {
+    "tagline": "AI that works.",
+    "title": "From AI ambition to production",
+    "subtitle": "in 8 to 12 weeks",
+    "description": "Best Practice Company helps organizations realize transformation by making AI work in daily practice. With measurable results and lasting control over security, compliance and ownership.",
+    "cta_primary": "Schedule a call",
+    "cta_secondary": "See our approach"
+  },
+  "services": {
+    "title": "Three clear propositions",
+    "subtitle": "From direction to realization",
+    "discovery": {
+      "name": "AI Value Discovery",
+      "tagline": "Choose what works",
+      "question": "Where is the most value?",
+      "duration": "2-4 weeks",
+      "description": "No months of research, but a focused sprint that ends with choices. Where is the value? What is feasible? What do we do first?",
+      "deliverables": [
+        "Top 5 use cases, prioritized by value and feasibility",
+        "Governance blueprint with roles and decision structure",
+        "90-day roadmap with at least 1 production-ready plan"
+      ]
+    },
+    "delivery": {
+      "name": "AI Delivery Sprint",
+      "tagline": "Build what matters",
+      "question": "Who builds it and ensures it works?",
+      "duration": "4-8 weeks",
+      "description": "From decision to working solution. We build, integrate, test and ensure adoption. The same people from start to finish.",
+      "deliverables": [
+        "Working solution in production, including integration",
+        "Adoption plan and training for end users",
+        "Measurement plan with KPIs and baseline"
+      ]
+    },
+    "continuity": {
+      "name": "AI Continuity",
+      "tagline": "Keep it strong",
+      "question": "Who ensures adoption and development?",
+      "duration": "Ongoing",
+      "description": "AI is not a project you complete. It's a capability you maintain. We deliver peace and control.",
+      "deliverables": [
+        "Operating model: who does what, when",
+        "Monitoring dashboard and release rhythm",
+        "Monthly or quarterly value review"
+      ]
+    },
+    "which_fits": {
+      "title": "Which service fits you?",
+      "scenarios": [
+        {
+          "situation": "We want to start with AI but don't know where to begin",
+          "service": "AI Value Discovery"
+        },
+        {
+          "situation": "We know what we want, but who builds it?",
+          "service": "AI Delivery Sprint"
+        },
+        {
+          "situation": "We have AI running, but who keeps it alive?",
+          "service": "AI Continuity"
+        }
+      ]
+    }
+  },
+  "about": {
+    "title": "Who we are",
+    "foundation": {
+      "title": "Our foundation",
+      "description": "Best Practice Company is at its core a transformation partner. Our experience lies in guiding and realizing complex changes where strategy, governance, technology and adoption come together.",
+      "expertise": "We know how large organizations work, where people, processes and decision-making get stuck, and what it takes to make change actually happen."
+    },
+    "distinction": {
+      "title": "Our distinction",
+      "points": [
+        "Decades of experience in enterprise IT and cloud modernization",
+        "Deep operational expertise in finance, supply chain, manufacturing and HR",
+        "One small, senior team from strategy to production",
+        "Building within existing IT and cloud frameworks",
+        "Ownership with the client: data, code and models remain transferable"
+      ]
+    },
+    "promise": {
+      "title": "Our promise",
+      "description": "We ensure AI and technology really work. As part of a transformation that people understand, use and continue to develop. With measurable results."
+    }
+  },
+  "values": {
+    "title": "Our core values",
+    "craftsmanship": {
+      "name": "Craftsmanship first",
+      "description": "We deliver quality, not rushed work. Every advice ends in a working solution."
+    },
+    "results": {
+      "name": "Results over process",
+      "description": "We don't sell hours, we sell working solutions. Less meetings, more building."
+    },
+    "commitment": {
+      "name": "Lasting commitment",
+      "description": "We build relationships, not just solutions. We stay until it works."
+    },
+    "clarity": {
+      "name": "Clear and direct",
+      "description": "We say what we mean. No jargon, no empty promises."
+    }
+  },
+  "proof": {
+    "title": "What we've already put into production",
+    "stats": {
+      "solutions": "15+",
+      "solutions_label": "AI solutions in production",
+      "users": "Hundreds",
+      "users_label": "daily users",
+      "time_saved": "20-40%",
+      "time_saved_label": "time savings on tasks"
+    },
+    "examples": [
+      "AI assistants actively used by hundreds of employees in financial and business services",
+      "Document classification processing thousands of documents per week for legal departments",
+      "Knowledge systems answering questions in seconds instead of hours",
+      "Agents preparing and substantiating decisions for management"
+    ]
+  },
+  "results": {
+    "title": "Typical results",
+    "efficiency": {
+      "category": "Efficiency",
+      "metric": "Time reduction on repetitive tasks",
+      "impact": "20-40% time savings"
+    },
+    "quality": {
+      "category": "Quality",
+      "metric": "Error reduction, consistency",
+      "impact": "30-50% fewer errors"
+    },
+    "adoption": {
+      "category": "Adoption",
+      "metric": "Active users after 6 weeks",
+      "impact": ">60% daily use"
+    },
+    "governance": {
+      "category": "Governance",
+      "metric": "Audit trail, logging, ownership",
+      "impact": "100% traceable"
+    }
+  },
+  "approach": {
+    "title": "How we work",
+    "total_time": "Total: 8-12 weeks from start to production",
+    "phases": {
+      "phase1": {
+        "name": "Scope and validation",
+        "duration": "1-2 weeks",
+        "items": [
+          "Understanding the use case and context",
+          "Validating technical feasibility",
+          "Mapping governance requirements",
+          "Go/no-go decision"
+        ]
+      },
+      "phase2": {
+        "name": "Build and integration",
+        "duration": "4-6 weeks",
+        "items": [
+          "Development of the solution",
+          "Integration with existing systems",
+          "Testing and validation",
+          "Governance implementation"
+        ]
+      },
+      "phase3": {
+        "name": "Rollout and adoption",
+        "duration": "2-4 weeks",
+        "items": [
+          "Phased rollout",
+          "User training",
+          "Monitoring and adjustment",
+          "Handover or ongoing management"
+        ]
+      }
+    },
+    "principles": {
+      "title": "Our principles",
+      "items": [
+        {
+          "title": "Benefit first, tooling follows",
+          "description": "We start with the process and the result the organization wants to achieve."
+        },
+        {
+          "title": "Human in control",
+          "description": "AI advises, people decide. Transparent systems that explain what they do."
+        },
+        {
+          "title": "Start small, prove fast",
+          "description": "Rather live next month with one use case than next year with a big program."
+        },
+        {
+          "title": "Governance standard",
+          "description": "Compliance, privacy, explainability – built in from day one."
+        }
+      ]
+    }
+  },
+  "compliance": {
+    "title": "Security, compliance and ownership",
+    "data": {
+      "title": "Data and privacy",
+      "items": [
+        "GDPR compliant: All solutions comply with the General Data Protection Regulation",
+        "European hosting: Data stays within the EU",
+        "Data ownership: You remain owner of all data"
+      ]
+    },
+    "ai": {
+      "title": "AI-specific compliance",
+      "items": [
+        "EU AI Act ready: Designed with the EU AI Act in mind",
+        "Transparency: AI decisions are explainable and traceable",
+        "Audit trail: Complete logging of what the AI does and why"
+      ]
+    },
+    "ip": {
+      "title": "Intellectual property",
+      "items": [
+        "Code is yours: All custom code is your property",
+        "Models are yours: Fine-tuned models and prompts stay with you",
+        "Transferable: Everything we build you can manage yourself"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Ready to make AI work?",
+    "description": "Schedule a no-obligation conversation and discover where the most value lies for your organization.",
+    "button": "Schedule a call",
+    "phone": "Or call directly",
+    "email": "Email us"
+  },
+  "footer": {
+    "company": "Best Practice Company",
+    "tagline": "AI that works.",
+    "description": "From AI ambition to production in 8 to 12 weeks.",
+    "services": "Services",
+    "about": "About us",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "copyright": "© {year} Best Practice Company. All rights reserved."
+  },
+  "common": {
+    "learn_more": "Learn more",
+    "read_more": "Read more",
+    "contact_us": "Contact us",
+    "duration": "Duration",
+    "back": "Back",
+    "next": "Next",
+    "close": "Close"
+  }
+}

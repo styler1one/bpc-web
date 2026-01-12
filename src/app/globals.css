@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* BPC Brand Colors */
+    --bpc-navy: #1a3a5c;
+    --bpc-teal: #2d9cca;
+    --bpc-sky: #5fbcd3;
+    --bpc-sky-light: #7dd3e8;
+    
+    /* Semantic colors */
+    --color-text-primary: var(--bpc-navy);
+    --color-text-secondary: #4a5568;
+    --color-text-muted: #718096;
+    --color-background: #ffffff;
+    --color-background-alt: #f7fafc;
+    --color-accent: var(--bpc-teal);
+    --color-accent-hover: #2380ab;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-bpc-navy-800 bg-white antialiased;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+
+  /* Improve text rendering */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer components {
+  /* Button styles */
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn bg-bpc-teal text-white hover:bg-bpc-teal-600 focus:ring-bpc-teal-500 shadow-md hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply btn bg-white text-bpc-navy-800 border-2 border-bpc-navy-200 hover:border-bpc-teal hover:text-bpc-teal focus:ring-bpc-teal-500;
+  }
+
+  .btn-outline {
+    @apply btn bg-transparent text-bpc-teal border-2 border-bpc-teal hover:bg-bpc-teal hover:text-white focus:ring-bpc-teal-500;
+  }
+
+  /* Card styles */
+  .card {
+    @apply bg-white rounded-2xl shadow-sm border border-gray-100 transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply card hover:shadow-lg hover:border-bpc-teal-200 hover:-translate-y-1;
+  }
+
+  /* Section styles */
+  .section {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+
+  .container-content {
+    @apply max-w-content mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Gradient text */
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-bpc-teal to-bpc-navy;
+  }
+
+  /* Decorative elements */
+  .gradient-border {
+    @apply relative;
+  }
+  
+  .gradient-border::before {
+    @apply absolute inset-0 rounded-2xl bg-bpc-gradient opacity-20;
+    content: '';
+    z-index: -1;
+    margin: -2px;
+  }
+}
+
+@layer utilities {
+  /* Animation delays for staggered reveals */
+  .animation-delay-100 { animation-delay: 100ms; }
+  .animation-delay-200 { animation-delay: 200ms; }
+  .animation-delay-300 { animation-delay: 300ms; }
+  .animation-delay-400 { animation-delay: 400ms; }
+  .animation-delay-500 { animation-delay: 500ms; }
+
+  /* Focus visible styles */
+  .focus-ring {
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-bpc-teal focus-visible:ring-offset-2;
+  }
+}
+
+/* Selection color */
+::selection {
+  @apply bg-bpc-teal-200 text-bpc-navy-900;
+}
+
+/* Scrollbar styling (webkit) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-bpc-navy-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-bpc-navy-400;
+}

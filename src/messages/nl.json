@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "title": "Best Practice Company | AI die werkt",
+    "description": "Best Practice Company helpt organisaties transformatie realiseren door AI van idee naar productie te brengen. Van besluit naar productie in 8-12 weken.",
+    "keywords": "AI implementatie, digitale transformatie, AI consulting, AI productie, enterprise AI, AI governance"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Diensten",
+    "about": "Over ons",
+    "approach": "Aanpak",
+    "contact": "Contact",
+    "cta": "Start gesprek"
+  },
+  "hero": {
+    "tagline": "AI die werkt.",
+    "title": "Van AI-ambitie naar productie",
+    "subtitle": "in 8 tot 12 weken",
+    "description": "Best Practice Company helpt organisaties transformatie realiseren door AI werkend te maken in de dagelijkse praktijk. Met meetbaar resultaat en blijvende grip op security, compliance en eigenaarschap.",
+    "cta_primary": "Plan een gesprek",
+    "cta_secondary": "Bekijk onze aanpak"
+  },
+  "services": {
+    "title": "Drie heldere proposities",
+    "subtitle": "Van richting naar realisatie",
+    "discovery": {
+      "name": "AI Value Discovery",
+      "tagline": "Kies wat werkt",
+      "question": "Waar zit de meeste waarde?",
+      "duration": "2-4 weken",
+      "description": "Geen maandenlang onderzoek, maar een gefocuste sprint die eindigt met keuzes. Waar zit de waarde? Wat is haalbaar? Wat doen we eerst?",
+      "deliverables": [
+        "Top 5 use cases, geprioriteerd op waarde en haalbaarheid",
+        "Governance blueprint met rollen en beslisstructuur",
+        "90-dagen roadmap met minimaal 1 productie-ready plan"
+      ]
+    },
+    "delivery": {
+      "name": "AI Delivery Sprint",
+      "tagline": "Bouw wat telt",
+      "question": "Wie bouwt het en zorgt dat het werkt?",
+      "duration": "4-8 weken",
+      "description": "Van besluit naar werkende oplossing. Wij bouwen, integreren, testen en zorgen voor adoptie. Dezelfde mensen van begin tot eind.",
+      "deliverables": [
+        "Werkende oplossing in productie, inclusief integratie",
+        "Adoptieplan en training voor eindgebruikers",
+        "Meetplan met KPI's en baseline"
+      ]
+    },
+    "continuity": {
+      "name": "AI Continuity",
+      "tagline": "Houd het sterk",
+      "question": "Wie borgt adoptie en doorontwikkeling?",
+      "duration": "Doorlopend",
+      "description": "AI is geen project dat je afrondt. Het is een capability die je onderhoudt. Wij leveren rust en controle.",
+      "deliverables": [
+        "Operating model: wie doet wat, wanneer",
+        "Monitoring dashboard en release ritme",
+        "Maandelijkse of kwartaal value review"
+      ]
+    },
+    "which_fits": {
+      "title": "Welke dienst past bij jou?",
+      "scenarios": [
+        {
+          "situation": "We willen aan de slag met AI maar weten niet waar te beginnen",
+          "service": "AI Value Discovery"
+        },
+        {
+          "situation": "We weten wat we willen, maar wie bouwt het?",
+          "service": "AI Delivery Sprint"
+        },
+        {
+          "situation": "We hebben AI draaien, maar wie houdt het in de lucht?",
+          "service": "AI Continuity"
+        }
+      ]
+    }
+  },
+  "about": {
+    "title": "Wie wij zijn",
+    "foundation": {
+      "title": "Onze basis",
+      "description": "Best Practice Company is in de kern een transformatiepartner. Onze ervaring ligt in het begeleiden en realiseren van complexe veranderingen waarin strategie, governance, technologie en adoptie samenkomen.",
+      "expertise": "Wij weten hoe grote organisaties werken, waar mensen, processen en besluitvorming vastlopen, en wat er nodig is om verandering daadwerkelijk te laten landen."
+    },
+    "distinction": {
+      "title": "Ons onderscheid",
+      "points": [
+        "Decennia ervaring in enterprise IT en cloud modernisatie",
+        "Diepe operationele expertise in finance, supply chain, manufacturing en HR",
+        "Eén klein, senior team van strategie tot productie",
+        "Bouwen binnen bestaande IT- en cloudkaders",
+        "Eigenaarschap bij de klant: data, code en modellen blijven overdraagbaar"
+      ]
+    },
+    "promise": {
+      "title": "Onze belofte",
+      "description": "Wij zorgen dat AI en technologie écht gaan werken. Als onderdeel van een transformatie die mensen begrijpen, gebruiken en blijven doorontwikkelen. Met meetbaar resultaat."
+    }
+  },
+  "values": {
+    "title": "Onze kernwaarden",
+    "craftsmanship": {
+      "name": "Vakmanschap eerst",
+      "description": "Wij leveren kwaliteit, geen haastwerk. Elk advies eindigt in een werkende oplossing."
+    },
+    "results": {
+      "name": "Resultaat boven proces",
+      "description": "Wij verkopen geen uren, wij verkopen werkende oplossingen. Minder vergaderen, meer bouwen."
+    },
+    "commitment": {
+      "name": "Blijvend betrokken",
+      "description": "Wij bouwen relaties, niet alleen oplossingen. We blijven tot het werkt."
+    },
+    "clarity": {
+      "name": "Helder en direct",
+      "description": "Wij zeggen wat we bedoelen. Geen jargon, geen loze beloftes."
+    }
+  },
+  "proof": {
+    "title": "Wat we al in productie hebben gebracht",
+    "stats": {
+      "solutions": "15+",
+      "solutions_label": "AI-oplossingen in productie",
+      "users": "Honderden",
+      "users_label": "dagelijkse gebruikers",
+      "time_saved": "20-40%",
+      "time_saved_label": "tijdwinst op taken"
+    },
+    "examples": [
+      "AI-assistenten actief in gebruik bij honderden medewerkers in de financiële en zakelijke dienstverlening",
+      "Documentclassificatie die duizenden documenten per week verwerkt voor juridische afdelingen",
+      "Kennissystemen die vragen beantwoorden in seconden in plaats van uren",
+      "Agents die beslissingen voorbereiden en onderbouwen voor management"
+    ]
+  },
+  "results": {
+    "title": "Typisch resultaat",
+    "efficiency": {
+      "category": "Efficiency",
+      "metric": "Tijdreductie op repetitieve taken",
+      "impact": "20-40% tijdwinst"
+    },
+    "quality": {
+      "category": "Kwaliteit",
+      "metric": "Foutreductie, consistentie",
+      "impact": "30-50% minder fouten"
+    },
+    "adoption": {
+      "category": "Adoptie",
+      "metric": "Actieve gebruikers na 6 weken",
+      "impact": ">60% dagelijks gebruik"
+    },
+    "governance": {
+      "category": "Governance",
+      "metric": "Audit trail, logging, eigenaarschap",
+      "impact": "100% traceerbaar"
+    }
+  },
+  "approach": {
+    "title": "Hoe wij werken",
+    "total_time": "Totaal: 8-12 weken van start tot productie",
+    "phases": {
+      "phase1": {
+        "name": "Scope en validatie",
+        "duration": "1-2 weken",
+        "items": [
+          "Begrijpen van de use case en context",
+          "Technische haalbaarheid valideren",
+          "Governance-eisen in kaart brengen",
+          "Go/no-go beslissing"
+        ]
+      },
+      "phase2": {
+        "name": "Bouw en integratie",
+        "duration": "4-6 weken",
+        "items": [
+          "Ontwikkeling van de oplossing",
+          "Integratie met bestaande systemen",
+          "Testing en validatie",
+          "Governance implementatie"
+        ]
+      },
+      "phase3": {
+        "name": "Uitrol en adoptie",
+        "duration": "2-4 weken",
+        "items": [
+          "Gefaseerde uitrol",
+          "Training van gebruikers",
+          "Monitoring en bijsturing",
+          "Overdracht of doorlopend beheer"
+        ]
+      }
+    },
+    "principles": {
+      "title": "Onze principes",
+      "items": [
+        {
+          "title": "Voordeel eerst, tooling volgt",
+          "description": "We starten bij het proces en het resultaat dat de organisatie wil bereiken."
+        },
+        {
+          "title": "Mens in control",
+          "description": "AI adviseert, mensen beslissen. Transparante systemen die uitleggen wat ze doen."
+        },
+        {
+          "title": "Klein beginnen, snel bewijzen",
+          "description": "Liever volgende maand live met één use case dan volgend jaar met een groot programma."
+        },
+        {
+          "title": "Governance standaard",
+          "description": "Compliance, privacy, explainability – ingebouwd vanaf dag één."
+        }
+      ]
+    }
+  },
+  "compliance": {
+    "title": "Security, compliance en eigenaarschap",
+    "data": {
+      "title": "Data en privacy",
+      "items": [
+        "AVG-compliant: Alle oplossingen voldoen aan de Algemene Verordening Gegevensbescherming",
+        "Europese hosting: Data blijft binnen de EU",
+        "Data-eigenaarschap: Jij blijft eigenaar van alle data"
+      ]
+    },
+    "ai": {
+      "title": "AI-specifieke compliance",
+      "items": [
+        "EU AI Act ready: Ontworpen met de EU AI Act in gedachten",
+        "Transparantie: AI-beslissingen zijn uitlegbaar en traceerbaar",
+        "Audit trail: Volledige logging van wat de AI doet en waarom"
+      ]
+    },
+    "ip": {
+      "title": "Intellectueel eigendom",
+      "items": [
+        "Code is van jou: Alle maatwerk-code is jouw eigendom",
+        "Modellen zijn van jou: Fine-tuned modellen en prompts blijven bij jou",
+        "Overdraagbaar: Alles wat we bouwen kun je zelf beheren"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Klaar om AI werkend te maken?",
+    "description": "Plan een vrijblijvend gesprek en ontdek waar de meeste waarde zit voor jouw organisatie.",
+    "button": "Plan een gesprek",
+    "phone": "Of bel direct",
+    "email": "Mail ons"
+  },
+  "footer": {
+    "company": "Best Practice Company",
+    "tagline": "AI die werkt.",
+    "description": "Van AI-ambitie naar productie in 8 tot 12 weken.",
+    "services": "Diensten",
+    "about": "Over ons",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "copyright": "© {year} Best Practice Company. Alle rechten voorbehouden."
+  },
+  "common": {
+    "learn_more": "Meer weten",
+    "read_more": "Lees meer",
+    "contact_us": "Neem contact op",
+    "duration": "Doorlooptijd",
+    "back": "Terug",
+    "next": "Volgende",
+    "close": "Sluiten"
+  }
+}
