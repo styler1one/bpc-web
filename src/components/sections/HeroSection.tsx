@@ -80,6 +80,12 @@ function BackgroundEffects() {
 export function HeroSection() {
   const t = useTranslations('hero');
 
+  const trustBadges = [
+    { icon: '🛡️', text: t('trust_badges.eu_ai_act') },
+    { icon: '🇪🇺', text: t('trust_badges.eu_hosting') },
+    { icon: '✓', text: t('trust_badges.gdpr') },
+  ];
+
   return (
     <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-white via-gray-50/50 to-white">
       <BackgroundEffects />
@@ -125,14 +131,10 @@ export function HeroSection() {
           {/* Trust indicators */}
           <div className="animate-fade-in animation-delay-500">
             <p className="text-sm font-medium text-bpc-navy-500 mb-4 uppercase tracking-wider">
-              Vertrouwd door organisaties in heel Europa
+              {t('trust_line')}
             </p>
             <div className="flex flex-wrap items-center gap-6">
-              {[
-                { icon: '🛡️', text: 'EU AI Act ready' },
-                { icon: '🇪🇺', text: '100% Europese hosting' },
-                { icon: '✓', text: 'AVG-compliant' },
-              ].map((item, index) => (
+              {trustBadges.map((item, index) => (
                 <div 
                   key={index}
                   className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/60 backdrop-blur-sm border border-gray-200/50 shadow-sm hover:shadow-md hover:border-bpc-teal/30 transition-all duration-300"

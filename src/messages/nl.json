@@ -18,11 +18,19 @@
     "subtitle": "in 8 tot 12 weken",
     "description": "Best Practice Company helpt organisaties transformatie realiseren door AI werkend te maken in de dagelijkse praktijk. Met meetbaar resultaat en blijvende grip op security, compliance en eigenaarschap.",
     "cta_primary": "Plan een gesprek",
-    "cta_secondary": "Bekijk onze aanpak"
+    "cta_secondary": "Bekijk onze aanpak",
+    "trust_line": "Vertrouwd door organisaties in heel Europa",
+    "trust_badges": {
+      "eu_ai_act": "EU AI Act ready",
+      "eu_hosting": "100% Europese hosting",
+      "gdpr": "AVG-compliant"
+    }
   },
   "services": {
+    "section_label": "Onze diensten",
     "title": "Drie heldere proposities",
     "subtitle": "Van richting naar realisatie",
+    "what_you_get": "Wat je krijgt:",
     "discovery": {
       "name": "AI Value Discovery",
       "tagline": "Kies wat werkt",
@@ -100,7 +108,10 @@
     }
   },
   "values": {
+    "section_label": "Waar we voor staan",
     "title": "Onze kernwaarden",
+    "quote": "Wij blijven tot het werkt. En daarna blijven we betrokken.",
+    "quote_author": "Best Practice Company",
     "craftsmanship": {
       "name": "Vakmanschap eerst",
       "description": "Wij leveren kwaliteit, geen haastwerk. Elk advies eindigt in een werkende oplossing."
@@ -119,6 +130,7 @@
     }
   },
   "proof": {
+    "section_label": "Bewezen resultaten",
     "title": "Wat we al in productie hebben gebracht",
     "stats": {
       "solutions": "15+",
@@ -243,9 +255,11 @@
     }
   },
   "cta": {
+    "section_label": "Klaar om te beginnen?",
     "title": "Klaar om AI werkend te maken?",
     "description": "Plan een vrijblijvend gesprek en ontdek waar de meeste waarde zit voor jouw organisatie.",
     "button": "Plan een gesprek",
+    "or": "of",
     "phone": "Of bel direct",
     "email": "Mail ons"
   },

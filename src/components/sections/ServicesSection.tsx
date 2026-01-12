@@ -14,6 +14,7 @@ interface ServiceCardProps {
   variant: 'discovery' | 'delivery' | 'continuity';
   href: string;
   index: number;
+  whatYouGet: string;
 }
 
 function ServiceCard({
@@ -26,6 +27,7 @@ function ServiceCard({
   variant,
   href,
   index,
+  whatYouGet,
 }: ServiceCardProps) {
   const t = useTranslations('common');
 
@@ -119,7 +121,7 @@ function ServiceCard({
 
         {/* Deliverables */}
         <div className="space-y-3 mb-8">
-          <p className="text-sm font-bold text-bpc-navy-800 uppercase tracking-wide">Wat je krijgt:</p>
+          <p className="text-sm font-bold text-bpc-navy-800 uppercase tracking-wide">{whatYouGet}</p>
           <ul className="space-y-2">
             {deliverables.map((item, i) => (
               <li key={i} className="flex items-start gap-3 text-sm text-bpc-navy-600">
@@ -156,7 +158,7 @@ function ServiceCard({
 export function ServicesSection() {
   const t = useTranslations('services');
 
-  const services: Omit<ServiceCardProps, 'index'>[] = [
+  const services: Omit<ServiceCardProps, 'index' | 'whatYouGet'>[] = [
     {
       name: t('discovery.name'),
       tagline: t('discovery.tagline'),
@@ -203,7 +205,7 @@ export function ServicesSection() {
         <div className="text-center max-w-2xl mx-auto mb-20">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-bpc-navy/5 text-bpc-navy-700 text-sm font-medium mb-6">
             <span className="w-2 h-2 rounded-full bg-bpc-navy animate-pulse" />
-            Onze diensten
+            {t('section_label')}
           </div>
           <h2 className="text-4xl md:text-5xl font-display font-bold text-bpc-navy-900 mb-6">
             {t('title')}
@@ -216,7 +218,12 @@ export function ServicesSection() {
         {/* Service cards */}
         <div className="grid lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <ServiceCard key={service.variant} {...service} index={index} />
+            <ServiceCard 
+              key={service.variant} 
+              {...service} 
+              index={index} 
+              whatYouGet={t('what_you_get')}
+            />
           ))}
         </div>
       </div>

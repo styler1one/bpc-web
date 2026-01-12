@@ -15,14 +15,22 @@
   "hero": {
     "tagline": "AI that works.",
     "title": "From AI ambition to production",
-    "subtitle": "in 8 to 12 weeks",
+    "subtitle": "in 8-12 weeks",
     "description": "Best Practice Company helps organizations realize transformation by making AI work in daily practice. With measurable results and lasting control over security, compliance and ownership.",
     "cta_primary": "Schedule a call",
-    "cta_secondary": "See our approach"
+    "cta_secondary": "See our approach",
+    "trust_line": "Trusted by organizations across Europe",
+    "trust_badges": {
+      "eu_ai_act": "EU AI Act ready",
+      "eu_hosting": "100% European hosting",
+      "gdpr": "GDPR compliant"
+    }
   },
   "services": {
+    "section_label": "Our services",
     "title": "Three clear propositions",
     "subtitle": "From direction to realization",
+    "what_you_get": "What you get:",
     "discovery": {
       "name": "AI Value Discovery",
       "tagline": "Choose what works",
@@ -38,7 +46,7 @@
     "delivery": {
       "name": "AI Delivery Sprint",
       "tagline": "Build what matters",
-      "question": "Who builds it and ensures it works?",
+      "question": "Who builds it and makes it work?",
       "duration": "4-8 weeks",
       "description": "From decision to working solution. We build, integrate, test and ensure adoption. The same people from start to finish.",
       "deliverables": [
@@ -50,9 +58,9 @@
     "continuity": {
       "name": "AI Continuity",
       "tagline": "Keep it strong",
-      "question": "Who ensures adoption and development?",
+      "question": "Who ensures adoption and continuous improvement?",
       "duration": "Ongoing",
-      "description": "AI is not a project you complete. It's a capability you maintain. We deliver peace and control.",
+      "description": "AI is not a project you complete. It's a capability you maintain. We deliver peace of mind and control.",
       "deliverables": [
         "Operating model: who does what, when",
         "Monitoring dashboard and release rhythm",
@@ -71,7 +79,7 @@
           "service": "AI Delivery Sprint"
         },
         {
-          "situation": "We have AI running, but who keeps it alive?",
+          "situation": "We have AI running, but who keeps it running?",
           "service": "AI Continuity"
         }
       ]
@@ -85,25 +93,28 @@
       "expertise": "We know how large organizations work, where people, processes and decision-making get stuck, and what it takes to make change actually happen."
     },
     "distinction": {
-      "title": "Our distinction",
+      "title": "What sets us apart",
       "points": [
         "Decades of experience in enterprise IT and cloud modernization",
         "Deep operational expertise in finance, supply chain, manufacturing and HR",
         "One small, senior team from strategy to production",
         "Building within existing IT and cloud frameworks",
-        "Ownership with the client: data, code and models remain transferable"
+        "Ownership stays with you: data, code and models remain transferable"
       ]
     },
     "promise": {
       "title": "Our promise",
-      "description": "We ensure AI and technology really work. As part of a transformation that people understand, use and continue to develop. With measurable results."
+      "description": "We ensure AI and technology actually work. As part of a transformation that people understand, use and continue to develop. With measurable results."
     }
   },
   "values": {
+    "section_label": "What we stand for",
     "title": "Our core values",
+    "quote": "We stay until it works. And after that, we stay involved.",
+    "quote_author": "Best Practice Company",
     "craftsmanship": {
       "name": "Craftsmanship first",
-      "description": "We deliver quality, not rushed work. Every advice ends in a working solution."
+      "description": "We deliver quality, not rushed work. Every piece of advice ends in a working solution."
     },
     "results": {
       "name": "Results over process",
@@ -119,18 +130,19 @@
     }
   },
   "proof": {
+    "section_label": "Proven results",
     "title": "What we've already put into production",
     "stats": {
       "solutions": "15+",
       "solutions_label": "AI solutions in production",
       "users": "Hundreds",
-      "users_label": "daily users",
+      "users_label": "of daily users",
       "time_saved": "20-40%",
       "time_saved_label": "time savings on tasks"
     },
     "examples": [
       "AI assistants actively used by hundreds of employees in financial and business services",
-      "Document classification processing thousands of documents per week for legal departments",
+      "Document classification processing thousands of documents weekly for legal departments",
       "Knowledge systems answering questions in seconds instead of hours",
       "Agents preparing and substantiating decisions for management"
     ]
@@ -198,7 +210,7 @@
       "items": [
         {
           "title": "Benefit first, tooling follows",
-          "description": "We start with the process and the result the organization wants to achieve."
+          "description": "We start with the process and the outcome the organization wants to achieve."
         },
         {
           "title": "Human in control",
@@ -206,10 +218,10 @@
         },
         {
           "title": "Start small, prove fast",
-          "description": "Rather live next month with one use case than next year with a big program."
+          "description": "Better to go live next month with one use case than next year with a large program."
         },
         {
-          "title": "Governance standard",
+          "title": "Governance as standard",
           "description": "Compliance, privacy, explainability – built in from day one."
         }
       ]
@@ -222,7 +234,7 @@
       "items": [
         "GDPR compliant: All solutions comply with the General Data Protection Regulation",
         "European hosting: Data stays within the EU",
-        "Data ownership: You remain owner of all data"
+        "Data ownership: You remain the owner of all your data"
       ]
     },
     "ai": {
@@ -238,21 +250,23 @@
       "items": [
         "Code is yours: All custom code is your property",
         "Models are yours: Fine-tuned models and prompts stay with you",
-        "Transferable: Everything we build you can manage yourself"
+        "Fully transferable: Everything we build can be managed independently"
       ]
     }
   },
   "cta": {
+    "section_label": "Ready to get started?",
     "title": "Ready to make AI work?",
     "description": "Schedule a no-obligation conversation and discover where the most value lies for your organization.",
     "button": "Schedule a call",
+    "or": "or",
     "phone": "Or call directly",
     "email": "Email us"
   },
   "footer": {
     "company": "Best Practice Company",
     "tagline": "AI that works.",
-    "description": "From AI ambition to production in 8 to 12 weeks.",
+    "description": "From AI ambition to production in 8-12 weeks.",
     "services": "Services",
     "about": "About us",
     "contact": "Contact",

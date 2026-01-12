@@ -71,7 +71,7 @@ export function ValuesSection() {
         <div className="text-center max-w-2xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-bpc-teal/5 text-bpc-teal-700 text-sm font-medium mb-6">
             <span className="w-2 h-2 rounded-full bg-bpc-teal animate-pulse" />
-            Waar we voor staan
+            {t('section_label')}
           </div>
           <h2 className="text-4xl md:text-5xl font-display font-bold text-bpc-navy-900 mb-4">
             {t('title')}
@@ -129,10 +129,10 @@ export function ValuesSection() {
         {/* Bottom quote */}
         <div className="mt-20 text-center">
           <blockquote className="text-2xl md:text-3xl font-display text-bpc-navy-700 italic max-w-3xl mx-auto">
-            &ldquo;Wij blijven tot het werkt. En daarna blijven we betrokken.&rdquo;
+            &ldquo;{t('quote')}&rdquo;
           </blockquote>
           <div className="mt-4 text-bpc-navy-500 font-medium">
-            — Best Practice Company
+            — {t('quote_author')}
           </div>
         </div>
       </div>

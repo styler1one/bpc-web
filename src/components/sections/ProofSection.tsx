@@ -86,7 +86,7 @@ export function ProofSection() {
         <div className="text-center max-w-2xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-bpc-teal-400 text-sm font-medium mb-6">
             <span className="w-2 h-2 rounded-full bg-bpc-teal animate-pulse" />
-            Bewezen resultaten
+            {t('section_label')}
           </div>
           <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-4">
             {t('title')}
