@@ -103,6 +103,14 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-white mb-4">{t('services_title')}</h3>
             <ul className="space-y-2">
+              <li>
+                <Link
+                  href="/diensten"
+                  className="text-gray-400 hover:text-bpc-teal-400 transition-colors text-sm font-medium"
+                >
+                  {tNav('services')}
+                </Link>
+              </li>
               {aiServices.map((service) => (
                 <li key={service.href}>
                   <Link
