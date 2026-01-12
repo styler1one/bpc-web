@@ -1,5 +1,8 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import { cn } from '@/lib/utils';
 
 interface ServiceCardProps {
   name: string;
@@ -8,8 +11,9 @@ interface ServiceCardProps {
   duration: string;
   description: string;
   deliverables: string[];
-  accentColor: 'teal' | 'navy' | 'sky';
+  variant: 'discovery' | 'delivery' | 'continuity';
   href: string;
+  index: number;
 }
 
 function ServiceCard({
@@ -19,71 +23,132 @@ function ServiceCard({
   duration,
   description,
   deliverables,
-  accentColor,
+  variant,
   href,
+  index,
 }: ServiceCardProps) {
   const t = useTranslations('common');
 
-  const accentStyles = {
-    teal: 'border-t-bpc-teal bg-gradient-to-b from-bpc-teal-50/50 to-white',
-    navy: 'border-t-bpc-navy bg-gradient-to-b from-bpc-navy-50/50 to-white',
-    sky: 'border-t-bpc-sky bg-gradient-to-b from-bpc-teal-50/30 to-white',
+  const variants = {
+    discovery: {
+      gradient: 'from-bpc-teal/10 via-bpc-sky/5 to-transparent',
+      border: 'hover:border-bpc-teal/40',
+      accent: 'bg-bpc-teal',
+      accentLight: 'bg-bpc-teal/10 text-bpc-teal-700',
+      icon: (
+        <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+        </svg>
+      ),
+    },
+    delivery: {
+      gradient: 'from-bpc-navy/10 via-bpc-teal/5 to-transparent',
+      border: 'hover:border-bpc-navy/40',
+      accent: 'bg-bpc-navy',
+      accentLight: 'bg-bpc-navy/10 text-bpc-navy-700',
+      icon: (
+        <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+        </svg>
+      ),
+    },
+    continuity: {
+      gradient: 'from-bpc-sky/10 via-bpc-teal/5 to-transparent',
+      border: 'hover:border-bpc-sky/40',
+      accent: 'bg-bpc-sky',
+      accentLight: 'bg-bpc-sky/20 text-bpc-teal-700',
+      icon: (
+        <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12a7.5 7.5 0 0015 0m-15 0a7.5 7.5 0 1115 0m-15 0H3m16.5 0H21m-1.5 0H12m-8.457 3.077l1.41-.513m14.095-5.13l1.41-.513M5.106 17.785l1.15-.964m11.49-9.642l1.149-.964M7.501 19.795l.75-1.3m7.5-12.99l.75-1.3m-6.063 16.658l.26-1.477m2.605-14.772l.26-1.477m0 17.726l-.26-1.477M10.698 4.614l-.26-1.477M16.5 19.794l-.75-1.299M7.5 4.205L12 12m6.894 5.785l-1.149-.964M6.256 7.178l-1.15-.964m15.352 8.864l-1.41-.513M4.954 9.435l-1.41-.514M12.002 12l-3.75 6.495" />
+        </svg>
+      ),
+    },
   };
+
+  const v = variants[variant];
 
   return (
     <div
-      className={`card-hover p-8 border-t-4 ${accentStyles[accentColor]} flex flex-col h-full`}
+      className={cn(
+        'group relative rounded-3xl p-8 transition-all duration-500',
+        'bg-white/70 backdrop-blur-sm border-2 border-gray-100/80',
+        'hover:shadow-2xl hover:-translate-y-2',
+        v.border
+      )}
+      style={{ animationDelay: `${index * 150}ms` }}
     >
-      {/* Header */}
-      <div className="mb-6">
-        <span className="text-sm font-medium text-bpc-teal uppercase tracking-wide">
-          {tagline}
-        </span>
-        <h3 className="text-2xl font-display font-bold text-bpc-navy-900 mt-1">
-          {name}
-        </h3>
+      {/* Background gradient */}
+      <div className={cn('absolute inset-0 rounded-3xl bg-gradient-to-br opacity-0 group-hover:opacity-100 transition-opacity duration-500', v.gradient)} />
+      
+      {/* Content */}
+      <div className="relative">
+        {/* Icon & Header */}
+        <div className="flex items-start gap-4 mb-6">
+          <div className={cn('p-3 rounded-2xl', v.accentLight)}>
+            {v.icon}
+          </div>
+          <div>
+            <span className={cn('text-xs font-bold uppercase tracking-wider', v.accentLight.includes('teal') ? 'text-bpc-teal' : v.accentLight.includes('navy') ? 'text-bpc-navy' : 'text-bpc-sky-light')}>
+              {tagline}
+            </span>
+            <h3 className="text-2xl font-display font-bold text-bpc-navy-900 mt-1">
+              {name}
+            </h3>
+          </div>
+        </div>
+
+        {/* Question */}
+        <div className="relative mb-6 pl-4 border-l-2 border-bpc-teal/30">
+          <p className="text-lg text-bpc-navy-700 italic">
+            &ldquo;{question}&rdquo;
+          </p>
+        </div>
+
+        {/* Duration badge */}
+        <div className={cn('inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mb-6', v.accentLight)}>
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          {duration}
+        </div>
+
+        {/* Description */}
+        <p className="text-bpc-navy-600 mb-6 leading-relaxed">
+          {description}
+        </p>
+
+        {/* Deliverables */}
+        <div className="space-y-3 mb-8">
+          <p className="text-sm font-bold text-bpc-navy-800 uppercase tracking-wide">Wat je krijgt:</p>
+          <ul className="space-y-2">
+            {deliverables.map((item, i) => (
+              <li key={i} className="flex items-start gap-3 text-sm text-bpc-navy-600">
+                <span className={cn('flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-white text-xs', v.accent)}>
+                  ✓
+                </span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* CTA */}
+        <Link
+          href={href}
+          className={cn(
+            'inline-flex items-center gap-2 font-semibold transition-all duration-300',
+            'text-bpc-navy-700 hover:text-bpc-teal group/link'
+          )}
+        >
+          <span>{t('learn_more')}</span>
+          <svg className="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </Link>
       </div>
 
-      {/* Question */}
-      <p className="text-lg text-bpc-navy-700 font-medium italic mb-4">
-        &ldquo;{question}&rdquo;
-      </p>
-
-      {/* Duration badge */}
-      <div className="inline-flex items-center gap-2 px-3 py-1 bg-bpc-navy-100 rounded-full text-sm text-bpc-navy-700 font-medium mb-4 self-start">
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-        {duration}
-      </div>
-
-      {/* Description */}
-      <p className="text-bpc-navy-600 mb-6 flex-grow">
-        {description}
-      </p>
-
-      {/* Deliverables */}
-      <div className="space-y-2 mb-6">
-        <p className="text-sm font-semibold text-bpc-navy-800">Wat je krijgt:</p>
-        <ul className="space-y-2">
-          {deliverables.map((item, index) => (
-            <li key={index} className="flex items-start gap-2 text-sm text-bpc-navy-600">
-              <svg className="w-4 h-4 text-bpc-teal mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-              </svg>
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      {/* CTA */}
-      <Link
-        href={href}
-        className="btn-outline text-sm mt-auto"
-      >
-        {t('learn_more')}
-      </Link>
+      {/* Corner accent */}
+      <div className={cn('absolute top-0 right-0 w-20 h-20 rounded-tr-3xl rounded-bl-[40px] opacity-5', v.accent)} />
     </div>
   );
 }
@@ -91,7 +156,7 @@ function ServiceCard({
 export function ServicesSection() {
   const t = useTranslations('services');
 
-  const services: ServiceCardProps[] = [
+  const services: Omit<ServiceCardProps, 'index'>[] = [
     {
       name: t('discovery.name'),
       tagline: t('discovery.tagline'),
@@ -99,7 +164,7 @@ export function ServicesSection() {
       duration: t('discovery.duration'),
       description: t('discovery.description'),
       deliverables: t.raw('discovery.deliverables') as string[],
-      accentColor: 'teal',
+      variant: 'discovery',
       href: '/diensten#discovery',
     },
     {
@@ -109,7 +174,7 @@ export function ServicesSection() {
       duration: t('delivery.duration'),
       description: t('delivery.description'),
       deliverables: t.raw('delivery.deliverables') as string[],
-      accentColor: 'navy',
+      variant: 'delivery',
       href: '/diensten#delivery',
     },
     {
@@ -119,34 +184,39 @@ export function ServicesSection() {
       duration: t('continuity.duration'),
       description: t('continuity.description'),
       deliverables: t.raw('continuity.deliverables') as string[],
-      accentColor: 'sky',
+      variant: 'continuity',
       href: '/diensten#continuity',
     },
   ];
 
   return (
-    <section className="section bg-white" id="diensten">
+    <section className="section bg-gradient-to-b from-white via-gray-50/30 to-white" id="diensten">
+      {/* Background decoration */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-0 left-1/4 w-px h-40 bg-gradient-to-b from-bpc-teal/20 to-transparent" />
+        <div className="absolute top-20 right-1/3 w-px h-60 bg-gradient-to-b from-bpc-navy/10 to-transparent" />
+        <div className="absolute -top-20 right-0 w-[500px] h-[500px] rounded-full bg-gradient-to-bl from-bpc-teal/5 to-transparent blur-3xl" />
+      </div>
+
       <div className="container-content">
         {/* Section header */}
-        <div className="text-center max-w-2xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-bpc-navy-900 mb-4">
+        <div className="text-center max-w-2xl mx-auto mb-20">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-bpc-navy/5 text-bpc-navy-700 text-sm font-medium mb-6">
+            <span className="w-2 h-2 rounded-full bg-bpc-navy animate-pulse" />
+            Onze diensten
+          </div>
+          <h2 className="text-4xl md:text-5xl font-display font-bold text-bpc-navy-900 mb-6">
             {t('title')}
           </h2>
-          <p className="text-lg text-bpc-navy-600">
+          <p className="text-xl text-bpc-navy-600">
             {t('subtitle')}
           </p>
         </div>
 
         {/* Service cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <div
-              key={service.name}
-              className="animate-fade-in-up"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <ServiceCard {...service} />
-            </div>
+            <ServiceCard key={service.variant} {...service} index={index} />
           ))}
         </div>
       </div>
