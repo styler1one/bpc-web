@@ -2,78 +2,60 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { generateStableId } from '@/lib/utils';
 
 function FloatingArrows() {
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
       {/* Large floating arrow shapes inspired by BPC logo */}
-      <div className="absolute top-20 right-[10%] w-16 h-24 opacity-10 animate-float motion-reduce:animate-none">
+      <div className="absolute top-20 right-[10%] w-16 h-24 opacity-20 animate-float motion-reduce:animate-none">
         <svg viewBox="0 0 40 60" fill="none" className="w-full h-full">
           <path d="M20 0L40 45L20 35L0 45L20 0Z" fill="url(#arrowGrad1)" />
           <defs>
             <linearGradient id="arrowGrad1" x1="20" y1="0" x2="20" y2="60" gradientUnits="userSpaceOnUse">
-              <stop stopColor="#2d9cca" />
-              <stop offset="1" stopColor="#1a3a5c" />
+              <stop stopColor="#5fbcd3" />
+              <stop offset="1" stopColor="#14b8a6" />
             </linearGradient>
           </defs>
         </svg>
       </div>
       
-      <div className="absolute top-40 right-[25%] w-10 h-16 opacity-20 animate-float-slow motion-reduce:animate-none animation-delay-500">
+      <div className="absolute top-40 right-[25%] w-10 h-16 opacity-30 animate-float-slow motion-reduce:animate-none animation-delay-500">
         <svg viewBox="0 0 40 60" fill="none" className="w-full h-full">
           <path d="M20 0L40 45L20 35L0 45L20 0Z" fill="url(#arrowGrad2)" />
           <defs>
             <linearGradient id="arrowGrad2" x1="20" y1="0" x2="20" y2="60" gradientUnits="userSpaceOnUse">
-              <stop stopColor="#5fbcd3" />
-              <stop offset="1" stopColor="#2d9cca" />
+              <stop stopColor="#7dd3e8" />
+              <stop offset="1" stopColor="#5fbcd3" />
             </linearGradient>
           </defs>
         </svg>
       </div>
 
-      <div className="absolute bottom-32 right-[15%] w-8 h-12 opacity-15 animate-float-slower motion-reduce:animate-none animation-delay-300">
+      <div className="absolute bottom-32 right-[15%] w-8 h-12 opacity-25 animate-float-slower motion-reduce:animate-none animation-delay-300">
         <svg viewBox="0 0 40 60" fill="none" className="w-full h-full">
           <path d="M20 0L40 45L20 35L0 45L20 0Z" fill="#7dd3e8" />
         </svg>
       </div>
 
-      <div className="absolute top-60 left-[5%] w-12 h-18 opacity-10 animate-float motion-reduce:animate-none animation-delay-700">
+      <div className="absolute top-60 left-[5%] w-12 h-18 opacity-15 animate-float motion-reduce:animate-none animation-delay-700">
         <svg viewBox="0 0 40 60" fill="none" className="w-full h-full rotate-[-15deg]">
           <path d="M20 0L40 45L20 35L0 45L20 0Z" fill="url(#arrowGrad3)" />
           <defs>
             <linearGradient id="arrowGrad3" x1="20" y1="0" x2="20" y2="60" gradientUnits="userSpaceOnUse">
-              <stop stopColor="#1a3a5c" />
-              <stop offset="1" stopColor="#2d9cca" />
+              <stop stopColor="#14b8a6" />
+              <stop offset="1" stopColor="#5fbcd3" />
             </linearGradient>
           </defs>
         </svg>
       </div>
 
-      {/* Geometric circles */}
-      <div className="absolute top-1/3 right-[5%] w-64 h-64 rounded-full border border-bpc-teal/10 animate-spin-slow motion-reduce:animate-none" />
-      <div className="absolute top-1/3 right-[5%] w-48 h-48 rounded-full border border-bpc-navy/5 animate-spin-slow motion-reduce:animate-none" style={{ animationDirection: 'reverse', animationDuration: '30s' }} />
+      {/* Geometric circles - adjusted for dark background */}
+      <div className="absolute top-1/3 right-[5%] w-64 h-64 rounded-full border border-bpc-teal/20 animate-spin-slow motion-reduce:animate-none" />
+      <div className="absolute top-1/3 right-[5%] w-48 h-48 rounded-full border border-white/10 animate-spin-slow motion-reduce:animate-none" style={{ animationDirection: 'reverse', animationDuration: '30s' }} />
       
-      {/* Gradient lines */}
-      <div className="absolute top-0 right-1/3 w-px h-40 bg-gradient-to-b from-transparent via-bpc-teal/20 to-transparent" />
-      <div className="absolute bottom-0 right-1/4 w-px h-32 bg-gradient-to-t from-transparent via-bpc-navy/10 to-transparent" />
-    </div>
-  );
-}
-
-function BackgroundEffects() {
-  return (
-    <div aria-hidden="true">
-      {/* Animated gradient orbs */}
-      <div className="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-gradient-to-br from-bpc-teal/20 via-bpc-sky/10 to-transparent blur-3xl animate-pulse-soft motion-reduce:animate-none" />
-      <div className="absolute top-1/2 -left-40 w-[500px] h-[500px] rounded-full bg-gradient-to-tr from-bpc-navy/10 via-bpc-teal/5 to-transparent blur-3xl animate-pulse-soft motion-reduce:animate-none animation-delay-1000" />
-      <div className="absolute -bottom-20 right-1/4 w-[400px] h-[400px] rounded-full bg-gradient-to-t from-bpc-teal/10 to-transparent blur-3xl animate-pulse-soft motion-reduce:animate-none animation-delay-500" />
-      
-      {/* Grid pattern */}
-      <div className="absolute inset-0 bg-grid opacity-50" />
-      
-      {/* Subtle radial gradient overlay */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-bpc-teal/5 via-transparent to-transparent" />
+      {/* Gradient lines - adjusted for dark background */}
+      <div className="absolute top-0 right-1/3 w-px h-40 bg-gradient-to-b from-transparent via-bpc-teal/30 to-transparent" />
+      <div className="absolute bottom-0 right-1/4 w-px h-32 bg-gradient-to-t from-transparent via-white/10 to-transparent" />
     </div>
   );
 }
@@ -95,41 +77,47 @@ export function HeroSection() {
 
   return (
     <section 
-      className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-white via-gray-50/50 to-white"
+      className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-bpc-navy-900 via-bpc-navy-800 to-bpc-navy-900"
       aria-labelledby="hero-title"
     >
-      <BackgroundEffects />
+      {/* Background blur effects */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
+        <div className="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-bpc-teal/10 blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-bpc-sky/10 blur-3xl" />
+        <div className="absolute top-1/2 left-1/3 w-[300px] h-[300px] rounded-full bg-bpc-teal/5 blur-3xl" />
+      </div>
+
+      {/* Floating arrows and geometric elements */}
       <FloatingArrows />
 
-      <div className="container-content py-20">
-        <div className="max-w-4xl">
+      <div className="container-content relative py-20">
+        <div className="max-w-3xl">
           {/* Tagline badge */}
-          <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/80 backdrop-blur-sm border border-bpc-teal/20 shadow-lg shadow-bpc-teal/5 mb-8 animate-fade-in motion-reduce:animate-none">
-            <span className="relative flex h-3 w-3" aria-hidden="true">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-bpc-teal opacity-75 motion-reduce:animate-none"></span>
-              <span className="relative inline-flex rounded-full h-3 w-3 bg-bpc-teal"></span>
-            </span>
-            <span className="text-bpc-navy-800 font-semibold tracking-wide">{t('tagline')}</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white/80 text-sm font-medium mb-6 animate-fade-in motion-reduce:animate-none">
+            <span className="w-2 h-2 rounded-full bg-bpc-teal animate-pulse motion-reduce:animate-none" aria-hidden="true" />
+            {t('tagline')}
           </div>
 
           {/* Main headline */}
           <h1 
             id="hero-title"
-            className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-bpc-navy-900 mb-3 animate-fade-in-up motion-reduce:animate-none"
+            className="animate-fade-in-up motion-reduce:animate-none"
           >
-            {t('title')}
+            <span className="block text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-4">
+              {t('title')}
+            </span>
+            <span className="block text-2xl md:text-3xl lg:text-4xl font-display font-bold text-bpc-teal-400 mb-6">
+              {t('subtitle')}
+            </span>
           </h1>
-          <p className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-8 animate-fade-in-up motion-reduce:animate-none animation-delay-100">
-            <span className="text-gradient-animated motion-reduce:text-gradient">{t('subtitle')}</span>
-          </p>
 
           {/* Description */}
-          <p className="text-xl md:text-2xl text-bpc-navy-600 leading-relaxed mb-12 max-w-2xl animate-fade-in-up motion-reduce:animate-none animation-delay-200">
+          <p className="text-xl text-white/80 leading-relaxed mb-10 max-w-2xl animate-fade-in-up motion-reduce:animate-none animation-delay-200">
             {t('description')}
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-16 animate-fade-in-up motion-reduce:animate-none animation-delay-300">
+          <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-up motion-reduce:animate-none animation-delay-300">
             <Link href="/contact" className="btn-primary text-lg px-10 py-5 group">
               <span>{t('cta_primary')}</span>
               <svg 
@@ -142,33 +130,33 @@ export function HeroSection() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
-            <Link href="/aanpak" className="btn-secondary text-lg px-10 py-5">
+            <Link 
+              href="/diensten" 
+              className="inline-flex items-center justify-center px-10 py-5 text-lg font-semibold text-white border-2 border-white/20 rounded-xl hover:bg-white/10 hover:border-white/30 transition-all duration-300"
+            >
               {t('cta_secondary')}
             </Link>
           </div>
 
           {/* Trust indicators */}
           <div className="animate-fade-in motion-reduce:animate-none animation-delay-500">
-            <p className="text-sm font-medium text-bpc-navy-500 mb-4 uppercase tracking-wider">
+            <p className="text-sm font-medium text-white/50 mb-4 uppercase tracking-wider">
               {t('trust_line')}
             </p>
-            <ul className="flex flex-wrap items-center gap-6" role="list">
+            <ul className="flex flex-wrap items-center gap-4" role="list">
               {trustBadges.map((badge) => (
                 <li 
                   key={badge.id}
-                  className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/60 backdrop-blur-sm border border-gray-200/50 shadow-sm hover:shadow-md hover:border-bpc-teal/30 transition-all duration-300"
+                  className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-300"
                 >
                   <span className="text-lg" aria-hidden="true">{badge.icon}</span>
-                  <span className="text-sm font-medium text-bpc-navy-700">{badge.text}</span>
+                  <span className="text-sm font-medium text-white/80">{badge.text}</span>
                 </li>
               ))}
             </ul>
           </div>
         </div>
       </div>
-
-      {/* Bottom gradient fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" aria-hidden="true" />
     </section>
   );
 }

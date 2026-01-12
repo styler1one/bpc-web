@@ -66,8 +66,13 @@ export function CTASection() {
               </h2>
               
               {/* Description */}
-              <p className="text-xl text-bpc-navy-600 mb-10 max-w-2xl mx-auto">
+              <p className="text-xl text-bpc-navy-600 mb-4 max-w-2xl mx-auto">
                 {t('description')}
+              </p>
+
+              {/* Note - builds trust */}
+              <p className="text-bpc-navy-500 mb-10 max-w-xl mx-auto italic">
+                {t('note')}
               </p>
 
               {/* CTA Button */}

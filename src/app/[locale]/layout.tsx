@@ -202,7 +202,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <SkipToContent />
           <Header />
-          <main id="main-content" className="flex-grow pt-20" tabIndex={-1}>
+          <main id="main-content" className="flex-grow pt-28" tabIndex={-1}>
             {children}
           </main>
           <Footer />

@@ -11,9 +11,11 @@ interface ServiceCardProps {
   duration: string;
   description: string;
   deliverables: string[];
+  examples: string[];
   variant: 'discovery' | 'delivery' | 'continuity';
   href: string;
   whatYouGet: string;
+  typicalProjects: string;
 }
 
 function ServiceCard({
@@ -23,9 +25,11 @@ function ServiceCard({
   duration,
   description,
   deliverables,
+  examples,
   variant,
   href,
   whatYouGet,
+  typicalProjects,
 }: ServiceCardProps) {
   const t = useTranslations('common');
 
@@ -113,7 +117,7 @@ function ServiceCard({
         </p>
 
         {/* Deliverables */}
-        <div className="space-y-3 mb-8">
+        <div className="space-y-3 mb-6">
           <p className="text-sm font-bold text-bpc-navy-800 uppercase tracking-wide">{whatYouGet}</p>
           <ul className="space-y-2">
             {deliverables.map((item, i) => (
@@ -121,6 +125,19 @@ function ServiceCard({
                 <span className={cn('flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-white text-xs', v.accent)} aria-hidden="true">
                   ✓
                 </span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Typical projects */}
+        <div className="space-y-3 mb-8 pt-4 border-t border-gray-100">
+          <p className="text-sm font-bold text-bpc-navy-800 uppercase tracking-wide">{typicalProjects}</p>
+          <ul className="space-y-1.5">
+            {examples.map((item, i) => (
+              <li key={`example-${i}`} className="flex items-start gap-2 text-sm text-bpc-navy-500">
+                <span className="text-bpc-teal mt-0.5" aria-hidden="true">→</span>
                 <span>{item}</span>
               </li>
             ))}
@@ -157,7 +174,7 @@ function ServiceCard({
 export function ServicesSection() {
   const t = useTranslations('services');
 
-  const services: Omit<ServiceCardProps, 'whatYouGet'>[] = [
+  const services: Omit<ServiceCardProps, 'whatYouGet' | 'typicalProjects'>[] = [
     {
       name: t('discovery.name'),
       tagline: t('discovery.tagline'),
@@ -165,6 +182,7 @@ export function ServicesSection() {
       duration: t('discovery.duration'),
       description: t('discovery.description'),
       deliverables: t.raw('discovery.deliverables') as string[],
+      examples: t.raw('discovery.examples') as string[],
       variant: 'discovery',
       href: '/diensten#discovery',
     },
@@ -175,6 +193,7 @@ export function ServicesSection() {
       duration: t('delivery.duration'),
       description: t('delivery.description'),
       deliverables: t.raw('delivery.deliverables') as string[],
+      examples: t.raw('delivery.examples') as string[],
       variant: 'delivery',
       href: '/diensten#delivery',
     },
@@ -185,6 +204,7 @@ export function ServicesSection() {
       duration: t('continuity.duration'),
       description: t('continuity.description'),
       deliverables: t.raw('continuity.deliverables') as string[],
+      examples: t.raw('continuity.examples') as string[],
       variant: 'continuity',
       href: '/diensten#continuity',
     },
@@ -228,6 +248,7 @@ export function ServicesSection() {
               key={service.variant} 
               {...service} 
               whatYouGet={t('what_you_get')}
+              typicalProjects={t('typical_projects')}
             />
           ))}
         </div>

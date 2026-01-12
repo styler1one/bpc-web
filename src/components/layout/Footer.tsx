@@ -12,10 +12,18 @@ export function Footer() {
   const tServices = useTranslations('services');
   const year = getCurrentYear();
 
-  const services = [
+  const tServicesPage = useTranslations('services_page');
+  
+  const aiServices = [
     { name: tServices('discovery.name'), href: '/diensten#discovery' },
     { name: tServices('delivery.name'), href: '/diensten#delivery' },
     { name: tServices('continuity.name'), href: '/diensten#continuity' },
+  ];
+
+  const otherServices = [
+    { name: tServicesPage('transformation.consulting.name'), href: '/diensten/consulting' },
+    { name: tServicesPage('transformation.creations.name'), href: '/diensten/creations' },
+    { name: tServicesPage('transformation.contracting.name'), href: '/diensten/contracting' },
   ];
 
   return (
@@ -29,7 +37,7 @@ export function Footer() {
               alt="Best Practice Company"
               width={180}
               height={45}
-              className="h-10 w-auto brightness-0 invert mb-4"
+              className="h-10 w-auto mb-4"
             />
             <p className="text-bpc-teal-400 font-medium text-lg mb-2">
               {t('tagline')}
@@ -39,7 +47,21 @@ export function Footer() {
             </p>
             
             {/* Contact info */}
-            <div className="space-y-2">
+            <div className="space-y-3">
+              {/* Address */}
+              <div className="flex items-start gap-2 text-gray-400">
+                <svg className="w-4 h-4 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <address className="not-italic text-sm">
+                  {siteConfig.address.street}<br />
+                  {siteConfig.address.postalCode} {siteConfig.address.city}<br />
+                  {siteConfig.address.country}
+                </address>
+              </div>
+              
+              {/* Phone */}
               <a 
                 href={getPhoneHref(siteConfig.contact.phone)}
                 className="flex items-center gap-2 text-gray-400 hover:text-bpc-teal-400 transition-colors"
@@ -49,6 +71,8 @@ export function Footer() {
                 </svg>
                 <span>{siteConfig.contact.phone}</span>
               </a>
+              
+              {/* Email */}
               <a 
                 href={getEmailHref(siteConfig.contact.email)}
                 className="flex items-center gap-2 text-gray-400 hover:text-bpc-teal-400 transition-colors"
@@ -58,18 +82,45 @@ export function Footer() {
                 </svg>
                 <span>{siteConfig.contact.email}</span>
               </a>
+
+              {/* LinkedIn */}
+              <a 
+                href={siteConfig.social.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-gray-400 hover:text-bpc-teal-400 transition-colors mt-2"
+                aria-label="Volg ons op LinkedIn"
+              >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                <span className="text-sm">LinkedIn</span>
+              </a>
             </div>
           </div>
 
           {/* Services */}
           <div>
             <h3 className="font-semibold text-white mb-4">{t('services_title')}</h3>
-            <ul className="space-y-3">
-              {services.map((service) => (
+            <ul className="space-y-2">
+              {aiServices.map((service) => (
                 <li key={service.href}>
                   <Link
                     href={service.href}
-                    className="text-gray-400 hover:text-bpc-teal-400 transition-colors"
+                    className="text-gray-400 hover:text-bpc-teal-400 transition-colors text-sm"
+                  >
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <div className="my-3 border-t border-gray-800" />
+            <ul className="space-y-2">
+              {otherServices.map((service) => (
+                <li key={service.href}>
+                  <Link
+                    href={service.href}
+                    className="text-gray-400 hover:text-bpc-teal-400 transition-colors text-sm"
                   >
                     {service.name}
                   </Link>

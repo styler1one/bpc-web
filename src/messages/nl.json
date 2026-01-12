@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Best Practice Company | AI die werkt",
-    "description": "Best Practice Company helpt organisaties transformatie realiseren door AI van idee naar productie te brengen. Van besluit naar productie in 8-12 weken.",
-    "keywords": "AI implementatie, digitale transformatie, AI consulting, AI productie, enterprise AI, AI governance",
+    "description": "Van AI-ambitie naar productie in 8-12 weken. Ontdek waar AI de meeste waarde toevoegt voor jouw organisatie.",
+    "keywords": "AI implementatie, digitale transformatie, AI consulting, AI productie, enterprise AI, AI governance, SAP, ServiceNow, Microsoft Dynamics",
     "og_image_alt": "Best Practice Company - AI die werkt"
   },
   "navigation": {
@@ -18,9 +18,9 @@
     "tagline": "AI die werkt.",
     "title": "Van AI-ambitie naar productie",
     "subtitle": "in 8 tot 12 weken",
-    "description": "Best Practice Company helpt organisaties transformatie realiseren door AI werkend te maken in de dagelijkse praktijk. Met meetbaar resultaat en blijvende grip op security, compliance en eigenaarschap.",
+    "description": "Slimmer werken. Betere beslissingen. Meetbaar resultaat. Met blijvende grip op security, compliance en volledige eigenaarschap van alles wat we samen bouwen.",
     "cta_primary": "Plan een gesprek",
-    "cta_secondary": "Bekijk onze aanpak",
+    "cta_secondary": "Bekijk hoe het werkt",
     "trust_line": "Vertrouwd door organisaties in heel Europa",
     "trust_badges": {
       "eu_ai_act": "EU AI Act ready",
@@ -28,195 +28,219 @@
       "gdpr": "AVG-compliant"
     }
   },
+  "problem": {
+    "section_label": "Herkenbaar?",
+    "title": "Je bent niet alleen",
+    "subtitle": "Elke organisatie weet dat AI relevant is. Toch krijgen veel organisaties het niet structureel werkend.",
+    "challenges": [
+      {
+        "title": "Pilots zonder vervolg",
+        "description": "Je hebt al geëxperimenteerd, maar geen enkele pilot is in productie gekomen. Inzichten wachten op een vervolg."
+      },
+      {
+        "title": "IT is overbelast",
+        "description": "De AI-verzoeken stapelen zich op, maar je IT-afdeling heeft geen capaciteit of ervaring met dit type trajecten."
+      },
+      {
+        "title": "Ongecontroleerd AI-gebruik",
+        "description": "Medewerkers gebruiken al AI-tools, maar zonder governance. Compliance-zorgen nemen toe nu de EU AI Act realiteit wordt."
+      },
+      {
+        "title": "Waar is de ROI?",
+        "description": "Management vraagt om rendement: \"Waar zien we de productiviteitswinst terug?\" Maar meetbare resultaten ontbreken."
+      }
+    ],
+    "conclusion": "Dit is geen onwil. Dit is een capaciteits- en governancevraagstuk. Precies waar wij richting, realisatie en borging brengen."
+  },
   "services": {
-    "section_label": "Onze diensten",
-    "title": "Drie heldere proposities",
-    "subtitle": "Van richting naar realisatie",
-    "what_you_get": "Wat je krijgt:",
+    "section_label": "Hoe kunnen we helpen?",
+    "title": "Kies wat bij jou past",
+    "subtitle": "Drie routes naar werkende AI",
+    "what_you_get": "Wat jij krijgt:",
+    "typical_projects": "Voorbeelden:",
     "discovery": {
       "name": "AI Value Discovery",
-      "tagline": "Kies wat werkt",
-      "question": "Waar zit de meeste waarde?",
+      "tagline": "Weten waar te beginnen",
+      "question": "Waar zit voor jou de meeste waarde?",
       "duration": "2-4 weken",
-      "description": "Geen maandenlang onderzoek, maar een gefocuste sprint die eindigt met keuzes. Waar zit de waarde? Wat is haalbaar? Wat doen we eerst?",
+      "description": "Geen maandenlang onderzoek, maar een gefocuste sprint die eindigt met keuzes. Jij weet precies wat haalbaar is, waar de waarde zit, en wat je eerst moet doen.",
       "deliverables": [
-        "Top 5 use cases, geprioriteerd op waarde en haalbaarheid",
-        "Governance blueprint met rollen en beslisstructuur",
+        "Jouw top 5 use cases, geprioriteerd op waarde en haalbaarheid",
+        "Governance blueprint afgestemd op jouw organisatie",
         "90-dagen roadmap met minimaal 1 productie-ready plan"
+      ],
+      "examples": [
+        "AI-strategie voor financiële dienstverlener",
+        "Use case prioritering voor supply chain",
+        "Governance framework voor HR-automatisering"
       ]
     },
     "delivery": {
       "name": "AI Delivery Sprint",
-      "tagline": "Bouw wat telt",
-      "question": "Wie bouwt het en zorgt dat het werkt?",
+      "tagline": "Van besluit naar werkend",
+      "question": "Wie bouwt het en zorgt dat jouw team ermee kan werken?",
       "duration": "4-8 weken",
-      "description": "Van besluit naar werkende oplossing. Wij bouwen, integreren, testen en zorgen voor adoptie. Dezelfde mensen van begin tot eind.",
+      "description": "Jij krijgt een werkende oplossing in productie. Geïntegreerd met je bestaande systemen, inclusief training voor je team, en meetbaar vanaf dag één.",
       "deliverables": [
-        "Werkende oplossing in productie, inclusief integratie",
-        "Adoptieplan en training voor eindgebruikers",
-        "Meetplan met KPI's en baseline"
+        "Werkende oplossing in jouw productieomgeving",
+        "Jouw team getraind en aan de slag",
+        "Meetplan zodat jij de impact kunt aantonen"
+      ],
+      "examples": [
+        "AI-assistenten geïntegreerd in CRM of ERP",
+        "Documentverwerking voor juridische afdelingen",
+        "Kennissystemen en Q&A voor HR of operations",
+        "Procesautomatisering met AI-agents"
       ]
     },
     "continuity": {
       "name": "AI Continuity",
-      "tagline": "Houd het sterk",
-      "question": "Wie borgt adoptie en doorontwikkeling?",
+      "tagline": "Blijvend resultaat",
+      "question": "Wie zorgt dat het blijft werken en beter wordt?",
       "duration": "Doorlopend",
-      "description": "AI is geen project dat je afrondt. Het is een capability die je onderhoudt. Wij leveren rust en controle.",
+      "description": "Jouw AI-oplossingen blijven presteren. Monitoring, updates, en continue verbetering - zodat jij je kunt focussen op je core business.",
       "deliverables": [
         "Operating model: wie doet wat, wanneer",
-        "Monitoring dashboard en release ritme",
-        "Maandelijkse of kwartaal value review"
+        "Monitoring dashboard voor jouw KPI's",
+        "Regelmatige value reviews met concrete verbetervoorstellen"
+      ],
+      "examples": [
+        "Model- en prompt-versiebeheer",
+        "Bias- en driftmonitoring",
+        "Continue verbetering op basis van gebruik"
       ]
     },
     "which_fits": {
-      "title": "Welke dienst past bij jou?",
+      "title": "Waar sta jij?",
       "scenarios": [
         {
           "situation": "We willen aan de slag met AI maar weten niet waar te beginnen",
           "service": "AI Value Discovery"
         },
         {
-          "situation": "We weten wat we willen, maar wie bouwt het?",
+          "situation": "We weten wat we willen, maar hebben capaciteit nodig om te bouwen",
           "service": "AI Delivery Sprint"
         },
         {
-          "situation": "We hebben AI draaien, maar wie houdt het in de lucht?",
+          "situation": "We hebben AI draaien, maar wie zorgt voor continuïteit?",
           "service": "AI Continuity"
         }
       ]
     }
   },
-  "about": {
-    "title": "Wie wij zijn",
-    "foundation": {
-      "title": "Onze basis",
-      "description": "Best Practice Company is in de kern een transformatiepartner. Onze ervaring ligt in het begeleiden en realiseren van complexe veranderingen waarin strategie, governance, technologie en adoptie samenkomen.",
-      "expertise": "Wij weten hoe grote organisaties werken, waar mensen, processen en besluitvorming vastlopen, en wat er nodig is om verandering daadwerkelijk te laten landen."
+  "results": {
+    "section_label": "Wat bereik jij?",
+    "title": "Resultaten die je kunt meten",
+    "subtitle": "Dit is wat organisaties zoals die van jou behalen",
+    "stats": {
+      "time_saved": "20-40%",
+      "time_saved_label": "minder tijd aan repetitieve taken",
+      "errors_reduced": "30-50%",
+      "errors_reduced_label": "minder fouten, meer consistentie",
+      "adoption": ">60%",
+      "adoption_label": "dagelijks gebruik na 6 weken"
     },
-    "distinction": {
-      "title": "Ons onderscheid",
-      "points": [
-        "Decennia ervaring in enterprise IT en cloud modernisatie",
-        "Diepe operationele expertise in finance, supply chain, manufacturing en HR",
-        "Eén klein, senior team van strategie tot productie",
-        "Bouwen binnen bestaande IT- en cloudkaders",
-        "Eigenaarschap bij de klant: data, code en modellen blijven overdraagbaar"
+    "examples": {
+      "title": "Wat dit betekent in de praktijk",
+      "items": [
+        {
+          "context": "Finance teams",
+          "outcome": "4+ uur per week terug door geautomatiseerde rapportages en analyses"
+        },
+        {
+          "context": "Legal afdelingen",
+          "outcome": "Contractreview in minuten in plaats van uren, met volledige audit trail"
+        },
+        {
+          "context": "HR operations",
+          "outcome": "Vragen van medewerkers beantwoord in seconden, 24/7 beschikbaar"
+        },
+        {
+          "context": "Management",
+          "outcome": "Beslissingen onderbouwd met data, voorbereid door AI-agents"
+        }
       ]
     },
-    "promise": {
-      "title": "Onze belofte",
-      "description": "Wij zorgen dat AI en technologie écht gaan werken. Als onderdeel van een transformatie die mensen begrijpen, gebruiken en blijven doorontwikkelen. Met meetbaar resultaat."
+    "guarantee": {
+      "title": "Volledige grip en eigenaarschap",
+      "points": [
+        "Alle code en modellen zijn van jou - volledig overdraagbaar",
+        "Data blijft binnen de EU, AVG-compliant",
+        "EU AI Act ready: transparant, uitlegbaar, traceerbaar"
+      ]
     }
   },
-  "values": {
-    "section_label": "Waar we voor staan",
-    "title": "Onze kernwaarden",
-    "quote": "Wij blijven tot het werkt. En daarna blijven we betrokken.",
-    "quote_author": "Best Practice Company",
-    "craftsmanship": {
-      "name": "Vakmanschap eerst",
-      "description": "Wij leveren kwaliteit, geen haastwerk. Elk advies eindigt in een werkende oplossing."
-    },
-    "results": {
-      "name": "Resultaat boven proces",
-      "description": "Wij verkopen geen uren, wij verkopen werkende oplossingen. Minder vergaderen, meer bouwen."
-    },
-    "commitment": {
-      "name": "Blijvend betrokken",
-      "description": "Wij bouwen relaties, niet alleen oplossingen. We blijven tot het werkt."
-    },
-    "clarity": {
-      "name": "Helder en direct",
-      "description": "Wij zeggen wat we bedoelen. Geen jargon, geen loze beloftes."
-    }
-  },
-  "proof": {
-    "section_label": "Bewezen resultaten",
-    "title": "Wat we al in productie hebben gebracht",
-    "stats": {
-      "solutions": "15+",
-      "solutions_label": "AI-oplossingen in productie",
-      "users": "Honderden",
-      "users_label": "dagelijkse gebruikers",
-      "time_saved": "20-40%",
-      "time_saved_label": "tijdwinst op taken"
-    },
-    "examples": [
-      "AI-assistenten actief in gebruik bij honderden medewerkers in de financiële en zakelijke dienstverlening",
-      "Documentclassificatie die duizenden documenten per week verwerkt voor juridische afdelingen",
-      "Kennissystemen die vragen beantwoorden in seconden in plaats van uren",
-      "Agents die beslissingen voorbereiden en onderbouwen voor management"
+  "experience": {
+    "section_label": "Hoe werkt het?",
+    "title": "Wat je van ons mag verwachten",
+    "subtitle": "Geen verrassingen, geen excuses. Dit is hoe het voelt om samen te werken.",
+    "items": [
+      {
+        "title": "Rust",
+        "description": "Jij houdt grip, maar niet de stress. Wij nemen de uitvoering over en houden je op de hoogte."
+      },
+      {
+        "title": "Zekerheid",
+        "description": "Wat we afspreken, doen we. Heldere deliverables, realistische planningen, geen scope creep."
+      },
+      {
+        "title": "Snelheid",
+        "description": "Geen maanden wachten op resultaat. Eerste werkende versie binnen weken, niet kwartalen."
+      },
+      {
+        "title": "Eigenaarschap",
+        "description": "Alles wat we bouwen is van jou. Code, modellen, data - volledig overdraagbaar."
+      }
     ]
   },
-  "results": {
-    "title": "Typisch resultaat",
-    "efficiency": {
-      "category": "Efficiency",
-      "metric": "Tijdreductie op repetitieve taken",
-      "impact": "20-40% tijdwinst"
-    },
-    "quality": {
-      "category": "Kwaliteit",
-      "metric": "Foutreductie, consistentie",
-      "impact": "30-50% minder fouten"
-    },
-    "adoption": {
-      "category": "Adoptie",
-      "metric": "Actieve gebruikers na 6 weken",
-      "impact": ">60% dagelijks gebruik"
-    },
-    "governance": {
-      "category": "Governance",
-      "metric": "Audit trail, logging, eigenaarschap",
-      "impact": "100% traceerbaar"
-    }
-  },
   "approach": {
-    "title": "Hoe wij werken",
-    "total_time": "Totaal: 8-12 weken van start tot productie",
+    "title": "Hoe ziet jouw traject eruit?",
+    "total_time": "Van start tot productie: 8-12 weken",
     "phases": {
       "phase1": {
         "name": "Scope en validatie",
         "duration": "1-2 weken",
+        "description": "Samen bepalen we of en hoe we jouw use case kunnen realiseren.",
         "items": [
-          "Begrijpen van de use case en context",
+          "Jouw use case en context doorgronden",
           "Technische haalbaarheid valideren",
           "Governance-eisen in kaart brengen",
-          "Go/no-go beslissing"
+          "Go/no-go beslissing - eerlijk en transparant"
         ]
       },
       "phase2": {
         "name": "Bouw en integratie",
         "duration": "4-6 weken",
+        "description": "De oplossing wordt gebouwd en geïntegreerd in jouw omgeving.",
         "items": [
-          "Ontwikkeling van de oplossing",
-          "Integratie met bestaande systemen",
-          "Testing en validatie",
-          "Governance implementatie"
+          "Ontwikkeling afgestemd op jouw systemen",
+          "Integratie met bestaande applicaties",
+          "Testen met echte gebruikers",
+          "Governance en compliance ingebouwd"
         ]
       },
       "phase3": {
         "name": "Uitrol en adoptie",
         "duration": "2-4 weken",
+        "description": "Jouw team leert werken met de oplossing en we meten de eerste resultaten.",
         "items": [
-          "Gefaseerde uitrol",
-          "Training van gebruikers",
-          "Monitoring en bijsturing",
-          "Overdracht of doorlopend beheer"
+          "Gefaseerde uitrol naar gebruikers",
+          "Training op maat voor jouw team",
+          "Monitoring en bijsturing waar nodig",
+          "Overdracht of doorlopend beheer - jij kiest"
         ]
       }
     },
     "principles": {
-      "title": "Onze principes",
+      "title": "Onze aanpak in het kort",
       "items": [
         {
-          "title": "Voordeel eerst, tooling volgt",
-          "description": "We starten bij het proces en het resultaat dat de organisatie wil bereiken."
+          "title": "Jouw resultaat eerst",
+          "description": "We starten bij wat jij wilt bereiken, niet bij de technologie."
         },
         {
           "title": "Mens in control",
-          "description": "AI adviseert, mensen beslissen. Transparante systemen die uitleggen wat ze doen."
+          "description": "AI adviseert, jouw mensen beslissen. Altijd transparant en uitlegbaar."
         },
         {
           "title": "Klein beginnen, snel bewijzen",
@@ -224,46 +248,968 @@
         },
         {
           "title": "Governance standaard",
-          "description": "Compliance, privacy, explainability – ingebouwd vanaf dag één."
+          "description": "Compliance, privacy, explainability - ingebouwd vanaf dag één, niet achteraf."
         }
       ]
     }
   },
-  "compliance": {
-    "title": "Security, compliance en eigenaarschap",
-    "data": {
-      "title": "Data en privacy",
-      "items": [
-        "AVG-compliant: Alle oplossingen voldoen aan de Algemene Verordening Gegevensbescherming",
-        "Europese hosting: Data blijft binnen de EU",
-        "Data-eigenaarschap: Jij blijft eigenaar van alle data"
-      ]
-    },
-    "ai": {
-      "title": "AI-specifieke compliance",
-      "items": [
-        "EU AI Act ready: Ontworpen met de EU AI Act in gedachten",
-        "Transparantie: AI-beslissingen zijn uitlegbaar en traceerbaar",
-        "Audit trail: Volledige logging van wat de AI doet en waarom"
-      ]
-    },
-    "ip": {
-      "title": "Intellectueel eigendom",
-      "items": [
-        "Code is van jou: Alle maatwerk-code is jouw eigendom",
-        "Modellen zijn van jou: Fine-tuned modellen en prompts blijven bij jou",
-        "Overdraagbaar: Alles wat we bouwen kun je zelf beheren"
+  "about": {
+    "section_label": "Wie helpt jou?",
+    "title": "Een senior team van begin tot eind",
+    "intro": "Geen wisselende consultants of juniors die op jouw project leren. Dezelfde ervaren mensen van strategie tot productie.",
+    "distinction": {
+      "title": "Waarom organisaties voor ons kiezen",
+      "points": [
+        "Decennia ervaring in enterprise IT en cloud (SAP, ServiceNow, Microsoft Dynamics)",
+        "Operationele kennis van finance, supply chain, manufacturing en HR",
+        "Klein team = korte lijnen, snelle beslissingen, persoonlijke betrokkenheid",
+        "Bouwen binnen jouw bestaande IT- en cloudkaders",
+        "Alles wat we bouwen blijft van jou - geen lock-in, volledig overdraagbaar"
       ]
     }
   },
+  "clients": {
+    "section_label": "Vertrouwd door",
+    "title": "In goed gezelschap",
+    "subtitle": "Van strategie naar productie - samen met marktleiders",
+    "quote_label": "Wat klanten zeggen",
+    "quotes": [
+      {
+        "text": "Eindelijk een partij die niet alleen adviseert, maar ook daadwerkelijk bouwt. Binnen 10 weken hadden we een werkende oplossing in productie.",
+        "author": "Director Operations",
+        "company": "Financiële dienstverlener",
+        "result": "40% tijdwinst op rapportages"
+      },
+      {
+        "text": "Ze bleven tot het werkte. Geen excuses, geen verrassingen. Precies wat we nodig hadden.",
+        "author": "CIO",
+        "company": "Retail organisatie",
+        "result": "AI-assistent live in 8 weken"
+      }
+    ],
+    "clients_label": "Klanten die ons vertrouwen",
+    "confidential_note": "En diverse andere organisaties in de financiële en zakelijke dienstverlening"
+  },
   "cta": {
-    "section_label": "Klaar om te beginnen?",
-    "title": "Klaar om AI werkend te maken?",
-    "description": "Plan een vrijblijvend gesprek en ontdek waar de meeste waarde zit voor jouw organisatie.",
+    "section_label": "Volgende stap",
+    "title": "Benieuwd waar AI voor jou waarde toevoegt?",
+    "description": "Plan een vrijblijvend gesprek. We verkennen samen waar de kansen liggen en of we de juiste match zijn.",
     "button": "Plan een gesprek",
     "or": "of",
-    "phone": "Of bel direct",
-    "email": "Mail ons"
+    "phone": "Bel direct",
+    "email": "Mail ons",
+    "note": "Geen verkooppraatje. Gewoon een eerlijk gesprek over wat mogelijk is."
+  },
+  "services_page": {
+    "title": "AI die werkt. En alles eromheen.",
+    "hero_subtitle": "Van strategie tot productie. Van pilot tot schaalbaar resultaat.",
+    "description": "AI is waar we vandaag de meeste impact maken. Maar echte verandering vraagt meer. Daarom brengen we strategie, tooling én mensen samen.",
+    "meta_description": "Best Practice Company: AI-implementatie en transformatie. Van strategie naar productie, met Consulting, Creations en Contracting als dat nodig is.",
+    "hero_label": "Onze diensten",
+    "ai_propositions_label": "Onze AI-diensten",
+    "ai_propositions_title": "Drie routes naar werkende AI",
+    "ai_propositions_intro": "Kies wat bij jouw situatie past. Of combineer voor maximaal resultaat.",
+    "which_fits_title": "Welke dienst past bij jou?",
+    "back_to_overview": "Terug naar overzicht",
+    "for_who_label": "Voor wie?",
+    "discovery": {
+      "full_description": "Geen maandenlang onderzoek, maar een gefocuste sprint die eindigt met keuzes. Waar zit de waarde? Wat is haalbaar? Wat doen we eerst? Concreet, actionable, met commitment.",
+      "for_who": "Organisaties die serieus willen starten maar eerst richting nodig hebben.",
+      "process": {
+        "title": "Wat we doen",
+        "steps": [
+          "Procesanalyse: waar zit de meeste waarde?",
+          "Use case identificatie en prioritering",
+          "Technische assessment: wat is er nodig?",
+          "Governance framework: hoe doen we dit verantwoord?",
+          "Roadmap: wat eerst, wat later?"
+        ]
+      }
+    },
+    "delivery": {
+      "full_description": "Van besluit naar werkende oplossing. Wij bouwen, integreren, testen en zorgen voor adoptie. Dezelfde mensen van begin tot eind.",
+      "for_who": "Organisaties die voorbij de pilotfase zijn en AI in productie willen.",
+      "process": {
+        "title": "Wat we doen",
+        "steps": [
+          "AI-oplossingen bouwen die geïntegreerd zijn in bestaande systemen",
+          "Van use case naar productie in 4-8 weken",
+          "Governance en compliance standaard ingebouwd",
+          "Training en adoptie voor de mensen die ermee werken"
+        ]
+      }
+    },
+    "continuity": {
+      "full_description": "De brug tussen IT, business en compliance voor AI in productie. AI is geen project dat je afrondt. Het is een capability die je onderhoudt.",
+      "for_who": "Organisaties die AI in productie hebben maar geen interne capaciteit voor beheer en doorontwikkeling.",
+      "process": {
+        "title": "Wat we doen",
+        "steps": [
+          "Model- en prompt-versiebeheer – weten wat er draait en waarom",
+          "Bias- en driftmonitoring – signaleren wanneer kwaliteit afneemt",
+          "Change-impact analyse – voorspellen wat er breekt bij proceswijzigingen",
+          "Continue verbetering op basis van gebruik en feedback",
+          "Governance en compliance bewaken"
+        ]
+      },
+      "extra": {
+        "title": "Tijdelijke versterking waar nodig",
+        "description": "In sommige fases is extra capaciteit nodig om snelheid en continuïteit te borgen. In die gevallen leveren wij ervaren professionals die processen én AI-technologie begrijpen."
+      }
+    },
+    "transformation": {
+      "section_label": "Waarom wij",
+      "title": "Je werkt met mensen die dit eerder hebben gedaan",
+      "intro": "AI implementeren is geen IT-project. Het raakt processen, mensen, governance en bestaande systemen. Dat vraagt om een partner die weet hoe grote organisaties werken – en wat nodig is om verandering echt te laten landen.",
+      "context": "Ons team heeft tientallen complexe ERP- en cloudtransities begeleid bij organisaties als de jouwe. SAP, ServiceNow, Microsoft Dynamics – wij kennen de realiteit van enterprise IT. Die ervaring zetten we nu in voor AI.",
+      "capabilities_title": "Onze volledige kracht",
+      "capabilities_intro": "Naast onze AI-diensten kun je rekenen op:",
+      "consulting": {
+        "name": "Consulting",
+        "tagline": "Strategie en governance",
+        "description": "Van strategie tot governance, van programmamanagement tot adoptie. Wij helpen de juiste keuzes maken én zorgen dat ze landen."
+      },
+      "creations": {
+        "name": "Creations",
+        "tagline": "Van idee naar werkende oplossing",
+        "description": "Van maatwerk AI-oplossingen tot bewezen tools en accelerators. Gebouwd om te blijven, geïntegreerd in jouw systemen."
+      },
+      "contracting": {
+        "name": "Contracting",
+        "tagline": "Versterking waar nodig",
+        "description": "Hybride professionals die processen én technologie begrijpen. Voor kritieke fases of doorlopende versterking."
+      },
+      "closing": "Het resultaat: AI die werkt binnen jouw governance, jouw systemen en jouw manier van werken.",
+      "learn_more": "Meer hierover"
+    },
+    "cta": {
+      "title": "Klaar om te beginnen?",
+      "description": "Plan een vrijblijvend gesprek en ontdek welke route het beste bij jouw organisatie past.",
+      "button": "Plan een gesprek"
+    }
+  },
+  "consulting_page": {
+    "meta_title": "Consulting | Best Practice Company",
+    "meta_description": "Strategische begeleiding voor complexe transformaties. Van AI-strategie tot programmamanagement en operational readiness.",
+    "hero": {
+      "label": "Consulting",
+      "title": "Richting bepalen, keuzes maken, verandering borgen",
+      "description": "Transformaties mislukken zelden door technologie. Ze mislukken door onduidelijke richting, gebrekkige governance of gebrek aan draagvlak. Wij helpen je de juiste keuzes maken én zorgen dat verandering daadwerkelijk landt."
+    },
+    "intro": {
+      "title": "Wat wij doen",
+      "text": "Consulting bij Best Practice Company is geen advies op afstand. Wij werken mee. Wij denken mee in de boardroom én op de werkvloer. Onze consultants combineren strategisch inzicht met operationele ervaring – ze weten hoe grote organisaties werken en waar verandering vastloopt.",
+      "focus": "Onze focus ligt op transformaties waar strategie, technologie, governance en adoptie samenkomen. AI is daarin onze huidige specialisatie, maar onze ervaring reikt verder."
+    },
+    "services": {
+      "title": "Waar we je mee helpen",
+      "items": [
+        {
+          "name": "AI-strategie en roadmap",
+          "description": "Waar zit de waarde? Wat is haalbaar? Wat doen we eerst? Wij helpen je een onderbouwde AI-strategie ontwikkelen met een concreet actieplan."
+        },
+        {
+          "name": "Governance en operating models",
+          "description": "Hoe zorg je dat AI verantwoord wordt ingezet? Wij ontwerpen governance frameworks die passen bij jouw organisatie – van beleid tot dagelijkse besluitvorming."
+        },
+        {
+          "name": "Programmamanagement",
+          "description": "Complexe transformaties vragen om strak programmamanagement. Wij nemen de regie of versterken je PMO met ervaren programmamanagers."
+        },
+        {
+          "name": "Operational readiness",
+          "description": "Is je organisatie klaar voor de verandering? Wij bereiden teams, processen en systemen voor op wat komen gaat."
+        },
+        {
+          "name": "ERP en cloud transities",
+          "description": "SAP, ServiceNow, Microsoft Dynamics – wij kennen de complexiteit van enterprise IT en begeleiden transities van strategie tot adoptie."
+        }
+      ]
+    },
+    "approach": {
+      "title": "Hoe wij werken",
+      "items": [
+        {
+          "title": "Senior mensen, korte lijnen",
+          "description": "Je werkt met ervaren consultants die de context snel begrijpen. Geen grote teams, wel directe toegang tot expertise."
+        },
+        {
+          "title": "Advies dat eindigt in actie",
+          "description": "Wij leveren geen rapporten die in een la verdwijnen. Elk advies is gericht op implementatie – en we blijven betrokken tot het werkt."
+        },
+        {
+          "title": "Eerlijk over wat kan",
+          "description": "Wij zeggen wat we zien, ook als dat ongemakkelijk is. Liever een heldere conclusie dan een vaag compromis."
+        }
+      ]
+    },
+    "for_who": {
+      "title": "Voor wie",
+      "description": "Consulting past bij organisaties die:",
+      "items": [
+        "Richting zoeken in een complexe transformatie",
+        "Governance willen opzetten voor AI of andere technologie",
+        "Een programma willen opzetten of versterken",
+        "Zich voorbereiden op een grote verandering",
+        "Strategische begeleiding nodig hebben bij IT-transities"
+      ]
+    },
+    "cta": {
+      "title": "Richting nodig?",
+      "description": "Laten we bespreken waar je staat en wat je wilt bereiken.",
+      "button": "Plan een gesprek"
+    }
+  },
+  "creations_page": {
+    "meta_title": "Creations | Best Practice Company",
+    "meta_description": "Werkende oplossingen die blijven. Van AI-assistenten tot platforms en procesautomatisering.",
+    "hero": {
+      "label": "Creations",
+      "title": "Oplossingen bouwen die echt worden gebruikt",
+      "description": "Geen demo's. Geen prototypes die in een la verdwijnen. Wij bouwen werkende oplossingen die mensen dagelijks gebruiken en die meetbaar resultaat opleveren."
+    },
+    "intro": {
+      "title": "Wat wij bouwen",
+      "text": "Creations is waar strategie concreet wordt. Wij vertalen inzichten en ambities naar werkende tooling, platforms en AI-oplossingen. Altijd geïntegreerd in je bestaande systemen, altijd gebouwd om te blijven.",
+      "focus": "Onze kracht zit in de combinatie: we begrijpen de business, kennen de technologie én weten hoe je adoptie realiseert. Daardoor bouwen we oplossingen die niet alleen technisch werken, maar ook daadwerkelijk worden gebruikt."
+    },
+    "services": {
+      "title": "Wat we bouwen",
+      "items": [
+        {
+          "name": "AI-assistenten en agents",
+          "description": "Slimme assistenten die medewerkers helpen bij hun dagelijkse werk. Geïntegreerd in CRM, ERP of andere systemen waar jouw mensen werken."
+        },
+        {
+          "name": "Documentverwerking",
+          "description": "Automatische classificatie, extractie en verwerking van documenten. Voor juridische afdelingen, finance, HR of andere documentintensieve processen."
+        },
+        {
+          "name": "Kennissystemen",
+          "description": "Systemen die vragen beantwoorden op basis van jouw beleid, procedures en documentatie. Direct antwoord in plaats van urenlang zoeken."
+        },
+        {
+          "name": "Procesautomatisering",
+          "description": "AI-gedreven automatisering van repetitieve processen. Van intake tot besluitvorming, met mens-in-control waar het ertoe doet."
+        },
+        {
+          "name": "Platforms en tooling",
+          "description": "Maatwerk platforms voor specifieke domeinen. Gebouwd op moderne architectuur, klaar voor de toekomst."
+        }
+      ]
+    },
+    "approach": {
+      "title": "Hoe wij bouwen",
+      "items": [
+        {
+          "title": "Van idee naar productie",
+          "description": "Wij bouwen in sprints van 4-8 weken. Geen maandenlange trajecten, wel werkende oplossingen die je direct kunt gebruiken."
+        },
+        {
+          "title": "Gebouwd om te blijven",
+          "description": "Onze oplossingen zijn geen wegwerpwerk. Ze zijn gedocumenteerd, overdraagbaar en gebouwd volgens enterprise-standaarden."
+        },
+        {
+          "title": "Jouw eigendom",
+          "description": "Alle code, modellen en data blijven van jou. Geen vendor lock-in, geen afhankelijkheid. Je kunt altijd zelf verder."
+        }
+      ]
+    },
+    "track_record": {
+      "title": "Wat we hebben gebouwd",
+      "intro": "15+ AI-oplossingen in productie. Enkele voorbeelden:",
+      "items": [
+        "AI-assistenten in gebruik bij honderden medewerkers in financiële dienstverlening",
+        "Documentclassificatie die duizenden documenten per week verwerkt",
+        "Kennissystemen die vragen beantwoorden in seconden in plaats van uren",
+        "Agents die beslissingen voorbereiden en onderbouwen voor management"
+      ]
+    },
+    "for_who": {
+      "title": "Voor wie",
+      "description": "Creations past bij organisaties die:",
+      "items": [
+        "Weten wat ze willen bouwen en een partner zoeken die levert",
+        "AI-ideeën willen vertalen naar werkende oplossingen",
+        "Bestaande processen willen automatiseren met AI",
+        "Tooling nodig hebben die past bij hun specifieke context",
+        "Snelheid én kwaliteit willen, zonder concessies"
+      ]
+    },
+    "cta": {
+      "title": "Klaar om te bouwen?",
+      "description": "Laten we bespreken wat je wilt realiseren.",
+      "button": "Plan een gesprek"
+    }
+  },
+  "contracting_page": {
+    "meta_title": "Contracting | Best Practice Company",
+    "meta_description": "Hybride specialisten die processen én AI-technologie begrijpen. Ervaren professionals voor transformaties die blijvend resultaat opleveren.",
+    "hero": {
+      "label": "Contracting",
+      "title": "Professionals die het proces begrijpen – en AI als versneller inzetten",
+      "description": "Wij leveren ervaren specialisten met een track record in het runnen, verbeteren en digitaliseren van kernprocessen. Geen generieke IT-profielen, maar hybride experts die operatie én technologie begrijpen."
+    },
+    "intro": {
+      "title": "Hybride specialisten die het verschil maken",
+      "text": "De markt zit vol met profielen. Wat schaars is: mensen die zowel de operatie begrijpen als AI-technologie kunnen inzetten om die te verbeteren. Wij leveren specialisten die we zelf kennen, met wie we zelf hebben gewerkt, en waarvan we weten dat ze leveren.",
+      "focus": "Onze mensen begrijpen eerst het proces – en zien technologie als middel om het te verbeteren. Ze zijn gewend om te implementeren, niet alleen te adviseren. En ze dragen kennis over zodat jouw team zelf verder kan."
+    },
+    "services": {
+      "title": "Profielen die we leveren",
+      "items": [
+        {
+          "name": "AI en data specialisten",
+          "description": "Ervaren professionals die AI-oplossingen kunnen bouwen, integreren en doorontwikkelen. Van prompt engineering tot MLOps."
+        },
+        {
+          "name": "Programma- en projectmanagement",
+          "description": "Senior managers die complexe programma's kunnen leiden. Met ervaring in transformaties waar technologie, processen en mensen samenkomen."
+        },
+        {
+          "name": "Finance transformation leads",
+          "description": "FP&A, reporting, controls. Specialisten die financiële processen verbeteren met data en AI, terwijl ze governance en compliance borgen."
+        },
+        {
+          "name": "Supply chain en manufacturing",
+          "description": "Planning, inventory, OEE, predictive maintenance. Experts die operationele processen stroomlijnen met datagedreven inzichten."
+        },
+        {
+          "name": "Business analyse en ontwerp",
+          "description": "Analisten die de brug slaan tussen business en IT. Die requirements vertalen naar werkbare oplossingen."
+        },
+        {
+          "name": "Change en adoptie",
+          "description": "Specialisten die zorgen dat verandering landt. Van communicatie tot training, van weerstand naar draagvlak."
+        },
+        {
+          "name": "Process excellence leads",
+          "description": "Lean, continuous improvement, digital enablement. Experts die procesverbetering combineren met AI-gedreven automatisering."
+        },
+        {
+          "name": "Technische specialisten",
+          "description": "Developers, architects en engineers met ervaring in enterprise-omgevingen. SAP, ServiceNow, Microsoft Dynamics, cloud platforms."
+        }
+      ]
+    },
+    "why_choose": {
+      "title": "Waarom organisaties voor ons kiezen",
+      "items": [
+        {
+          "title": "Schaarste van hybride profielen",
+          "description": "Mensen die zowel operatie als AI-technologie begrijpen zijn zeldzaam. Wij hebben ze in ons netwerk."
+        },
+        {
+          "title": "Implementatie, niet alleen advies",
+          "description": "Onze mensen komen om te doen, niet om te praten. Ze leveren werkende oplossingen en blijvende verbetering."
+        },
+        {
+          "title": "Kennisoverdracht standaard",
+          "description": "Wij bouwen geen afhankelijkheid. Onze specialisten documenteren, trainen en zorgen dat jouw team het zelf kan overnemen."
+        }
+      ]
+    },
+    "approach": {
+      "title": "Hoe wij werken",
+      "items": [
+        {
+          "title": "Persoonlijke introductie",
+          "description": "Je weet wie je krijgt voordat je beslist. Wij stellen onze mensen persoonlijk voor en zijn transparant over hun ervaring."
+        },
+        {
+          "title": "Wij blijven betrokken",
+          "description": "Onze mensen werken bij jou, maar wij blijven aanspreekpunt. Voor vragen, feedback of als er iets speelt."
+        },
+        {
+          "title": "Gericht op resultaat",
+          "description": "Onze specialisten meten succes niet in uren, maar in bereikte verbetering en overgedragen kennis."
+        }
+      ]
+    },
+    "flexibility": {
+      "title": "Flexibel inzetbaar",
+      "description": "Afhankelijk van jouw situatie:",
+      "items": [
+        {
+          "name": "Transformatiefase",
+          "description": "Tijdelijke versterking tijdens kritieke projectfases of verandertrajecten."
+        },
+        {
+          "name": "Expertise on demand",
+          "description": "Specifieke kennis die je nodig hebt maar niet permanent in huis wilt halen."
+        },
+        {
+          "name": "Team extensie",
+          "description": "Langere samenwerking waarbij onze mensen volledig integreren in jouw team."
+        }
+      ]
+    },
+    "for_who": {
+      "title": "Voor wie",
+      "description": "Contracting past bij organisaties die:",
+      "items": [
+        "Tijdelijk extra capaciteit nodig hebben voor een belangrijk project of transformatie",
+        "Specifieke expertise zoeken die ze niet in huis hebben – van AI tot finance",
+        "Willen opschalen zonder langdurige wervingstrajecten",
+        "Ervaren mensen willen die processen én technologie begrijpen",
+        "Al met ons werken en hun team willen uitbreiden met bewezen specialisten"
+      ]
+    },
+    "cta": {
+      "title": "Capaciteit nodig?",
+      "description": "Laten we bespreken welke versterking je zoekt.",
+      "button": "Plan een gesprek"
+    }
+  },
+  "approach_page": {
+    "title": "Onze Aanpak",
+    "meta_description": "Best practice is geen buzzword. Het is hoe wij werken. Ontdek onze bewezen aanpak voor AI-implementatie, consulting en teamversterking.",
+    "description": "Best practice is geen buzzword. Het is hoe wij werken.",
+
+    "hero": {
+      "section_label": "Onze aanpak",
+      "title": "Best practice is geen buzzword",
+      "subtitle": "Het is hoe wij werken.",
+      "text": "Of het nu gaat om AI-implementatie, strategisch advies of versterking van je team – wij hanteren dezelfde standaard. Bewezen aanpakken, meetbaar resultaat, geen shortcuts."
+    },
+
+    "principles": {
+      "section_label": "Onze principes",
+      "title": "Vijf principes die alles sturen",
+      "intro": "Deze principes gelden voor elk type traject. Ze zijn niet onderhandelbaar.",
+      "items": [
+        {
+          "title": "Resultaat eerst",
+          "description": "We starten bij wat je wilt bereiken, niet bij technologie of tooling. Elke oplossing begint met een heldere businesscase.",
+          "why": "Voorkomt oplossingen op zoek naar een probleem"
+        },
+        {
+          "title": "Meten wat telt",
+          "description": "Baseline voor de start, meetmomenten erna. Altijd. Zodat jij de waarde kunt aantonen aan je stakeholders.",
+          "why": "Zonder meting geen bewijs van waarde"
+        },
+        {
+          "title": "Mens in control",
+          "description": "Technologie ondersteunt, mensen beslissen. Transparante systemen die uitleggen wat ze doen en waarom.",
+          "why": "Voorkomt black boxes en weerstand"
+        },
+        {
+          "title": "Governance ingebouwd",
+          "description": "Compliance, privacy, traceerbaarheid – dat zijn basisvereisten. Ingebouwd vanaf dag één, niet achteraf toegevoegd.",
+          "why": "Voorkomt achteraf repareren"
+        },
+        {
+          "title": "Geen onnodige afhankelijkheid",
+          "description": "Maatwerk dat we voor jou bouwen is van jou – inclusief documentatie en training. Onze eigen tools en oplossingen kun je afnemen als dienst.",
+          "why": "Helder onderscheid tussen jouw eigendom en onze producten"
+        }
+      ]
+    },
+
+    "contexts": {
+      "section_label": "Aanpak per traject",
+      "title": "Eén standaard. Drie contexten.",
+      "intro": "Dezelfde principes, toegepast op verschillende situaties.",
+      "tabs": {
+        "ai": "AI-trajecten",
+        "consulting": "Consulting",
+        "contracting": "Contracting"
+      }
+    },
+
+    "context_ai": {
+      "title": "AI-trajecten",
+      "subtitle": "Van besluit naar productie in 8-12 weken",
+      "intro": "Een gestructureerd traject dat eindigt met werkende AI in productie. Niet met een rapport of een demo.",
+      "timeline": {
+        "total": "Doorlooptijd: 8-12 weken",
+        "phases": [
+          {
+            "number": "1",
+            "name": "Scope en validatie",
+            "duration": "Week 1-2",
+            "description": "Samen bepalen we of en hoe we jouw use case kunnen realiseren.",
+            "items": [
+              "Jouw use case en context doorgronden",
+              "Technische haalbaarheid valideren",
+              "Governance-eisen in kaart brengen",
+              "Go/no-go beslissing – eerlijk en transparant"
+            ]
+          },
+          {
+            "number": "2",
+            "name": "Bouw en integratie",
+            "duration": "Week 3-8",
+            "description": "De oplossing wordt gebouwd en geïntegreerd in jouw omgeving.",
+            "items": [
+              "Ontwikkeling afgestemd op jouw systemen",
+              "Integratie met bestaande applicaties",
+              "Testen met echte gebruikers",
+              "Governance en compliance ingebouwd"
+            ]
+          },
+          {
+            "number": "3",
+            "name": "Uitrol en adoptie",
+            "duration": "Week 9-12",
+            "description": "Jouw team leert werken met de oplossing en we meten de eerste resultaten.",
+            "items": [
+              "Gefaseerde uitrol naar gebruikers",
+              "Training op maat voor jouw team",
+              "Monitoring en bijsturing waar nodig",
+              "Overdracht of doorlopend beheer – jij kiest"
+            ]
+          }
+        ]
+      },
+      "measurement": {
+        "title": "Hoe we succes meten",
+        "intro": "Wij starten met een baseline en meten effect na livegang.",
+        "method": [
+          {
+            "title": "Baseline",
+            "description": "Meting van de huidige situatie vóór livegang"
+          },
+          {
+            "title": "Meetmomenten",
+            "description": "Week 2, 6 en 12 na livegang"
+          },
+          {
+            "title": "Heldere definities",
+            "description": "Wat is 'dagelijks gebruik'? Wat is een 'fout'? Vooraf gedefinieerd."
+          }
+        ],
+        "typical_results": [
+          {
+            "metric": "Tijdreductie",
+            "impact": "20-40% winst"
+          },
+          {
+            "metric": "Foutreductie",
+            "impact": "30-50% minder"
+          },
+          {
+            "metric": "Adoptie",
+            "impact": ">60% dagelijks"
+          }
+        ]
+      },
+      "link": "/diensten#discovery",
+      "link_text": "Bekijk onze AI-diensten"
+    },
+
+    "context_consulting": {
+      "title": "Consulting trajecten",
+      "subtitle": "Van vraag naar richting. Van richting naar actie.",
+      "intro": "Strategisch advies dat niet in een la verdwijnt. Wij blijven betrokken tot het werkt.",
+      "phases": [
+        {
+          "number": "1",
+          "name": "Verkenning",
+          "description": "Jouw situatie, stakeholders en ambities helder krijgen",
+          "items": [
+            "Context en uitdagingen doorgronden",
+            "Stakeholders en belangen in kaart",
+            "Huidige staat en gewenste staat definiëren"
+          ]
+        },
+        {
+          "number": "2",
+          "name": "Analyse",
+          "description": "Opties verkennen, haalbaarheid toetsen, impact inschatten",
+          "items": [
+            "Scenario's en alternatieven uitwerken",
+            "Haalbaarheid en risico's beoordelen",
+            "Business case onderbouwen"
+          ]
+        },
+        {
+          "number": "3",
+          "name": "Richting",
+          "description": "Besluit nemen, roadmap opstellen, governance inrichten",
+          "items": [
+            "Heldere keuze met onderbouwing",
+            "Roadmap met prioriteiten en mijlpalen",
+            "Governance en besluitvorming ingericht"
+          ]
+        },
+        {
+          "number": "4",
+          "name": "Realisatie",
+          "description": "Begeleiding tot het werkt – niet stoppen bij het advies",
+          "items": [
+            "Implementatie begeleiden of uitvoeren",
+            "Voortgang bewaken en bijsturen",
+            "Overdracht of doorlopende ondersteuning"
+          ]
+        }
+      ],
+      "characteristics": {
+        "title": "Kenmerken",
+        "items": [
+          "Senior consultants met operationele ervaring",
+          "Iteratief proces – geen waterval",
+          "Geen dikke rapporten, wel werkende besluiten",
+          "Van boardroom tot werkvloer"
+        ]
+      },
+      "link": "/diensten/consulting",
+      "link_text": "Meer over Consulting"
+    },
+
+    "context_contracting": {
+      "title": "Contracting trajecten",
+      "subtitle": "De juiste mensen. Snel. Met kwaliteitsgarantie.",
+      "intro": "Ervaren specialisten die we zelf kennen en waar we voor instaan. Geen cv-schuiven.",
+      "phases": [
+        {
+          "number": "1",
+          "name": "Intake",
+          "description": "Jouw behoefte, context en teamdynamiek begrijpen",
+          "items": [
+            "Rol en verantwoordelijkheden definiëren",
+            "Technische en culturele fit bepalen",
+            "Verwachtingen en succescriteria afspreken"
+          ]
+        },
+        {
+          "number": "2",
+          "name": "Matching",
+          "description": "Selectie uit ons netwerk van bewezen specialisten",
+          "items": [
+            "Kandidaten uit ons eigen netwerk",
+            "Persoonlijke introductie – geen verrassingen",
+            "Jij beslist, wij adviseren"
+          ]
+        },
+        {
+          "number": "3",
+          "name": "Onboarding",
+          "description": "Snelle, effectieve start in jouw organisatie",
+          "items": [
+            "Duidelijke verwachtingen vanaf dag één",
+            "Integratie in jouw team en processen",
+            "Eerste weken: extra aandacht voor fit"
+          ]
+        },
+        {
+          "number": "4",
+          "name": "Begeleiding",
+          "description": "Wij blijven betrokken gedurende de inzet",
+          "items": [
+            "Regelmatige check-ins met jou en de specialist",
+            "Feedback loops voor continue verbetering",
+            "Kennisoverdracht naar jouw team"
+          ]
+        }
+      ],
+      "characteristics": {
+        "title": "Kenmerken",
+        "items": [
+          "Hybride profielen: proces én technologie",
+          "Mensen die we zelf kennen en voor instaan",
+          "Kennisoverdracht standaard",
+          "Flexibel: projectmatig of doorlopend"
+        ]
+      },
+      "link": "/diensten/contracting",
+      "link_text": "Meer over Contracting"
+    },
+
+    "collaboration": {
+      "section_label": "Samenwerking",
+      "title": "Hoe wij integreren in jouw organisatie",
+      "intro": "Wij werken náást je team, niet ertegenover. Ongeacht het type traject.",
+      "points": [
+        {
+          "title": "Kennisoverdracht",
+          "description": "Jouw mensen leren mee. Wij bouwen geen black boxes."
+        },
+        {
+          "title": "Documentatie",
+          "description": "Alles wat we specifiek voor jou maken is gedocumenteerd en overdraagbaar."
+        },
+        {
+          "title": "Jouw architectuur",
+          "description": "Wij sluiten aan op jullie standards – cloud, security, identity, CI/CD. Geen parallel universum."
+        },
+        {
+          "title": "Flexibele exit",
+          "description": "Na oplevering kun je zelf verder, of wij blijven betrokken. Jij kiest."
+        }
+      ]
+    },
+
+    "security": {
+      "section_label": "Veiligheid",
+      "title": "Governance, privacy en eigenaarschap",
+      "intro": "Ingebouwd vanaf dag één. Niet achteraf toegevoegd.",
+      "items": [
+        {
+          "title": "AVG-compliant",
+          "description": "Alle oplossingen voldoen aan de privacywetgeving. Data blijft binnen de EU."
+        },
+        {
+          "title": "EU AI Act ready",
+          "description": "Onze AI-oplossingen zijn ontworpen met de EU AI Act in gedachten."
+        },
+        {
+          "title": "Transparant",
+          "description": "Beslissingen zijn uitlegbaar en traceerbaar. Volledige audit trail."
+        },
+        {
+          "title": "Eigenaarschap helder",
+          "description": "Maatwerk is van jou. Onze producten en tools kun je afnemen als dienst."
+        }
+      ]
+    },
+
+    "honesty": {
+      "section_label": "Eerlijkheid",
+      "title": "We beloven geen wonderen",
+      "intro": "Best practice betekent ook: eerlijk zijn over grenzen.",
+      "points": [
+        {
+          "title": "Soms past het niet",
+          "description": "Als een traject niet bij ons past of niet haalbaar is, zeggen we dat. Liever vooraf dan halverwege."
+        },
+        {
+          "title": "Soms duurt het langer",
+          "description": "Complexiteit laat zich niet altijd voorspellen. We leggen uit waarom en plannen samen bij."
+        },
+        {
+          "title": "Scope kan veranderen",
+          "description": "Inzichten ontstaan onderweg. We herplannen samen, transparant over impact."
+        },
+        {
+          "title": "Geen verrassingen",
+          "description": "Risico's bespreken we vooraf. Problemen signaleren we vroeg. Altijd."
+        }
+      ]
+    },
+
+    "cta": {
+      "title": "Benieuwd hoe best practice eruitziet voor jouw situatie?",
+      "description": "Plan een gesprek. We verkennen samen wat je nodig hebt en welke aanpak past.",
+      "button": "Plan een gesprek"
+    }
+  },
+  "about_page": {
+    "title": "Over Ons",
+    "meta_description": "Best Practice Company: een senior team met decennia ervaring in enterprise IT, cloud en AI. Van strategie tot productie in één team.",
+
+    "hero": {
+      "section_label": "Over ons",
+      "title": "Best Practice Company",
+      "subtitle": "AI die werkt. Dat is wie wij zijn.",
+      "text": "Een senior team dat complexe transformaties begeleidt en realiseert. Van strategie tot productie, in één team. Wij blijven tot het werkt."
+    },
+
+    "mission": {
+      "section_label": "Onze missie",
+      "title": "Waarom wij bestaan",
+      "text": "Wij helpen organisaties om duurzaam te transformeren en te groeien door slimme technologie werkend te maken in de dagelijkse praktijk.",
+      "elaboration": "Niet door te adviseren en te vertrekken, maar door strategie te vertalen naar oplossingen die mensen gebruiken en die aantoonbaar resultaat opleveren."
+    },
+
+    "vision": {
+      "section_label": "Onze visie",
+      "title": "Waar wij naartoe werken",
+      "text": "Wij geloven dat elke organisatie succesvol kan veranderen en groeien.",
+      "elaboration": "Die overtuiging is gebaseerd op jarenlange betrokkenheid bij complexe transformaties, en op het feit dat organisaties ons steeds vaker inschakelen wanneer verandering kritisch wordt.",
+      "ambition": "Wij willen de standaard zetten voor hoe AI waarde creëert binnen organisaties: als onderdeel van bredere organisatorische en technologische veranderingen, met blijvende grip op processen, mensen en eigenaarschap."
+    },
+
+    "experience": {
+      "section_label": "Bewezen resultaat",
+      "title": "Wat we al in productie hebben",
+      "intro": "Geen PowerPoints. Werkende oplossingen bij echte organisaties.",
+      "track_record": [
+        {
+          "title": "AI-assistenten",
+          "description": "Actief in gebruik bij honderden medewerkers in financiële en zakelijke dienstverlening"
+        },
+        {
+          "title": "Documentverwerking",
+          "description": "Duizenden documenten per week automatisch geclassificeerd voor juridische afdelingen"
+        },
+        {
+          "title": "Kennissystemen",
+          "description": "Vragen beantwoorden in seconden in plaats van uren"
+        },
+        {
+          "title": "Decision support",
+          "description": "Agents die beslissingen voorbereiden en onderbouwen voor management"
+        }
+      ],
+      "background": {
+        "title": "Gebouwd op enterprise ervaring",
+        "text": "Ons team heeft gezamenlijk tientallen complexe ERP- en transformatietrajecten geleid. SAP, ServiceNow, Microsoft Dynamics – wij kennen de realiteit van enterprise IT. Die ervaring vormt het fundament onder alles wat wij met AI bouwen.",
+        "areas": [
+          "Enterprise IT en cloud transities",
+          "Finance, supply chain, manufacturing, HR",
+          "Governance en compliance",
+          "Change management en adoptie"
+        ]
+      }
+    },
+
+    "founders": {
+      "section_label": "De founders",
+      "title": "De mensen achter Best Practice Company",
+      "intro": "Een klein, senior team dat van strategie tot productie levert. Geen lagen, geen overhead – directe toegang tot de mensen die het werk doen.",
+      "team": [
+        {
+          "name": "Jeroen Matthijssen",
+          "role": "Founder",
+          "image": "/team/matthijs.jfif"
+        },
+        {
+          "name": "Henk Westdorp",
+          "role": "Founder",
+          "image": "/team/henk.jfif"
+        },
+        {
+          "name": "Ramon Spaan",
+          "role": "Founder",
+          "image": "/team/ramon.jfif"
+        },
+        {
+          "name": "Geert Menting",
+          "role": "Founder",
+          "image": "/team/geert.jfif"
+        }
+      ]
+    },
+
+    "values": {
+      "section_label": "Onze kernwaarden",
+      "title": "Waar wij voor staan",
+      "items": [
+        {
+          "title": "Vakmanschap eerst",
+          "description": "Wij leveren kwaliteit, geen haastwerk. Elk advies eindigt in een werkende oplossing. Elke oplossing is gebouwd om te blijven.",
+          "drivers": "Trots, Zorgvuldigheid, Duurzaamheid"
+        },
+        {
+          "title": "Resultaat boven proces",
+          "description": "Wij verkopen geen uren, wij verkopen werkende oplossingen. Ons succes meten we aan de impact die we maken, niet aan hoeveel dagen we hebben gefactureerd.",
+          "drivers": "Daadkracht, Focus, Eerlijkheid"
+        },
+        {
+          "title": "Blijvend betrokken",
+          "description": "Wij bouwen relaties, niet alleen oplossingen. De beste klanten zijn klanten die ons blijven bellen – niet omdat het moet, maar omdat we waarde leveren.",
+          "drivers": "Vertrouwen, Partnerschap, Continuïteit"
+        },
+        {
+          "title": "Helder en direct",
+          "description": "Wij zeggen wat we bedoelen. Geen jargon om indruk te maken, geen beloftes die we niet kunnen waarmaken. Als iets niet kan, zeggen we dat. Als iets beter kan, ook.",
+          "drivers": "Transparantie, Respect, Nuchterheid"
+        }
+      ]
+    },
+
+    "beliefs": {
+      "section_label": "Onze overtuigingen",
+      "title": "Waar wij in geloven",
+      "items": [
+        {
+          "title": "AI is een middel, geen doel",
+          "description": "We starten altijd bij het voordeel voor de organisatie en de verbetering in het proces. De technologie volgt de businesscase."
+        },
+        {
+          "title": "Impact boven experiment",
+          "description": "Liever klein en werkend dan groot en theoretisch. Bewijs waarde, dan uitbreiden."
+        },
+        {
+          "title": "Mens in control",
+          "description": "AI adviseert, mensen beslissen. Transparante systemen die uitleggen wat ze doen en waarom."
+        },
+        {
+          "title": "Snelheid met zorgvuldigheid",
+          "description": "Snel schakelen betekent niet slordig werken. Wij bouwen om te blijven."
+        },
+        {
+          "title": "Eigenaarschap bij de klant",
+          "description": "Jij blijft eigenaar van je data, je code, je modellen. Wij bouwen voor jou, niet voor onszelf."
+        }
+      ]
+    },
+
+    "distinction": {
+      "section_label": "Waarom wij",
+      "title": "Wat ons anders maakt",
+      "points": [
+        {
+          "title": "Enterprise ervaring",
+          "description": "Decennia ervaring met SAP, ServiceNow, Microsoft Dynamics en complexe cloud transities"
+        },
+        {
+          "title": "Operationele kennis",
+          "description": "Diepe expertise in finance, supply chain, manufacturing en HR processen"
+        },
+        {
+          "title": "Klein en senior",
+          "description": "Eén team van strategie tot productie. Geen lagen, geen juniors op je project"
+        },
+        {
+          "title": "Jouw eigenaarschap",
+          "description": "Alles wat we bouwen blijft van jou. Geen lock-in, volledig overdraagbaar"
+        }
+      ]
+    },
+
+    "promise": {
+      "section_label": "Onze belofte",
+      "title": "Wat wij garanderen",
+      "text": "Wij zorgen dat AI en technologie écht gaan werken. Als onderdeel van een transformatie die mensen begrijpen, gebruiken en blijven doorontwikkelen. Met meetbaar resultaat."
+    },
+
+    "cta": {
+      "title": "Laten we kennismaken",
+      "description": "Benieuwd of wij de juiste match zijn? Plan een vrijblijvend gesprek.",
+      "button": "Plan een gesprek"
+    }
+  },
+  "contact_page": {
+    "title": "Laten we praten",
+    "hero_label": "Contact",
+    "hero_subtitle": "Geen verkooppraatje. Gewoon een eerlijk gesprek.",
+    "meta_description": "Neem contact op met Best Practice Company. Plan een vrijblijvend gesprek over AI-implementatie voor jouw organisatie.",
+    "description": "Benieuwd wat AI voor jouw organisatie kan betekenen? We vertellen je graag wat mogelijk is – en wat niet.",
+    "form": {
+      "title": "Stuur ons een bericht",
+      "name": "Naam",
+      "name_placeholder": "Je volledige naam",
+      "email": "E-mailadres",
+      "email_placeholder": "naam@bedrijf.nl",
+      "company": "Organisatie",
+      "company_placeholder": "Naam van je organisatie",
+      "phone": "Telefoonnummer",
+      "phone_placeholder": "+31 6 12345678",
+      "phone_optional": "(optioneel)",
+      "message": "Bericht",
+      "message_placeholder": "Vertel ons waar je mee bezig bent of waar je hulp bij zoekt...",
+      "submit": "Verstuur bericht",
+      "submitting": "Versturen...",
+      "success_title": "Bericht verzonden!",
+      "success_message": "Bedankt voor je bericht. We nemen zo snel mogelijk contact met je op.",
+      "error_title": "Er ging iets mis",
+      "error_message": "Probeer het later opnieuw of neem direct contact met ons op."
+    },
+    "direct": {
+      "title": "Of neem direct contact op",
+      "prefer_call": "Liever direct bellen of mailen? Dat kan natuurlijk ook."
+    },
+    "expectations": {
+      "title": "Wat kun je verwachten?",
+      "items": [
+        "Reactie binnen 1 werkdag",
+        "Vrijblijvend gesprek van 30-45 minuten",
+        "Concrete inschatting van haalbaarheid en aanpak",
+        "Geen verplichtingen, geen verkoopdruk"
+      ]
+    }
   },
   "footer": {
     "company": "Best Practice Company",
@@ -283,17 +1229,25 @@
     "contact_us": "Neem contact op",
     "duration": "Doorlooptijd",
     "back": "Terug",
+    "back_to_services": "Terug naar alle diensten",
     "next": "Volgende",
     "close": "Sluiten",
-    "toggle_menu": "Menu openen/sluiten"
+    "toggle_menu": "Menu openen/sluiten",
+    "plan_conversation": "Plan een gesprek",
+    "send_another_message": "Verstuur nog een bericht",
+    "contact_form": "Contactformulier",
+    "ai_services": "AI Diensten",
+    "category": "Categorie",
+    "what_we_measure": "Wat we meten",
+    "typical_impact": "Typische impact"
   },
   "structured_data": {
-    "organization_description": "Best Practice Company helpt organisaties transformatie realiseren door AI van idee naar productie te brengen.",
+    "organization_description": "Van AI-ambitie naar productie in 8-12 weken. Ontdek waar AI de meeste waarde toevoegt voor jouw organisatie.",
     "slogan": "AI die werkt.",
     "service_type": "AI Consulting",
-    "discovery_description": "Identificeer waar AI de meeste waarde kan toevoegen in jouw organisatie. 2-4 weken.",
-    "delivery_description": "Van besluit naar werkende AI-oplossing in productie. 4-8 weken.",
-    "continuity_description": "Beheer, monitoring en doorontwikkeling van AI-oplossingen."
+    "discovery_description": "Ontdek waar AI de meeste waarde toevoegt in jouw organisatie. 2-4 weken.",
+    "delivery_description": "Van besluit naar werkende AI-oplossing in jouw productieomgeving. 4-8 weken.",
+    "continuity_description": "Jouw AI-oplossingen blijven presteren met monitoring en continue verbetering."
   },
   "contact": {
     "phone_label": "Telefoon",

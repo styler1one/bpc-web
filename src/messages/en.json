@@ -1,8 +1,8 @@
 {
   "metadata": {
     "title": "Best Practice Company | AI that works",
-    "description": "Best Practice Company helps organizations realize transformation by bringing AI from idea to production. From decision to production in 8-12 weeks.",
-    "keywords": "AI implementation, digital transformation, AI consulting, AI production, enterprise AI, AI governance",
+    "description": "From AI ambition to production in 8-12 weeks. Discover where AI adds the most value for your organization.",
+    "keywords": "AI implementation, digital transformation, AI consulting, AI production, enterprise AI, AI governance, SAP, ServiceNow, Microsoft Dynamics",
     "og_image_alt": "Best Practice Company - AI that works"
   },
   "navigation": {
@@ -17,10 +17,10 @@
   "hero": {
     "tagline": "AI that works.",
     "title": "From AI ambition to production",
-    "subtitle": "in 8-12 weeks",
-    "description": "Best Practice Company helps organizations realize transformation by making AI work in daily practice. With measurable results and lasting control over security, compliance and ownership.",
+    "subtitle": "in 8 to 12 weeks",
+    "description": "Work smarter. Better decisions. Measurable results. With lasting control over security, compliance and full ownership of everything we build together.",
     "cta_primary": "Schedule a call",
-    "cta_secondary": "See our approach",
+    "cta_secondary": "See how it works",
     "trust_line": "Trusted by organizations across Europe",
     "trust_badges": {
       "eu_ai_act": "EU AI Act ready",
@@ -28,247 +28,1193 @@
       "gdpr": "GDPR compliant"
     }
   },
+  "problem": {
+    "section_label": "Sound familiar?",
+    "title": "You're not alone",
+    "subtitle": "Every organization knows AI is relevant. Yet many struggle to make it work structurally.",
+    "challenges": [
+      {
+        "title": "Pilots without follow-up",
+        "description": "You've experimented, but no pilot has made it to production. Insights are waiting for a next step."
+      },
+      {
+        "title": "IT is overloaded",
+        "description": "AI requests are piling up, but your IT department lacks capacity or experience with these types of projects."
+      },
+      {
+        "title": "Uncontrolled AI usage",
+        "description": "Employees are already using AI tools, but without governance. Compliance concerns grow as the EU AI Act becomes reality."
+      },
+      {
+        "title": "Where's the ROI?",
+        "description": "Management asks for returns: \"Where do we see productivity gains?\" But measurable results are missing."
+      }
+    ],
+    "conclusion": "This isn't unwillingness. It's a capacity and governance challenge. Exactly where we bring direction, realization and assurance."
+  },
   "services": {
-    "section_label": "Our services",
-    "title": "Three clear propositions",
-    "subtitle": "From direction to realization",
+    "section_label": "How can we help?",
+    "title": "Choose what fits you",
+    "subtitle": "Three routes to working AI",
     "what_you_get": "What you get:",
+    "typical_projects": "Examples:",
     "discovery": {
       "name": "AI Value Discovery",
-      "tagline": "Choose what works",
-      "question": "Where is the most value?",
+      "tagline": "Know where to start",
+      "question": "Where is the most value for you?",
       "duration": "2-4 weeks",
-      "description": "No months of research, but a focused sprint that ends with choices. Where is the value? What is feasible? What do we do first?",
+      "description": "No months of research, but a focused sprint that ends with choices. You'll know exactly what's feasible, where the value lies, and what to do first.",
       "deliverables": [
-        "Top 5 use cases, prioritized by value and feasibility",
-        "Governance blueprint with roles and decision structure",
+        "Your top 5 use cases, prioritized by value and feasibility",
+        "Governance blueprint tailored to your organization",
         "90-day roadmap with at least 1 production-ready plan"
+      ],
+      "examples": [
+        "AI strategy for financial services provider",
+        "Use case prioritization for supply chain",
+        "Governance framework for HR automation"
       ]
     },
     "delivery": {
       "name": "AI Delivery Sprint",
-      "tagline": "Build what matters",
-      "question": "Who builds it and makes it work?",
+      "tagline": "From decision to working",
+      "question": "Who builds it and ensures your team can use it?",
       "duration": "4-8 weeks",
-      "description": "From decision to working solution. We build, integrate, test and ensure adoption. The same people from start to finish.",
+      "description": "You get a working solution in production. Integrated with your existing systems, including training for your team, and measurable from day one.",
       "deliverables": [
-        "Working solution in production, including integration",
-        "Adoption plan and training for end users",
-        "Measurement plan with KPIs and baseline"
+        "Working solution in your production environment",
+        "Your team trained and working with it",
+        "Measurement plan so you can demonstrate impact"
+      ],
+      "examples": [
+        "AI assistants integrated in CRM or ERP",
+        "Document processing for legal departments",
+        "Knowledge systems and Q&A for HR or operations",
+        "Process automation with AI agents"
       ]
     },
     "continuity": {
       "name": "AI Continuity",
-      "tagline": "Keep it strong",
-      "question": "Who ensures adoption and continuous improvement?",
+      "tagline": "Lasting results",
+      "question": "Who ensures it keeps working and improving?",
       "duration": "Ongoing",
-      "description": "AI is not a project you complete. It's a capability you maintain. We deliver peace of mind and control.",
+      "description": "Your AI solutions keep performing. Monitoring, updates, and continuous improvement - so you can focus on your core business.",
       "deliverables": [
         "Operating model: who does what, when",
-        "Monitoring dashboard and release rhythm",
-        "Monthly or quarterly value review"
+        "Monitoring dashboard for your KPIs",
+        "Regular value reviews with concrete improvement proposals"
+      ],
+      "examples": [
+        "Model and prompt version management",
+        "Bias and drift monitoring",
+        "Continuous improvement based on usage"
       ]
     },
     "which_fits": {
-      "title": "Which service fits you?",
+      "title": "Where are you?",
       "scenarios": [
         {
           "situation": "We want to start with AI but don't know where to begin",
           "service": "AI Value Discovery"
         },
         {
-          "situation": "We know what we want, but who builds it?",
+          "situation": "We know what we want, but need capacity to build",
           "service": "AI Delivery Sprint"
         },
         {
-          "situation": "We have AI running, but who keeps it running?",
+          "situation": "We have AI running, but who ensures continuity?",
           "service": "AI Continuity"
         }
       ]
     }
   },
-  "about": {
-    "title": "Who we are",
-    "foundation": {
-      "title": "Our foundation",
-      "description": "Best Practice Company is at its core a transformation partner. Our experience lies in guiding and realizing complex changes where strategy, governance, technology and adoption come together.",
-      "expertise": "We know how large organizations work, where people, processes and decision-making get stuck, and what it takes to make change actually happen."
+  "results": {
+    "section_label": "What will you achieve?",
+    "title": "Results you can measure",
+    "subtitle": "This is what organizations like yours achieve",
+    "stats": {
+      "time_saved": "20-40%",
+      "time_saved_label": "less time on repetitive tasks",
+      "errors_reduced": "30-50%",
+      "errors_reduced_label": "fewer errors, more consistency",
+      "adoption": ">60%",
+      "adoption_label": "daily use after 6 weeks"
     },
-    "distinction": {
-      "title": "What sets us apart",
-      "points": [
-        "Decades of experience in enterprise IT and cloud modernization",
-        "Deep operational expertise in finance, supply chain, manufacturing and HR",
-        "One small, senior team from strategy to production",
-        "Building within existing IT and cloud frameworks",
-        "Ownership stays with you: data, code and models remain transferable"
+    "examples": {
+      "title": "What this means in practice",
+      "items": [
+        {
+          "context": "Finance teams",
+          "outcome": "4+ hours back per week through automated reports and analyses"
+        },
+        {
+          "context": "Legal departments",
+          "outcome": "Contract review in minutes instead of hours, with complete audit trail"
+        },
+        {
+          "context": "HR operations",
+          "outcome": "Employee questions answered in seconds, available 24/7"
+        },
+        {
+          "context": "Management",
+          "outcome": "Decisions substantiated with data, prepared by AI agents"
+        }
       ]
     },
-    "promise": {
-      "title": "Our promise",
-      "description": "We ensure AI and technology actually work. As part of a transformation that people understand, use and continue to develop. With measurable results."
+    "guarantee": {
+      "title": "Full control and ownership",
+      "points": [
+        "All code and models are yours - fully transferable",
+        "Data stays within the EU, GDPR compliant",
+        "EU AI Act ready: transparent, explainable, traceable"
+      ]
     }
   },
-  "values": {
-    "section_label": "What we stand for",
-    "title": "Our core values",
-    "quote": "We stay until it works. And after that, we stay involved.",
-    "quote_author": "Best Practice Company",
-    "craftsmanship": {
-      "name": "Craftsmanship first",
-      "description": "We deliver quality, not rushed work. Every piece of advice ends in a working solution."
-    },
-    "results": {
-      "name": "Results over process",
-      "description": "We don't sell hours, we sell working solutions. Less meetings, more building."
-    },
-    "commitment": {
-      "name": "Lasting commitment",
-      "description": "We build relationships, not just solutions. We stay until it works."
-    },
-    "clarity": {
-      "name": "Clear and direct",
-      "description": "We say what we mean. No jargon, no empty promises."
-    }
-  },
-  "proof": {
-    "section_label": "Proven results",
-    "title": "What we've already put into production",
-    "stats": {
-      "solutions": "15+",
-      "solutions_label": "AI solutions in production",
-      "users": "Hundreds",
-      "users_label": "of daily users",
-      "time_saved": "20-40%",
-      "time_saved_label": "time savings on tasks"
-    },
-    "examples": [
-      "AI assistants actively used by hundreds of employees in financial and business services",
-      "Document classification processing thousands of documents weekly for legal departments",
-      "Knowledge systems answering questions in seconds instead of hours",
-      "Agents preparing and substantiating decisions for management"
+  "experience": {
+    "section_label": "How does it work?",
+    "title": "What you can expect from us",
+    "subtitle": "No surprises, no excuses. This is what working together feels like.",
+    "items": [
+      {
+        "title": "Calm",
+        "description": "You keep control, but not the stress. We take over execution and keep you informed."
+      },
+      {
+        "title": "Certainty",
+        "description": "What we agree, we deliver. Clear deliverables, realistic timelines, no scope creep."
+      },
+      {
+        "title": "Speed",
+        "description": "No waiting months for results. First working version within weeks, not quarters."
+      },
+      {
+        "title": "Ownership",
+        "description": "Everything we build is yours. Code, models, data - fully transferable."
+      }
     ]
   },
-  "results": {
-    "title": "Typical results",
-    "efficiency": {
-      "category": "Efficiency",
-      "metric": "Time reduction on repetitive tasks",
-      "impact": "20-40% time savings"
-    },
-    "quality": {
-      "category": "Quality",
-      "metric": "Error reduction, consistency",
-      "impact": "30-50% fewer errors"
-    },
-    "adoption": {
-      "category": "Adoption",
-      "metric": "Active users after 6 weeks",
-      "impact": ">60% daily use"
-    },
-    "governance": {
-      "category": "Governance",
-      "metric": "Audit trail, logging, ownership",
-      "impact": "100% traceable"
-    }
-  },
   "approach": {
-    "title": "How we work",
-    "total_time": "Total: 8-12 weeks from start to production",
+    "title": "What does your journey look like?",
+    "total_time": "From start to production: 8-12 weeks",
     "phases": {
       "phase1": {
         "name": "Scope and validation",
         "duration": "1-2 weeks",
+        "description": "Together we determine if and how we can realize your use case.",
         "items": [
-          "Understanding the use case and context",
+          "Understanding your use case and context",
           "Validating technical feasibility",
           "Mapping governance requirements",
-          "Go/no-go decision"
+          "Go/no-go decision - honest and transparent"
         ]
       },
       "phase2": {
         "name": "Build and integration",
         "duration": "4-6 weeks",
+        "description": "The solution is built and integrated into your environment.",
         "items": [
-          "Development of the solution",
-          "Integration with existing systems",
-          "Testing and validation",
-          "Governance implementation"
+          "Development aligned with your systems",
+          "Integration with existing applications",
+          "Testing with real users",
+          "Governance and compliance built in"
         ]
       },
       "phase3": {
         "name": "Rollout and adoption",
         "duration": "2-4 weeks",
+        "description": "Your team learns to work with the solution and we measure the first results.",
         "items": [
-          "Phased rollout",
-          "User training",
-          "Monitoring and adjustment",
-          "Handover or ongoing management"
+          "Phased rollout to users",
+          "Training tailored to your team",
+          "Monitoring and adjustment where needed",
+          "Handover or ongoing management - you choose"
         ]
       }
     },
     "principles": {
-      "title": "Our principles",
+      "title": "Our approach in brief",
       "items": [
         {
-          "title": "Benefit first, tooling follows",
-          "description": "We start with the process and the outcome the organization wants to achieve."
+          "title": "Your result first",
+          "description": "We start with what you want to achieve, not with the technology."
         },
         {
           "title": "Human in control",
-          "description": "AI advises, people decide. Transparent systems that explain what they do."
+          "description": "AI advises, your people decide. Always transparent and explainable."
         },
         {
           "title": "Start small, prove fast",
-          "description": "Better to go live next month with one use case than next year with a large program."
+          "description": "Better to go live next month with one use case than next year with a big program."
         },
         {
-          "title": "Governance as standard",
-          "description": "Compliance, privacy, explainability – built in from day one."
+          "title": "Governance standard",
+          "description": "Compliance, privacy, explainability - built in from day one, not afterwards."
         }
       ]
     }
   },
-  "compliance": {
-    "title": "Security, compliance and ownership",
-    "data": {
-      "title": "Data and privacy",
-      "items": [
-        "GDPR compliant: All solutions comply with the General Data Protection Regulation",
-        "European hosting: Data stays within the EU",
-        "Data ownership: You remain the owner of all your data"
-      ]
-    },
-    "ai": {
-      "title": "AI-specific compliance",
-      "items": [
-        "EU AI Act ready: Designed with the EU AI Act in mind",
-        "Transparency: AI decisions are explainable and traceable",
-        "Audit trail: Complete logging of what the AI does and why"
-      ]
-    },
-    "ip": {
-      "title": "Intellectual property",
-      "items": [
-        "Code is yours: All custom code is your property",
-        "Models are yours: Fine-tuned models and prompts stay with you",
-        "Fully transferable: Everything we build can be managed independently"
+  "about": {
+    "section_label": "Who helps you?",
+    "title": "A senior team from start to finish",
+    "intro": "No rotating consultants or juniors learning on your project. The same experienced people from strategy to production.",
+    "distinction": {
+      "title": "Why organizations choose us",
+      "points": [
+        "Decades of experience in enterprise IT and cloud (SAP, ServiceNow, Microsoft Dynamics)",
+        "Operational knowledge of finance, supply chain, manufacturing and HR",
+        "Small team = short lines, quick decisions, personal involvement",
+        "Building within your existing IT and cloud frameworks",
+        "Everything we build stays yours - no lock-in, fully transferable"
       ]
     }
   },
+  "clients": {
+    "section_label": "Trusted by",
+    "title": "In good company",
+    "subtitle": "From strategy to production - together with market leaders",
+    "quote_label": "What clients say",
+    "quotes": [
+      {
+        "text": "Finally a partner that doesn't just advise, but actually builds. Within 10 weeks we had a working solution in production.",
+        "author": "Director Operations",
+        "company": "Financial services provider",
+        "result": "40% time savings on reporting"
+      },
+      {
+        "text": "They stayed until it worked. No excuses, no surprises. Exactly what we needed.",
+        "author": "CIO",
+        "company": "Retail organization",
+        "result": "AI assistant live in 8 weeks"
+      }
+    ],
+    "clients_label": "Clients who trust us",
+    "confidential_note": "And various other organizations in financial and business services"
+  },
   "cta": {
-    "section_label": "Ready to get started?",
-    "title": "Ready to make AI work?",
-    "description": "Schedule a no-obligation conversation and discover where the most value lies for your organization.",
+    "section_label": "Next step",
+    "title": "Curious where AI adds value for you?",
+    "description": "Schedule a no-obligation conversation. We'll explore together where the opportunities lie and whether we're the right match.",
     "button": "Schedule a call",
     "or": "or",
-    "phone": "Or call directly",
-    "email": "Email us"
+    "phone": "Call directly",
+    "email": "Email us",
+    "note": "No sales pitch. Just an honest conversation about what's possible."
+  },
+  "services_page": {
+    "title": "AI that works. And everything around it.",
+    "hero_subtitle": "From strategy to production. From pilot to scalable results.",
+    "description": "AI is where we make the most impact today. But real change requires more. That's why we bring together strategy, tooling and people.",
+    "meta_description": "Best Practice Company: AI implementation and transformation. From strategy to production, with Consulting, Creations and Contracting when needed.",
+    "hero_label": "Our services",
+    "ai_propositions_label": "Our AI services",
+    "ai_propositions_title": "Three routes to working AI",
+    "ai_propositions_intro": "Choose what fits your situation. Or combine for maximum results.",
+    "which_fits_title": "Which service fits you?",
+    "back_to_overview": "Back to overview",
+    "for_who_label": "For whom?",
+    "discovery": {
+      "full_description": "No months of research, but a focused sprint that ends with choices. Where is the value? What is feasible? What do we do first? Concrete, actionable, with commitment.",
+      "for_who": "Organizations that want to start seriously but need direction first.",
+      "process": {
+        "title": "What we do",
+        "steps": [
+          "Process analysis: where is the most value?",
+          "Use case identification and prioritization",
+          "Technical assessment: what is needed?",
+          "Governance framework: how do we do this responsibly?",
+          "Roadmap: what first, what later?"
+        ]
+      }
+    },
+    "delivery": {
+      "full_description": "From decision to working solution. We build, integrate, test and ensure adoption. The same people from start to finish.",
+      "for_who": "Organizations that are past the pilot phase and want AI in production.",
+      "process": {
+        "title": "What we do",
+        "steps": [
+          "Build AI solutions integrated with existing systems",
+          "From use case to production in 4-8 weeks",
+          "Governance and compliance built in as standard",
+          "Training and adoption for the people who work with it"
+        ]
+      }
+    },
+    "continuity": {
+      "full_description": "The bridge between IT, business and compliance for AI in production. AI is not a project you finish. It's a capability you maintain.",
+      "for_who": "Organizations that have AI in production but lack internal capacity for management and further development.",
+      "process": {
+        "title": "What we do",
+        "steps": [
+          "Model and prompt version management – knowing what runs and why",
+          "Bias and drift monitoring – detecting when quality decreases",
+          "Change impact analysis – predicting what breaks with process changes",
+          "Continuous improvement based on usage and feedback",
+          "Governance and compliance monitoring"
+        ]
+      },
+      "extra": {
+        "title": "Temporary reinforcement where needed",
+        "description": "In some phases, extra capacity is needed to ensure speed and continuity. In those cases, we provide experienced professionals who understand both processes and AI technology."
+      }
+    },
+    "transformation": {
+      "section_label": "Why us",
+      "title": "You work with people who've done this before",
+      "intro": "Implementing AI isn't an IT project. It touches processes, people, governance and existing systems. That requires a partner who knows how large organizations work – and what it takes to make change actually land.",
+      "context": "Our team has guided dozens of complex ERP and cloud transitions at organizations like yours. SAP, ServiceNow, Microsoft Dynamics – we know the reality of enterprise IT. We now apply that experience to AI.",
+      "capabilities_title": "Our full strength",
+      "capabilities_intro": "Beyond our AI services, you can count on:",
+      "consulting": {
+        "name": "Consulting",
+        "tagline": "Strategy and governance",
+        "description": "From strategy to governance, from program management to adoption. We help make the right choices and ensure they land."
+      },
+      "creations": {
+        "name": "Creations",
+        "tagline": "From idea to working solution",
+        "description": "From custom AI solutions to proven tools and accelerators. Built to last, integrated into your systems."
+      },
+      "contracting": {
+        "name": "Contracting",
+        "tagline": "Reinforcement where needed",
+        "description": "Hybrid professionals who understand both processes and technology. For critical phases or ongoing reinforcement."
+      },
+      "closing": "The result: AI that works within your governance, your systems and your way of working.",
+      "learn_more": "Learn more"
+    },
+    "cta": {
+      "title": "Ready to start?",
+      "description": "Schedule a no-obligation conversation and discover which route best fits your organization.",
+      "button": "Schedule a call"
+    }
+  },
+  "consulting_page": {
+    "meta_title": "Consulting | Best Practice Company",
+    "meta_description": "Strategic guidance for complex transformations. From AI strategy to program management and operational readiness.",
+    "hero": {
+      "label": "Consulting",
+      "title": "Setting direction, making choices, ensuring change lands",
+      "description": "Transformations rarely fail because of technology. They fail due to unclear direction, inadequate governance, or lack of buy-in. We help you make the right choices and ensure change actually lands."
+    },
+    "intro": {
+      "title": "What we do",
+      "text": "Consulting at Best Practice Company isn't advice from a distance. We work alongside you. We think along in the boardroom and on the work floor. Our consultants combine strategic insight with operational experience – they know how large organizations work and where change gets stuck.",
+      "focus": "Our focus is on transformations where strategy, technology, governance, and adoption come together. AI is our current specialization, but our experience goes further."
+    },
+    "services": {
+      "title": "How we help you",
+      "items": [
+        {
+          "name": "AI strategy and roadmap",
+          "description": "Where is the value? What's feasible? What do we do first? We help you develop a well-founded AI strategy with a concrete action plan."
+        },
+        {
+          "name": "Governance and operating models",
+          "description": "How do you ensure AI is deployed responsibly? We design governance frameworks that fit your organization – from policy to daily decision-making."
+        },
+        {
+          "name": "Program management",
+          "description": "Complex transformations require tight program management. We take the lead or strengthen your PMO with experienced program managers."
+        },
+        {
+          "name": "Operational readiness",
+          "description": "Is your organization ready for the change? We prepare teams, processes, and systems for what's coming."
+        },
+        {
+          "name": "ERP and cloud transitions",
+          "description": "SAP, ServiceNow, Microsoft Dynamics – we know the complexity of enterprise IT and guide transitions from strategy to adoption."
+        }
+      ]
+    },
+    "approach": {
+      "title": "How we work",
+      "items": [
+        {
+          "title": "Senior people, short lines",
+          "description": "You work with experienced consultants who quickly understand the context. No large teams, but direct access to expertise."
+        },
+        {
+          "title": "Advice that ends in action",
+          "description": "We don't deliver reports that disappear in a drawer. Every piece of advice is aimed at implementation – and we stay involved until it works."
+        },
+        {
+          "title": "Honest about what's possible",
+          "description": "We say what we see, even when it's uncomfortable. Better a clear conclusion than a vague compromise."
+        }
+      ]
+    },
+    "for_who": {
+      "title": "For whom",
+      "description": "Consulting fits organizations that:",
+      "items": [
+        "Seek direction in a complex transformation",
+        "Want to set up governance for AI or other technology",
+        "Want to set up or strengthen a program",
+        "Are preparing for a major change",
+        "Need strategic guidance for IT transitions"
+      ]
+    },
+    "cta": {
+      "title": "Need direction?",
+      "description": "Let's discuss where you stand and what you want to achieve.",
+      "button": "Schedule a call"
+    }
+  },
+  "creations_page": {
+    "meta_title": "Creations | Best Practice Company",
+    "meta_description": "Working solutions that last. From AI assistants to platforms and process automation.",
+    "hero": {
+      "label": "Creations",
+      "title": "Building solutions that actually get used",
+      "description": "No demos. No prototypes that disappear in a drawer. We build working solutions that people use daily and that deliver measurable results."
+    },
+    "intro": {
+      "title": "What we build",
+      "text": "Creations is where strategy becomes concrete. We translate insights and ambitions into working tooling, platforms, and AI solutions. Always integrated into your existing systems, always built to last.",
+      "focus": "Our strength lies in the combination: we understand the business, know the technology, and know how to achieve adoption. That's why we build solutions that not only work technically but are actually used."
+    },
+    "services": {
+      "title": "What we build",
+      "items": [
+        {
+          "name": "AI assistants and agents",
+          "description": "Smart assistants that help employees with their daily work. Integrated into CRM, ERP, or other systems where your people work."
+        },
+        {
+          "name": "Document processing",
+          "description": "Automatic classification, extraction, and processing of documents. For legal departments, finance, HR, or other document-intensive processes."
+        },
+        {
+          "name": "Knowledge systems",
+          "description": "Systems that answer questions based on your policies, procedures, and documentation. Instant answers instead of hours of searching."
+        },
+        {
+          "name": "Process automation",
+          "description": "AI-driven automation of repetitive processes. From intake to decision-making, with human-in-control where it matters."
+        },
+        {
+          "name": "Platforms and tooling",
+          "description": "Custom platforms for specific domains. Built on modern architecture, ready for the future."
+        }
+      ]
+    },
+    "approach": {
+      "title": "How we build",
+      "items": [
+        {
+          "title": "From idea to production",
+          "description": "We build in sprints of 4-8 weeks. No months-long projects, but working solutions you can use immediately."
+        },
+        {
+          "title": "Built to last",
+          "description": "Our solutions aren't throwaway work. They're documented, transferable, and built according to enterprise standards."
+        },
+        {
+          "title": "Your ownership",
+          "description": "All code, models, and data remain yours. No vendor lock-in, no dependency. You can always continue on your own."
+        }
+      ]
+    },
+    "track_record": {
+      "title": "What we've built",
+      "intro": "15+ AI solutions in production. Some examples:",
+      "items": [
+        "AI assistants in use by hundreds of employees in financial services",
+        "Document classification processing thousands of documents per week",
+        "Knowledge systems answering questions in seconds instead of hours",
+        "Agents that prepare and substantiate decisions for management"
+      ]
+    },
+    "for_who": {
+      "title": "For whom",
+      "description": "Creations fits organizations that:",
+      "items": [
+        "Know what they want to build and are looking for a partner that delivers",
+        "Want to translate AI ideas into working solutions",
+        "Want to automate existing processes with AI",
+        "Need tooling that fits their specific context",
+        "Want speed and quality, without compromises"
+      ]
+    },
+    "cta": {
+      "title": "Ready to build?",
+      "description": "Let's discuss what you want to achieve.",
+      "button": "Schedule a call"
+    }
+  },
+  "contracting_page": {
+    "meta_title": "Contracting | Best Practice Company",
+    "meta_description": "Hybrid specialists who understand both processes and AI technology. Experienced professionals for transformations that deliver lasting results.",
+    "hero": {
+      "label": "Contracting",
+      "title": "Professionals who understand the process – and use AI to improve it",
+      "description": "We provide experienced specialists with a track record in running, improving, and digitizing core business functions. Not generic IT profiles, but hybrid experts who understand both operations and technology."
+    },
+    "intro": {
+      "title": "Hybrid specialists who make the difference",
+      "text": "The market is full of profiles. What's scarce: people who understand both operations and can deploy AI technology to improve them. We provide specialists we know personally, with whom we've worked ourselves, and who we know deliver.",
+      "focus": "Our people understand the process first – and see technology as a means to improve it. They're used to implementing, not just advising. And they transfer knowledge so your team can continue independently."
+    },
+    "services": {
+      "title": "Profiles we provide",
+      "items": [
+        {
+          "name": "AI and data specialists",
+          "description": "Experienced professionals who can build, integrate, and develop AI solutions. From prompt engineering to MLOps."
+        },
+        {
+          "name": "Program and project management",
+          "description": "Senior managers who can lead complex programs. With experience in transformations where technology, processes, and people come together."
+        },
+        {
+          "name": "Finance transformation leads",
+          "description": "FP&A, reporting, controls. Specialists who improve financial processes with data and AI while ensuring governance and compliance."
+        },
+        {
+          "name": "Supply chain and manufacturing",
+          "description": "Planning, inventory, OEE, predictive maintenance. Experts who streamline operational processes with data-driven insights."
+        },
+        {
+          "name": "Business analysis and design",
+          "description": "Analysts who bridge business and IT. Who translate requirements into workable solutions."
+        },
+        {
+          "name": "Change and adoption",
+          "description": "Specialists who ensure change lands. From communication to training, from resistance to buy-in."
+        },
+        {
+          "name": "Process excellence leads",
+          "description": "Lean, continuous improvement, digital enablement. Experts who combine process improvement with AI-driven automation."
+        },
+        {
+          "name": "Technical specialists",
+          "description": "Developers, architects, and engineers with experience in enterprise environments. SAP, ServiceNow, Microsoft Dynamics, cloud platforms."
+        }
+      ]
+    },
+    "why_choose": {
+      "title": "Why organizations choose us",
+      "items": [
+        {
+          "title": "Scarcity of hybrid profiles",
+          "description": "People who understand both operations and AI technology are rare. We have them in our network."
+        },
+        {
+          "title": "Implementation, not just advice",
+          "description": "Our people come to do, not to talk. They deliver working solutions and lasting improvement."
+        },
+        {
+          "title": "Knowledge transfer standard",
+          "description": "We don't build dependency. Our specialists document, train, and ensure your team can take over."
+        }
+      ]
+    },
+    "approach": {
+      "title": "How we work",
+      "items": [
+        {
+          "title": "Personal introduction",
+          "description": "You know who you're getting before you decide. We personally introduce our people and are transparent about their experience."
+        },
+        {
+          "title": "We stay involved",
+          "description": "Our people work at your location, but we remain the point of contact. For questions, feedback, or when something comes up."
+        },
+        {
+          "title": "Focused on results",
+          "description": "Our specialists measure success not in hours, but in achieved improvement and transferred knowledge."
+        }
+      ]
+    },
+    "flexibility": {
+      "title": "Flexibly deployable",
+      "description": "Depending on your situation:",
+      "items": [
+        {
+          "name": "Transformation phase",
+          "description": "Temporary reinforcement during critical project phases or change initiatives."
+        },
+        {
+          "name": "Expertise on demand",
+          "description": "Specific knowledge you need but don't want to bring in-house permanently."
+        },
+        {
+          "name": "Team extension",
+          "description": "Longer collaboration where our people fully integrate into your team."
+        }
+      ]
+    },
+    "for_who": {
+      "title": "For whom",
+      "description": "Contracting fits organizations that:",
+      "items": [
+        "Temporarily need extra capacity for an important project or transformation",
+        "Are looking for specific expertise they don't have in-house – from AI to finance",
+        "Want to scale up without lengthy recruitment processes",
+        "Want experienced people who understand both processes and technology",
+        "Already work with us and want to expand their team with proven specialists"
+      ]
+    },
+    "cta": {
+      "title": "Need capacity?",
+      "description": "Let's discuss what reinforcement you're looking for.",
+      "button": "Schedule a call"
+    }
+  },
+  "approach_page": {
+    "title": "Our Approach",
+    "meta_description": "Best practice isn't a buzzword. It's how we work. Discover our proven approach to AI implementation, consulting, and team reinforcement.",
+    "description": "Best practice isn't a buzzword. It's how we work.",
+
+    "hero": {
+      "section_label": "Our approach",
+      "title": "Best practice isn't a buzzword",
+      "subtitle": "It's how we work.",
+      "text": "Whether it's AI implementation, strategic advice, or team reinforcement – we apply the same standard. Proven approaches, measurable results, no shortcuts."
+    },
+
+    "principles": {
+      "section_label": "Our principles",
+      "title": "Five principles that guide everything",
+      "intro": "These principles apply to every type of engagement. They are non-negotiable.",
+      "items": [
+        {
+          "title": "Results first",
+          "description": "We start with what you want to achieve, not with technology or tooling. Every solution begins with a clear business case.",
+          "why": "Prevents solutions looking for a problem"
+        },
+        {
+          "title": "Measure what matters",
+          "description": "Baseline before we start, measurement moments after. Always. So you can demonstrate value to your stakeholders.",
+          "why": "Without measurement, no proof of value"
+        },
+        {
+          "title": "Human in control",
+          "description": "Technology supports, people decide. Transparent systems that explain what they do and why.",
+          "why": "Prevents black boxes and resistance"
+        },
+        {
+          "title": "Governance built in",
+          "description": "Compliance, privacy, traceability – these are basic requirements. Built in from day one, not added afterwards.",
+          "why": "Prevents fixing things after the fact"
+        },
+        {
+          "title": "No unnecessary dependency",
+          "description": "Custom work we build for you is yours – including documentation and training. Our own tools and solutions you can use as a service.",
+          "why": "Clear distinction between your property and our products"
+        }
+      ]
+    },
+
+    "contexts": {
+      "section_label": "Approach per engagement",
+      "title": "One standard. Three contexts.",
+      "intro": "The same principles, applied to different situations.",
+      "tabs": {
+        "ai": "AI engagements",
+        "consulting": "Consulting",
+        "contracting": "Contracting"
+      }
+    },
+
+    "context_ai": {
+      "title": "AI engagements",
+      "subtitle": "From decision to production in 8-12 weeks",
+      "intro": "A structured engagement that ends with working AI in production. Not with a report or a demo.",
+      "timeline": {
+        "total": "Duration: 8-12 weeks",
+        "phases": [
+          {
+            "number": "1",
+            "name": "Scope and validation",
+            "duration": "Week 1-2",
+            "description": "Together we determine if and how we can realize your use case.",
+            "items": [
+              "Understanding your use case and context",
+              "Validating technical feasibility",
+              "Mapping governance requirements",
+              "Go/no-go decision – honest and transparent"
+            ]
+          },
+          {
+            "number": "2",
+            "name": "Build and integration",
+            "duration": "Week 3-8",
+            "description": "The solution is built and integrated into your environment.",
+            "items": [
+              "Development aligned with your systems",
+              "Integration with existing applications",
+              "Testing with real users",
+              "Governance and compliance built in"
+            ]
+          },
+          {
+            "number": "3",
+            "name": "Rollout and adoption",
+            "duration": "Week 9-12",
+            "description": "Your team learns to work with the solution and we measure the first results.",
+            "items": [
+              "Phased rollout to users",
+              "Training tailored to your team",
+              "Monitoring and adjustment where needed",
+              "Handover or ongoing management – you choose"
+            ]
+          }
+        ]
+      },
+      "measurement": {
+        "title": "How we measure success",
+        "intro": "We start with a baseline and measure effect after go-live.",
+        "method": [
+          {
+            "title": "Baseline",
+            "description": "Measurement of the current situation before go-live"
+          },
+          {
+            "title": "Measurement moments",
+            "description": "Week 2, 6 and 12 after go-live"
+          },
+          {
+            "title": "Clear definitions",
+            "description": "What is 'daily use'? What is an 'error'? Defined upfront."
+          }
+        ],
+        "typical_results": [
+          {
+            "metric": "Time reduction",
+            "impact": "20-40% saved"
+          },
+          {
+            "metric": "Error reduction",
+            "impact": "30-50% fewer"
+          },
+          {
+            "metric": "Adoption",
+            "impact": ">60% daily"
+          }
+        ]
+      },
+      "link": "/diensten#discovery",
+      "link_text": "View our AI services"
+    },
+
+    "context_consulting": {
+      "title": "Consulting engagements",
+      "subtitle": "From question to direction. From direction to action.",
+      "intro": "Strategic advice that doesn't end up in a drawer. We stay involved until it works.",
+      "phases": [
+        {
+          "number": "1",
+          "name": "Exploration",
+          "description": "Understanding your situation, stakeholders and ambitions",
+          "items": [
+            "Understanding context and challenges",
+            "Mapping stakeholders and interests",
+            "Defining current state and desired state"
+          ]
+        },
+        {
+          "number": "2",
+          "name": "Analysis",
+          "description": "Exploring options, testing feasibility, estimating impact",
+          "items": [
+            "Working out scenarios and alternatives",
+            "Assessing feasibility and risks",
+            "Building the business case"
+          ]
+        },
+        {
+          "number": "3",
+          "name": "Direction",
+          "description": "Making decisions, creating roadmap, setting up governance",
+          "items": [
+            "Clear choice with rationale",
+            "Roadmap with priorities and milestones",
+            "Governance and decision-making in place"
+          ]
+        },
+        {
+          "number": "4",
+          "name": "Realization",
+          "description": "Guidance until it works – not stopping at the advice",
+          "items": [
+            "Guiding or executing implementation",
+            "Monitoring progress and adjusting",
+            "Handover or ongoing support"
+          ]
+        }
+      ],
+      "characteristics": {
+        "title": "Characteristics",
+        "items": [
+          "Senior consultants with operational experience",
+          "Iterative process – no waterfall",
+          "No thick reports, but working decisions",
+          "From boardroom to shop floor"
+        ]
+      },
+      "link": "/diensten/consulting",
+      "link_text": "More about Consulting"
+    },
+
+    "context_contracting": {
+      "title": "Contracting engagements",
+      "subtitle": "The right people. Fast. With quality guarantee.",
+      "intro": "Experienced specialists we know personally and vouch for. No CV shuffling.",
+      "phases": [
+        {
+          "number": "1",
+          "name": "Intake",
+          "description": "Understanding your needs, context and team dynamics",
+          "items": [
+            "Defining role and responsibilities",
+            "Determining technical and cultural fit",
+            "Agreeing on expectations and success criteria"
+          ]
+        },
+        {
+          "number": "2",
+          "name": "Matching",
+          "description": "Selection from our network of proven specialists",
+          "items": [
+            "Candidates from our own network",
+            "Personal introduction – no surprises",
+            "You decide, we advise"
+          ]
+        },
+        {
+          "number": "3",
+          "name": "Onboarding",
+          "description": "Fast, effective start in your organization",
+          "items": [
+            "Clear expectations from day one",
+            "Integration into your team and processes",
+            "First weeks: extra attention to fit"
+          ]
+        },
+        {
+          "number": "4",
+          "name": "Guidance",
+          "description": "We stay involved throughout the engagement",
+          "items": [
+            "Regular check-ins with you and the specialist",
+            "Feedback loops for continuous improvement",
+            "Knowledge transfer to your team"
+          ]
+        }
+      ],
+      "characteristics": {
+        "title": "Characteristics",
+        "items": [
+          "Hybrid profiles: process and technology",
+          "People we know and vouch for",
+          "Knowledge transfer standard",
+          "Flexible: project-based or ongoing"
+        ]
+      },
+      "link": "/diensten/contracting",
+      "link_text": "More about Contracting"
+    },
+
+    "collaboration": {
+      "section_label": "Collaboration",
+      "title": "How we integrate into your organization",
+      "intro": "We work alongside your team, not against them. Regardless of the type of engagement.",
+      "points": [
+        {
+          "title": "Knowledge transfer",
+          "description": "Your people learn along. We don't build black boxes."
+        },
+        {
+          "title": "Documentation",
+          "description": "Everything we build specifically for you is documented and transferable."
+        },
+        {
+          "title": "Your architecture",
+          "description": "We connect to your standards – cloud, security, identity, CI/CD. No parallel universe."
+        },
+        {
+          "title": "Flexible exit",
+          "description": "After delivery you can continue yourself, or we stay involved. You choose."
+        }
+      ]
+    },
+
+    "security": {
+      "section_label": "Security",
+      "title": "Governance, privacy and ownership",
+      "intro": "Built in from day one. Not added afterwards.",
+      "items": [
+        {
+          "title": "GDPR compliant",
+          "description": "All solutions comply with privacy legislation. Data stays within the EU."
+        },
+        {
+          "title": "EU AI Act ready",
+          "description": "Our AI solutions are designed with the EU AI Act in mind."
+        },
+        {
+          "title": "Transparent",
+          "description": "Decisions are explainable and traceable. Complete audit trail."
+        },
+        {
+          "title": "Ownership clear",
+          "description": "Custom work is yours. Our products and tools you can use as a service."
+        }
+      ]
+    },
+
+    "honesty": {
+      "section_label": "Honesty",
+      "title": "We don't promise miracles",
+      "intro": "Best practice also means: being honest about limitations.",
+      "points": [
+        {
+          "title": "Sometimes it doesn't fit",
+          "description": "If an engagement doesn't fit us or isn't feasible, we say so. Rather upfront than halfway."
+        },
+        {
+          "title": "Sometimes it takes longer",
+          "description": "Complexity can't always be predicted. We explain why and replan together."
+        },
+        {
+          "title": "Scope can change",
+          "description": "Insights emerge along the way. We replan together, transparent about impact."
+        },
+        {
+          "title": "No surprises",
+          "description": "We discuss risks upfront. We signal problems early. Always."
+        }
+      ]
+    },
+
+    "cta": {
+      "title": "Curious what best practice looks like for your situation?",
+      "description": "Schedule a conversation. We'll explore together what you need and which approach fits.",
+      "button": "Schedule a call"
+    }
+  },
+  "about_page": {
+    "title": "About Us",
+    "meta_description": "Best Practice Company: a senior team with decades of experience in enterprise IT, cloud and AI. From strategy to production in one team.",
+
+    "hero": {
+      "section_label": "About us",
+      "title": "Best Practice Company",
+      "subtitle": "AI that works. That's who we are.",
+      "text": "A senior team that guides and delivers complex transformations. From strategy to production, in one team. We stay until it works."
+    },
+
+    "mission": {
+      "section_label": "Our mission",
+      "title": "Why we exist",
+      "text": "We help organizations transform and grow sustainably by making smart technology work in daily practice.",
+      "elaboration": "Not by advising and leaving, but by translating strategy into solutions that people use and that demonstrably deliver results."
+    },
+
+    "vision": {
+      "section_label": "Our vision",
+      "title": "Where we're heading",
+      "text": "We believe that every organization can successfully change and grow.",
+      "elaboration": "That conviction is based on years of involvement in complex transformations, and on the fact that organizations increasingly call us when change becomes critical.",
+      "ambition": "We want to set the standard for how AI creates value within organizations: as part of broader organizational and technological changes, with lasting control over processes, people and ownership."
+    },
+
+    "experience": {
+      "section_label": "Proven results",
+      "title": "What we've already delivered",
+      "intro": "No PowerPoints. Working solutions at real organizations.",
+      "track_record": [
+        {
+          "title": "AI assistants",
+          "description": "Actively used by hundreds of employees in financial and business services"
+        },
+        {
+          "title": "Document processing",
+          "description": "Thousands of documents automatically classified weekly for legal departments"
+        },
+        {
+          "title": "Knowledge systems",
+          "description": "Answering questions in seconds instead of hours"
+        },
+        {
+          "title": "Decision support",
+          "description": "Agents that prepare and substantiate decisions for management"
+        }
+      ],
+      "background": {
+        "title": "Built on enterprise experience",
+        "text": "Our team has collectively led dozens of complex ERP and transformation projects. SAP, ServiceNow, Microsoft Dynamics – we know the reality of enterprise IT. That experience forms the foundation under everything we build with AI.",
+        "areas": [
+          "Enterprise IT and cloud transitions",
+          "Finance, supply chain, manufacturing, HR",
+          "Governance and compliance",
+          "Change management and adoption"
+        ]
+      }
+    },
+
+    "founders": {
+      "section_label": "The founders",
+      "title": "The people behind Best Practice Company",
+      "intro": "A small, senior team that delivers from strategy to production. No layers, no overhead – direct access to the people doing the work.",
+      "team": [
+        {
+          "name": "Jeroen Matthijssen",
+          "role": "Founder",
+          "image": "/team/matthijs.jfif"
+        },
+        {
+          "name": "Henk Westdorp",
+          "role": "Founder",
+          "image": "/team/henk.jfif"
+        },
+        {
+          "name": "Ramon Spaan",
+          "role": "Founder",
+          "image": "/team/ramon.jfif"
+        },
+        {
+          "name": "Geert Menting",
+          "role": "Founder",
+          "image": "/team/geert.jfif"
+        }
+      ]
+    },
+
+    "values": {
+      "section_label": "Our core values",
+      "title": "What we stand for",
+      "items": [
+        {
+          "title": "Craftsmanship first",
+          "description": "We deliver quality, not rushed work. Every advice ends in a working solution. Every solution is built to last.",
+          "drivers": "Pride, Care, Sustainability"
+        },
+        {
+          "title": "Results over process",
+          "description": "We don't sell hours, we sell working solutions. We measure our success by the impact we make, not by how many days we've invoiced.",
+          "drivers": "Action, Focus, Honesty"
+        },
+        {
+          "title": "Lasting involvement",
+          "description": "We build relationships, not just solutions. The best clients are clients who keep calling us – not because they have to, but because we deliver value.",
+          "drivers": "Trust, Partnership, Continuity"
+        },
+        {
+          "title": "Clear and direct",
+          "description": "We say what we mean. No jargon to impress, no promises we can't keep. If something isn't possible, we say so. If something can be better, we say that too.",
+          "drivers": "Transparency, Respect, Pragmatism"
+        }
+      ]
+    },
+
+    "beliefs": {
+      "section_label": "Our beliefs",
+      "title": "What we believe in",
+      "items": [
+        {
+          "title": "AI is a means, not an end",
+          "description": "We always start with the benefit for the organization and the improvement in the process. Technology follows the business case."
+        },
+        {
+          "title": "Impact over experiment",
+          "description": "Better small and working than large and theoretical. Prove value, then expand."
+        },
+        {
+          "title": "Human in control",
+          "description": "AI advises, people decide. Transparent systems that explain what they do and why."
+        },
+        {
+          "title": "Speed with care",
+          "description": "Moving fast doesn't mean working sloppy. We build to last."
+        },
+        {
+          "title": "Ownership with the client",
+          "description": "You remain owner of your data, your code, your models. We build for you, not for ourselves."
+        }
+      ]
+    },
+
+    "distinction": {
+      "section_label": "Why us",
+      "title": "What makes us different",
+      "points": [
+        {
+          "title": "Enterprise experience",
+          "description": "Decades of experience with SAP, ServiceNow, Microsoft Dynamics and complex cloud transitions"
+        },
+        {
+          "title": "Operational knowledge",
+          "description": "Deep expertise in finance, supply chain, manufacturing and HR processes"
+        },
+        {
+          "title": "Small and senior",
+          "description": "One team from strategy to production. No layers, no juniors on your project"
+        },
+        {
+          "title": "Your ownership",
+          "description": "Everything we build stays yours. No lock-in, fully transferable"
+        }
+      ]
+    },
+
+    "promise": {
+      "section_label": "Our promise",
+      "title": "What we guarantee",
+      "text": "We ensure that AI and technology really work. As part of a transformation that people understand, use and continue to develop. With measurable results."
+    },
+
+    "cta": {
+      "title": "Let's get acquainted",
+      "description": "Curious if we're the right match? Schedule a no-obligation conversation.",
+      "button": "Schedule a call"
+    }
+  },
+  "contact_page": {
+    "title": "Let's talk",
+    "hero_label": "Contact",
+    "hero_subtitle": "No sales pitch. Just an honest conversation.",
+    "meta_description": "Contact Best Practice Company. Schedule a no-obligation conversation about AI implementation for your organization.",
+    "description": "Curious what AI can mean for your organization? We'll tell you what's possible – and what's not.",
+    "form": {
+      "title": "Send us a message",
+      "name": "Name",
+      "name_placeholder": "Your full name",
+      "email": "Email address",
+      "email_placeholder": "name@company.com",
+      "company": "Organization",
+      "company_placeholder": "Name of your organization",
+      "phone": "Phone number",
+      "phone_placeholder": "+31 6 12345678",
+      "phone_optional": "(optional)",
+      "message": "Message",
+      "message_placeholder": "Tell us what you're working on or what you need help with...",
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "success_title": "Message sent!",
+      "success_message": "Thank you for your message. We'll get back to you as soon as possible.",
+      "error_title": "Something went wrong",
+      "error_message": "Please try again later or contact us directly."
+    },
+    "direct": {
+      "title": "Or contact us directly",
+      "prefer_call": "Prefer to call or email directly? Of course you can."
+    },
+    "expectations": {
+      "title": "What can you expect?",
+      "items": [
+        "Response within 1 business day",
+        "No-obligation conversation of 30-45 minutes",
+        "Concrete assessment of feasibility and approach",
+        "No obligations, no sales pressure"
+      ]
+    }
   },
   "footer": {
     "company": "Best Practice Company",
     "tagline": "AI that works.",
-    "description": "From AI ambition to production in 8-12 weeks.",
+    "description": "From AI ambition to production in 8 to 12 weeks.",
     "services_title": "Services",
     "company_title": "Company",
     "about": "About us",
@@ -283,23 +1229,31 @@
     "contact_us": "Contact us",
     "duration": "Duration",
     "back": "Back",
+    "back_to_services": "Back to all services",
     "next": "Next",
     "close": "Close",
-    "toggle_menu": "Toggle menu"
+    "toggle_menu": "Toggle menu",
+    "plan_conversation": "Schedule a call",
+    "send_another_message": "Send another message",
+    "contact_form": "Contact form",
+    "ai_services": "AI Services",
+    "category": "Category",
+    "what_we_measure": "What we measure",
+    "typical_impact": "Typical impact"
   },
   "structured_data": {
-    "organization_description": "Best Practice Company helps organizations realize transformation by bringing AI from idea to production.",
+    "organization_description": "From AI ambition to production in 8-12 weeks. Discover where AI adds the most value for your organization.",
     "slogan": "AI that works.",
     "service_type": "AI Consulting",
-    "discovery_description": "Identify where AI can add the most value in your organization. 2-4 weeks.",
-    "delivery_description": "From decision to working AI solution in production. 4-8 weeks.",
-    "continuity_description": "Management, monitoring and continuous development of AI solutions."
+    "discovery_description": "Discover where AI adds the most value in your organization. 2-4 weeks.",
+    "delivery_description": "From decision to working AI solution in your production environment. 4-8 weeks.",
+    "continuity_description": "Your AI solutions keep performing with monitoring and continuous improvement."
   },
   "contact": {
     "phone_label": "Phone",
     "email_label": "Email",
     "phone_number": "+31 85 000 0000",
     "email_address": "info@bestpractice.company",
-    "phone_number_note": "Fill in the actual phone number here"
+    "phone_number_note": "Enter the real phone number here"
   }
 }

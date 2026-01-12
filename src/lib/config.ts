@@ -8,16 +8,23 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_BASE_URL || 'https://bestpractice.company',
   
   // Contact information
-  // TODO: Update these with actual contact details before going live
+  // TODO: Update phone number with actual number before going live
   contact: {
     phone: process.env.NEXT_PUBLIC_PHONE_NUMBER || '+31 85 000 0000',
     email: process.env.NEXT_PUBLIC_EMAIL_ADDRESS || 'info@bestpractice.company',
   },
+
+  // Address
+  address: {
+    street: 'Baron de Coubertinlaan 6',
+    postalCode: '2719 EL',
+    city: 'Zoetermeer',
+    country: 'Nederland',
+  },
   
-  // Social links (add when available)
+  // Social links
   social: {
-    linkedin: '',
-    twitter: '',
+    linkedin: 'https://www.linkedin.com/company/best-practice-consulting-bv/',
   },
 } as const;
 

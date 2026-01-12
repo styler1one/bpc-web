@@ -61,10 +61,10 @@ export function Header() {
   return (
     <header 
       className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-all duration-500',
+        'fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out',
         scrolled 
-          ? 'bg-white/90 backdrop-blur-xl shadow-lg shadow-bpc-navy/5 py-3' 
-          : 'bg-transparent py-5'
+          ? 'bg-white/95 backdrop-blur-xl shadow-lg shadow-bpc-navy/5 py-3' 
+          : 'bg-gradient-to-b from-white/80 to-transparent py-8'
       )}
       role="banner"
     >
@@ -75,12 +75,12 @@ export function Header() {
             <Image
               src="/logo.png"
               alt="Best Practice Company - Terug naar home"
-              width={200}
-              height={50}
+              width={320}
+              height={80}
               className={cn(
-                'h-9 w-auto transition-all duration-300',
-                scrolled ? 'h-8' : 'h-9',
-                'group-hover:scale-105'
+                'w-auto transition-all duration-500 ease-out',
+                scrolled ? 'h-9' : 'h-16',
+                'group-hover:scale-[1.02]'
               )}
               priority
             />
@@ -174,7 +174,8 @@ export function Header() {
         <div 
           id="mobile-menu"
           className={cn(
-            'lg:hidden fixed inset-x-0 top-[72px] bg-white/95 backdrop-blur-xl border-t border-gray-100 shadow-xl transition-all duration-300',
+            'lg:hidden fixed inset-x-0 bg-white/95 backdrop-blur-xl border-t border-gray-100 shadow-xl transition-all duration-500',
+            scrolled ? 'top-[60px]' : 'top-[96px]',
             mobileMenuOpen 
               ? 'opacity-100 translate-y-0 pointer-events-auto' 
               : 'opacity-0 -translate-y-4 pointer-events-none'

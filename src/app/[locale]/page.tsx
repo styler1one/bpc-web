@@ -1,9 +1,11 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { type Locale } from '@/i18n/config';
 import { HeroSection } from '@/components/sections/HeroSection';
+import { ProblemSection } from '@/components/sections/ProblemSection';
 import { ServicesSection } from '@/components/sections/ServicesSection';
-import { ProofSection } from '@/components/sections/ProofSection';
-import { ValuesSection } from '@/components/sections/ValuesSection';
+import { ResultsSection } from '@/components/sections/ResultsSection';
+import { ExperienceSection } from '@/components/sections/ExperienceSection';
+import { ClientsSection } from '@/components/sections/ClientsSection';
 import { CTASection } from '@/components/sections/CTASection';
 
 export default function HomePage({
@@ -16,9 +18,11 @@ export default function HomePage({
   return (
     <>
       <HeroSection />
+      <ProblemSection />
       <ServicesSection />
-      <ProofSection />
-      <ValuesSection />
+      <ResultsSection />
+      <ExperienceSection />
+      <ClientsSection />
       <CTASection />
     </>
   );
