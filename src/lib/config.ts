@@ -5,13 +5,13 @@
 
 export const siteConfig = {
   name: 'Best Practice Company',
-  url: process.env.NEXT_PUBLIC_BASE_URL || 'https://bestpractice.company',
+  url: process.env.NEXT_PUBLIC_BASE_URL || 'https://www.bestpracticecompany.nl',
   
   // Contact information
   // TODO: Update phone number with actual number before going live
   contact: {
     phone: process.env.NEXT_PUBLIC_PHONE_NUMBER || '+31 85 000 0000',
-    email: process.env.NEXT_PUBLIC_EMAIL_ADDRESS || 'info@bestpractice.company',
+    email: process.env.NEXT_PUBLIC_EMAIL_ADDRESS || 'info@bestpracticecompany.nl',
   },
 
   // Address
