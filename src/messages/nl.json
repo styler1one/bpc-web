@@ -1140,22 +1140,26 @@
         {
           "name": "Jeroen Matthijssen",
           "role": "Founder",
-          "image": "/team/matthijs.jfif"
+          "image": "/team/matthijs.jpg",
+          "linkedin": "https://www.linkedin.com/in/jeroenmatthijssen/"
         },
         {
           "name": "Henk Westdorp",
           "role": "Founder",
-          "image": "/team/henk.jfif"
+          "image": "/team/henk.jpg",
+          "linkedin": "https://www.linkedin.com/in/henkwestdorp/"
         },
         {
           "name": "Ramon Spaan",
           "role": "Founder",
-          "image": "/team/ramon.jfif"
+          "image": "/team/ramon.jpg",
+          "linkedin": "https://www.linkedin.com/in/ramonspaan/"
         },
         {
           "name": "Geert Menting",
           "role": "Founder",
-          "image": "/team/geert.jfif"
+          "image": "/team/geert.jpg",
+          "linkedin": "https://www.linkedin.com/in/gmenting/"
         }
       ]
     },
