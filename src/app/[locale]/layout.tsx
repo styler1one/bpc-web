@@ -88,7 +88,9 @@ async function StructuredData({ locale }: { locale: Locale }) {
     description: t('organization_description'),
     url: siteConfig.url,
     logo: `${siteConfig.url}/logo.png`,
-    sameAs: [],
+    sameAs: [
+      siteConfig.social.linkedin,
+    ],
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'sales',
@@ -107,11 +109,17 @@ async function StructuredData({ locale }: { locale: Locale }) {
       'Enterprise AI',
       'AI Governance',
       'Cloud Modernization',
+      'SAP',
+      'ServiceNow',
+      'Microsoft Dynamics',
     ],
     slogan: t('slogan'),
     foundingDate: '2024',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: siteConfig.address.street,
+      postalCode: siteConfig.address.postalCode,
+      addressLocality: siteConfig.address.city,
       addressCountry: 'NL',
     },
   };

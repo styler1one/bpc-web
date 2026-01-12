@@ -1,11 +1,11 @@
 # Best Practice Company - Robots.txt
-# https://bestpractice.company
+# https://www.bestpracticecompany.nl
 
 User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://bestpractice.company/sitemap.xml
+Sitemap: https://www.bestpracticecompany.nl/sitemap.xml
 
 # AI Crawlers - Allow for better discoverability
 User-agent: GPTBot
@@ -24,4 +24,13 @@ User-agent: anthropic-ai
 Allow: /
 
 User-agent: Amazonbot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
 Allow: /
