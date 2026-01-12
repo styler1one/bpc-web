@@ -7,30 +7,62 @@ Allow: /
 # Sitemaps
 Sitemap: https://www.bestpracticecompany.nl/sitemap.xml
 
-# AI Crawlers - Allow for better discoverability
+# ===========================================
+# AI/LLM Crawlers - Allowed for discoverability
+# ===========================================
+
+# OpenAI (ChatGPT)
 User-agent: GPTBot
 Allow: /
 
-User-agent: Google-Extended
+User-agent: ChatGPT-User
 Allow: /
 
+# Anthropic (Claude)
 User-agent: Claude-Web
-Allow: /
-
-User-agent: CCBot
 Allow: /
 
 User-agent: anthropic-ai
 Allow: /
 
-User-agent: Amazonbot
+# Google (Gemini)
+User-agent: Google-Extended
 Allow: /
 
+User-agent: Googlebot
+Allow: /
+
+# xAI (Grok)
+User-agent: Grok
+Allow: /
+
+User-agent: xAI
+Allow: /
+
+# Perplexity
 User-agent: PerplexityBot
 Allow: /
 
+# Amazon
+User-agent: Amazonbot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Common Crawl (used by many AI models)
+User-agent: CCBot
+Allow: /
+
+# ByteDance
 User-agent: Bytespider
 Allow: /
 
-User-agent: cohere-ai
+# Meta (potential future AI)
+User-agent: FacebookBot
+Allow: /
+
+# Microsoft (Copilot/Bing)
+User-agent: bingbot
 Allow: /
