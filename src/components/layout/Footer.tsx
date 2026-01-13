@@ -35,9 +35,9 @@ export function Footer() {
             <Image
               src="/logo-dark.png"
               alt="Best Practice Company"
-              width={180}
-              height={45}
-              className="h-10 w-auto mb-4"
+              width={220}
+              height={55}
+              className="h-14 w-auto mb-4"
             />
             <p className="text-bpc-teal-400 font-medium text-lg mb-2">
               {t('tagline')}
