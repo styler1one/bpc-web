@@ -1,0 +1,70 @@
+{
+  "company": {
+    "name": "Best Practice Company",
+    "tagline": "AI die werkt. En alles eromheen.",
+    "website": "https://www.bestpracticecompany.nl",
+    "phone": "+31 85 000 0000",
+    "email_domain": "bestpractice.company",
+    "linkedin": "https://www.linkedin.com/company/best-practice-consulting-bv/",
+    "address": {
+      "street": "Baron de Coubertinlaan 6",
+      "postal": "2719 EL",
+      "city": "Zoetermeer",
+      "country": "Nederland"
+    }
+  },
+  "founders": [
+    {
+      "id": "jeroen",
+      "name": "Jeroen Matthijssen",
+      "role": "Founder",
+      "email": "jeroen@bestpractice.company",
+      "phone": "+31 6 26 70 25 96",
+      "linkedin": "https://www.linkedin.com/in/jeroenmatthijssen/",
+      "photo": "/team/matthijs.jpg"
+    },
+    {
+      "id": "henk",
+      "name": "Henk Westdorp",
+      "role": "Founder",
+      "email": "henk@bestpractice.company",
+      "phone": "+31 6 17 15 30 79",
+      "linkedin": "https://www.linkedin.com/in/henkwestdorp/",
+      "photo": "/team/henk.jpg"
+    },
+    {
+      "id": "ramon",
+      "name": "Ramon Spaan",
+      "role": "Founder",
+      "email": "ramon@bestpractice.company",
+      "phone": "+31 6 41 21 37 94",
+      "linkedin": "https://www.linkedin.com/in/ramonspaan/",
+      "photo": "/team/ramon.jpg"
+    },
+    {
+      "id": "geert",
+      "name": "Geert Menting",
+      "role": "Founder",
+      "email": "geert@bestpractice.company",
+      "phone": "+31 6 22 83 67 87",
+      "linkedin": "https://www.linkedin.com/in/gmenting/",
+      "photo": "/team/geert.jpg"
+    }
+  ],
+  "design": {
+    "colors": {
+      "navy_dark": "#152f4a",
+      "navy": "#1a3a5c",
+      "teal": "#2d9cca",
+      "teal_light": "#5fbcd3",
+      "white": "#ffffff",
+      "gray_light": "#94b8d6"
+    },
+    "photo_size": "80px",
+    "border_radius": "50%"
+  },
+  "_instructions": {
+    "nl": "Pas de gegevens hierboven aan en genereer de signatures opnieuw, of pas ze direct aan in de HTML bestanden.",
+    "phone_format": "Gebruik internationaal formaat: +31 6 12 34 56 78"
+  }
+}

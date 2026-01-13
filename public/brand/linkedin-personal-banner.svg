@@ -1,0 +1,55 @@
+<svg width="1584" height="396" viewBox="0 0 1584 396" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Main gradient background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#152f4a"/>
+      <stop offset="50%" stop-color="#1a3a5c"/>
+      <stop offset="100%" stop-color="#152f4a"/>
+    </linearGradient>
+    
+    <!-- Teal orb gradient -->
+    <radialGradient id="tealOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2d9cca" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2d9cca" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Sky orb gradient -->
+    <radialGradient id="skyOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5fbcd3" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#5fbcd3" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Secondary teal orb -->
+    <radialGradient id="tealOrb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7dd3e8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#7dd3e8" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Blur filter -->
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="35"/>
+    </filter>
+    
+    <filter id="blurSmall" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="25"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1584" height="396" fill="url(#bgGradient)"/>
+  
+  <!-- Teal orb - top right -->
+  <ellipse cx="1350" cy="-80" rx="450" ry="380" fill="url(#tealOrb)" filter="url(#blur)"/>
+  
+  <!-- Sky orb - bottom left -->
+  <ellipse cx="150" cy="480" rx="380" ry="320" fill="url(#skyOrb)" filter="url(#blur)"/>
+  
+  <!-- Small accent orb - center right -->
+  <ellipse cx="1100" cy="350" rx="200" ry="180" fill="url(#tealOrb2)" filter="url(#blurSmall)"/>
+  
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="0.5" fill="#2d9cca" fill-opacity="0.06"/>
+  </pattern>
+  <rect width="1584" height="396" fill="url(#grid)"/>
+</svg>

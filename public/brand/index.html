@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BPC Brand Assets - Download</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0d1f32;
+      color: #fff;
+      padding: 40px;
+      min-height: 100vh;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #7dd3e8, #2d9cca);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    h2.section-title {
+      margin-top: 4rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.75rem;
+      color: #fff;
+    }
+    .subtitle {
+      color: #94b8d6;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+    .asset-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .signature-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+    @media (max-width: 1200px) {
+      .signature-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .asset-card {
+      background: rgba(26, 58, 92, 0.5);
+      border: 1px solid rgba(45, 156, 202, 0.2);
+      border-radius: 16px;
+      padding: 24px;
+    }
+    .asset-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    .asset-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    .asset-meta {
+      color: #5fbcd3;
+      font-size: 0.875rem;
+    }
+    .asset-preview {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.1);
+      margin-bottom: 16px;
+    }
+    .btn-group {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 500;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #2d9cca, #2380ab);
+      color: white;
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 20px rgba(45, 156, 202, 0.4);
+    }
+    .btn-secondary {
+      background: rgba(255,255,255,0.1);
+      color: white;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.15);
+    }
+    .instructions {
+      margin-top: 2rem;
+      padding: 24px;
+      background: rgba(45, 156, 202, 0.1);
+      border-radius: 12px;
+      border: 1px solid rgba(45, 156, 202, 0.2);
+    }
+    .instructions h2 {
+      color: #5fbcd3;
+      margin-bottom: 16px;
+      font-size: 1.1rem;
+    }
+    .instructions ol {
+      margin-left: 20px;
+      color: #94b8d6;
+      line-height: 1.8;
+    }
+    .instructions code {
+      background: rgba(0,0,0,0.3);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.85em;
+    }
+    .signature-iframe {
+      width: 100%;
+      height: 220px;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px;
+      background: #152f4a;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎨 BPC Brand Assets</h1>
+  <p class="subtitle">Download de officiële brand assets voor Best Practice Company</p>
+  
+  <!-- Email Signatures Section - FIRST -->
+  <h2 class="section-title" style="margin-top: 2rem;">✉️ Email Handtekeningen</h2>
+  <p class="subtitle">Twee versies per founder: Premium (nieuwe berichten) en Compact (reply)</p>
+  
+  <div class="signature-grid">
+    
+    <!-- Jeroen -->
+    <div class="asset-card">
+      <div class="asset-header">
+        <h3 class="asset-title" style="display: flex; align-items: center; gap: 12px;">
+          <img src="../team/matthijs.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;">
+          Jeroen Matthijssen
+        </h3>
+      </div>
+      
+      <!-- New message signature -->
+      <p style="font-size: 11px; color: #5fbcd3; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Nieuwe berichten → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">BPC Jeroen.htm</code></p>
+      <iframe src="email-signatures/signature-jeroen.html" class="signature-iframe"></iframe>
+      <div class="btn-group" style="margin-top: 8px; margin-bottom: 20px;">
+        <a href="email-signatures/signature-jeroen.html" target="_blank" class="btn btn-primary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+      
+      <!-- Reply signature -->
+      <p style="font-size: 11px; color: #94b8d6; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Antwoorden → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">BPC Jeroen Reply.htm</code></p>
+      <iframe src="email-signatures/signature-jeroen-reply.html" class="signature-iframe" style="height: 120px;"></iframe>
+      <div class="btn-group" style="margin-top: 8px;">
+        <a href="email-signatures/signature-jeroen-reply.html" target="_blank" class="btn btn-secondary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+    </div>
+    
+    <!-- Henk -->
+    <div class="asset-card">
+      <div class="asset-header">
+        <h3 class="asset-title" style="display: flex; align-items: center; gap: 12px;">
+          <img src="../team/henk.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;">
+          Henk Westdorp
+        </h3>
+      </div>
+      
+      <!-- New message signature -->
+      <p style="font-size: 11px; color: #5fbcd3; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Nieuwe berichten → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">BPC Henk.htm</code></p>
+      <iframe src="email-signatures/signature-henk.html" class="signature-iframe"></iframe>
+      <div class="btn-group" style="margin-top: 8px; margin-bottom: 20px;">
+        <a href="email-signatures/signature-henk.html" target="_blank" class="btn btn-primary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+      
+      <!-- Reply signature -->
+      <p style="font-size: 11px; color: #94b8d6; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Antwoorden → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">BPC Henk Reply.htm</code></p>
+      <iframe src="email-signatures/signature-henk-reply.html" class="signature-iframe" style="height: 120px;"></iframe>
+      <div class="btn-group" style="margin-top: 8px;">
+        <a href="email-signatures/signature-henk-reply.html" target="_blank" class="btn btn-secondary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+    </div>
+    
+    <!-- Ramon -->
+    <div class="asset-card">
+      <div class="asset-header">
+        <h3 class="asset-title" style="display: flex; align-items: center; gap: 12px;">
+          <img src="../team/ramon.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;">
+          Ramon Spaan
+        </h3>
+      </div>
+      
+      <!-- New message signature -->
+      <p style="font-size: 11px; color: #5fbcd3; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Nieuwe berichten → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">BPC Ramon.htm</code></p>
+      <iframe src="email-signatures/signature-ramon.html" class="signature-iframe"></iframe>
+      <div class="btn-group" style="margin-top: 8px; margin-bottom: 20px;">
+        <a href="email-signatures/signature-ramon.html" target="_blank" class="btn btn-primary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+      
+      <!-- Reply signature -->
+      <p style="font-size: 11px; color: #94b8d6; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Antwoorden → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">BPC Ramon Reply.htm</code></p>
+      <iframe src="email-signatures/signature-ramon-reply.html" class="signature-iframe" style="height: 120px;"></iframe>
+      <div class="btn-group" style="margin-top: 8px;">
+        <a href="email-signatures/signature-ramon-reply.html" target="_blank" class="btn btn-secondary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+    </div>
+    
+    <!-- Geert -->
+    <div class="asset-card">
+      <div class="asset-header">
+        <h3 class="asset-title" style="display: flex; align-items: center; gap: 12px;">
+          <img src="../team/geert.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;">
+          Geert Menting
+        </h3>
+      </div>
+      
+      <!-- New message signature -->
+      <p style="font-size: 11px; color: #5fbcd3; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Nieuwe berichten → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">BPC Geert.htm</code></p>
+      <iframe src="email-signatures/signature-geert.html" class="signature-iframe"></iframe>
+      <div class="btn-group" style="margin-top: 8px; margin-bottom: 20px;">
+        <a href="email-signatures/signature-geert.html" target="_blank" class="btn btn-primary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+      
+      <!-- Reply signature -->
+      <p style="font-size: 11px; color: #94b8d6; margin: 0 0 8px 0; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">Antwoorden → <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">BPC Geert Reply.htm</code></p>
+      <iframe src="email-signatures/signature-geert-reply.html" class="signature-iframe" style="height: 120px;"></iframe>
+      <div class="btn-group" style="margin-top: 8px;">
+        <a href="email-signatures/signature-geert-reply.html" target="_blank" class="btn btn-secondary" style="flex: 1; justify-content: center;">
+          💾 Opslaan (Ctrl+S)
+        </a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="instructions">
+    <h2>📧 Outlook Installatie</h2>
+    <ol>
+      <li>Klik op <strong>"💾 Opslaan (Ctrl+S)"</strong> - de pagina opent in een nieuw tabblad</li>
+      <li>Druk <strong>Ctrl+S</strong> om op te slaan</li>
+      <li>Sla op met de bestandsnaam die boven de preview staat (bijv. <code>BPC Geert.htm</code>)</li>
+      <li>Open Windows Verkenner en plak in de adresbalk:<br>
+        <code style="display: inline-block; margin: 8px 0; padding: 8px 12px; background: rgba(0,0,0,0.4); border-radius: 6px;">%APPDATA%\Microsoft\Signatures\</code>
+      </li>
+      <li>Verplaats de .htm bestanden naar deze map</li>
+      <li><strong>Herstart Outlook</strong></li>
+      <li>Ga naar <strong>Bestand</strong> → <strong>Opties</strong> → <strong>E-mail</strong> → <strong>Handtekeningen</strong></li>
+      <li>Je signatures staan nu in de lijst! Selecteer ze als standaard.</li>
+    </ol>
+    <p style="margin-top: 16px; color: #7dd3e8; font-size: 13px;">
+      ✨ <strong>Tip:</strong> Door direct in de Signatures map te plaatsen blijft alle styling (gradient, kleuren, foto) behouden!
+    </p>
+  </div>
+
+  <!-- LinkedIn & Presentation Banners - SECOND -->
+  <h2 class="section-title">🖼️ LinkedIn & Presentatie Achtergronden</h2>
+  <p class="subtitle">Download de officiële achtergronden voor LinkedIn en presentaties</p>
+  
+  <div class="asset-grid">
+    
+    <!-- LinkedIn Company Banner -->
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">LinkedIn Company Banner</h2>
+        <span class="asset-meta">1584 × 396 px</span>
+      </div>
+      <img 
+        src="linkedin-company-banner.svg" 
+        alt="LinkedIn Company Banner" 
+        class="asset-preview"
+      />
+      <div class="btn-group">
+        <a href="linkedin-company-banner.svg" download class="btn btn-primary">
+          ⬇️ Download SVG
+        </a>
+        <button onclick="downloadAsPng('linkedin-company-banner.svg', 'bpc-linkedin-company-banner.png', 1584, 396)" class="btn btn-secondary">
+          📸 Download PNG
+        </button>
+      </div>
+    </div>
+    
+    <!-- LinkedIn Personal Banner -->
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">LinkedIn Personal Banner</h2>
+        <span class="asset-meta">1584 × 396 px</span>
+      </div>
+      <img 
+        src="linkedin-personal-banner.svg" 
+        alt="LinkedIn Personal Banner" 
+        class="asset-preview"
+      />
+      <div class="btn-group">
+        <a href="linkedin-personal-banner.svg" download class="btn btn-primary">
+          ⬇️ Download SVG
+        </a>
+        <button onclick="downloadAsPng('linkedin-personal-banner.svg', 'bpc-linkedin-personal-banner.png', 1584, 396)" class="btn btn-secondary">
+          📸 Download PNG
+        </button>
+      </div>
+    </div>
+    
+    <!-- Presentation Slide -->
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Presentatie Slide Achtergrond</h2>
+        <span class="asset-meta">1920 × 1080 px (16:9)</span>
+      </div>
+      <img 
+        src="presentation-slide-bg.svg" 
+        alt="Presentation Slide Background" 
+        class="asset-preview"
+      />
+      <div class="btn-group">
+        <a href="presentation-slide-bg.svg" download class="btn btn-primary">
+          ⬇️ Download SVG
+        </a>
+        <button onclick="downloadAsPng('presentation-slide-bg.svg', 'bpc-presentation-slide-bg.png', 1920, 1080)" class="btn btn-secondary">
+          📸 Download PNG
+        </button>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="instructions">
+    <h2>💡 Hoe de banners te gebruiken</h2>
+    <ol>
+      <li><strong>LinkedIn:</strong> Upload de banner in je profiel instellingen onder "Achtergrondafbeelding"</li>
+      <li><strong>PowerPoint:</strong> Invoegen → Afbeelding → Kies de PNG → Rechtermuisklik → "Naar achtergrond verzenden"</li>
+      <li><strong>Keynote:</strong> Sleep de afbeelding naar je slide → Rangschik → Naar achteren</li>
+      <li><strong>Google Slides:</strong> Dia → Achtergrond wijzigen → Afbeelding kiezen</li>
+      <li><strong>Canva/Figma:</strong> Importeer de SVG voor bewerkbare vectoren</li>
+    </ol>
+  </div>
+
+  <script>
+    async function downloadAsPng(svgUrl, filename, width, height) {
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d');
+      
+      const img = new Image();
+      img.onload = function() {
+        ctx.drawImage(img, 0, 0, width, height);
+        const link = document.createElement('a');
+        link.download = filename;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      };
+      img.src = svgUrl;
+    }
+  </script>
+</body>
+</html>
