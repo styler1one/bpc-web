@@ -38,38 +38,38 @@
   <!-- Background -->
   <rect width="1584" height="396" fill="url(#bgGradient)"/>
   
-  <!-- Teal orb - top right -->
-  <ellipse cx="1350" cy="-80" rx="450" ry="380" fill="url(#tealOrb)" filter="url(#blur)"/>
+  <!-- Teal orb - shifted more to left for text space -->
+  <ellipse cx="300" cy="-80" rx="400" ry="350" fill="url(#tealOrb)" filter="url(#blur)"/>
   
   <!-- Sky orb - bottom left -->
-  <ellipse cx="150" cy="480" rx="380" ry="320" fill="url(#skyOrb)" filter="url(#blur)"/>
+  <ellipse cx="100" cy="450" rx="350" ry="300" fill="url(#skyOrb)" filter="url(#blur)"/>
   
-  <!-- Floating Arrow 1 -->
-  <g transform="translate(1350, 70)" opacity="0.2">
-    <path d="M20 0L40 56L20 44L0 56L20 0Z" fill="url(#arrowGrad1)"/>
+  <!-- Floating Arrow 1 - left side -->
+  <g transform="translate(150, 80) rotate(-10)" opacity="0.15">
+    <path d="M18 0L36 50L18 40L0 50L18 0Z" fill="url(#arrowGrad1)"/>
   </g>
   
-  <!-- Floating Arrow 2 -->
-  <g transform="translate(1260, 200)" opacity="0.25">
+  <!-- Floating Arrow 2 - bottom left -->
+  <g transform="translate(80, 280)" opacity="0.12">
     <path d="M12 0L24 34L12 26L0 34L12 0Z" fill="url(#arrowGrad2)"/>
   </g>
   
-  <!-- Geometric circles -->
-  <circle cx="1400" cy="200" r="100" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.15"/>
-  <circle cx="1400" cy="200" r="70" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.08"/>
+  <!-- Overlapping geometric circles - left side (visible around photo) -->
+  <circle cx="200" cy="250" r="90" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.12"/>
+  <circle cx="200" cy="250" r="60" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.08"/>
   
-  <!-- Text: AI die werkt. -->
-  <text x="120" y="175" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="56" font-weight="700" fill="white">
+  <!-- Text: AI die werkt. - RIGHT ALIGNED for LinkedIn personal (photo overlaps left) -->
+  <text x="1464" y="160" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="56" font-weight="700" fill="white" letter-spacing="-0.02em" text-anchor="end">
     AI die werkt.
   </text>
   
-  <!-- Text: En alles eromheen. -->
-  <text x="120" y="245" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="42" font-weight="600" fill="#5fbcd3">
+  <!-- Text: En alles eromheen. - right aligned -->
+  <text x="1464" y="230" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="40" font-weight="600" fill="#5fbcd3" letter-spacing="-0.01em" text-anchor="end">
     En alles eromheen.
   </text>
   
-  <!-- Text: bestpracticecompany.nl -->
-  <text x="120" y="310" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="20" font-weight="500" fill="white" fill-opacity="0.6">
+  <!-- Text: bestpracticecompany.nl - right aligned -->
+  <text x="1464" y="290" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="500" fill="white" fill-opacity="0.5" text-anchor="end">
     bestpracticecompany.nl
   </text>
 </svg>

@@ -94,14 +94,15 @@
     <path d="M20 0L40 56L20 44L0 56L20 0Z" fill="url(#arrowGrad1)"/>
   </g>
   
-  <!-- Geometric circles - right side -->
-  <circle cx="1700" cy="540" r="200" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.2"/>
-  <circle cx="1700" cy="540" r="150" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
-  <circle cx="1700" cy="540" r="100" fill="none" stroke="#5fbcd3" stroke-width="1" stroke-opacity="0.08"/>
+  <!-- Overlapping geometric circles - right side - SAME CENTER like website -->
+  <circle cx="1700" cy="540" r="220" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.2"/>
+  <circle cx="1700" cy="540" r="165" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  <circle cx="1700" cy="540" r="110" fill="none" stroke="#5fbcd3" stroke-width="1" stroke-opacity="0.08"/>
   
-  <!-- Geometric circles - left side smaller -->
-  <circle cx="200" cy="300" r="80" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.15"/>
-  <circle cx="200" cy="300" r="55" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.08"/>
+  <!-- Overlapping circles - left side smaller - SAME CENTER -->
+  <circle cx="200" cy="300" r="100" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.15"/>
+  <circle cx="200" cy="300" r="70" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  <circle cx="200" cy="300" r="40" fill="none" stroke="#5fbcd3" stroke-width="1" stroke-opacity="0.08"/>
   
   <!-- Gradient lines -->
   <line x1="1350" y1="0" x2="1350" y2="200" stroke="url(#arrowGrad2)" stroke-width="1" stroke-opacity="0.3"/>
