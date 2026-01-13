@@ -68,10 +68,10 @@
     <path d="M18 0L36 50L18 40L0 50L18 0Z" fill="url(#arrowGrad3)"/>
   </g>
   
-  <!-- Overlapping geometric circles - same center point like on website -->
-  <circle cx="1380" cy="200" r="130" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.2"/>
-  <circle cx="1380" cy="200" r="100" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
-  <circle cx="1380" cy="200" r="70" fill="none" stroke="#5fbcd3" stroke-width="1" stroke-opacity="0.08"/>
+  <!-- Overlapping geometric circles - OFFSET centers to create intersection -->
+  <circle cx="1420" cy="180" r="130" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.2"/>
+  <circle cx="1350" cy="220" r="100" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  <circle cx="1400" cy="160" r="70" fill="none" stroke="#5fbcd3" stroke-width="1" stroke-opacity="0.08"/>
   
   <!-- Gradient lines -->
   <line x1="1100" y1="0" x2="1100" y2="100" stroke="url(#arrowGrad2)" stroke-width="1" stroke-opacity="0.3"/>

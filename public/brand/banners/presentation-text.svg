@@ -70,10 +70,10 @@
     <path d="M20 0L40 56L20 44L0 56L20 0Z" fill="url(#arrowGrad2)"/>
   </g>
   
-  <!-- Overlapping geometric circles - right side - SAME CENTER -->
-  <circle cx="1700" cy="540" r="180" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.15"/>
-  <circle cx="1700" cy="540" r="130" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
-  <circle cx="1700" cy="540" r="80" fill="none" stroke="#5fbcd3" stroke-width="1" stroke-opacity="0.08"/>
+  <!-- Overlapping geometric circles - right side - OFFSET centers to intersect -->
+  <circle cx="1750" cy="490" r="180" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.15"/>
+  <circle cx="1660" cy="580" r="130" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  <circle cx="1720" cy="460" r="80" fill="none" stroke="#5fbcd3" stroke-width="1" stroke-opacity="0.08"/>
   
   <!-- Main Title: AI die werkt. - Using Inter font like website -->
   <text x="160" y="480" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="120" font-weight="700" fill="white" letter-spacing="-0.03em">
