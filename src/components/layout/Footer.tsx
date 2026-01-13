@@ -33,7 +33,7 @@ export function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-2">
             <Image
-              src="/logo.png"
+              src="/logo-dark.png"
               alt="Best Practice Company"
               width={180}
               height={45}
