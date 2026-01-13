@@ -51,6 +51,16 @@
         grid-template-columns: 1fr;
       }
     }
+    @media (max-width: 1400px) {
+      .banner-grid-3 {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+    }
+    @media (max-width: 900px) {
+      .banner-grid-3 {
+        grid-template-columns: 1fr !important;
+      }
+    }
     .asset-card {
       background: rgba(26, 58, 92, 0.5);
       border: 1px solid rgba(45, 156, 202, 0.2);
@@ -288,70 +298,129 @@
 
   <!-- LinkedIn & Presentation Banners - SECOND -->
   <h2 class="section-title">🖼️ LinkedIn & Presentatie Achtergronden</h2>
-  <p class="subtitle">Download de officiële achtergronden voor LinkedIn en presentaties</p>
+  <p class="subtitle">Download de officiële achtergronden in drie stijlen: Leeg, Gedecoreerd (met pijlen & cirkels), en Met tekst</p>
   
-  <div class="asset-grid">
+  <!-- LinkedIn Company Banners -->
+  <h3 style="color: #5fbcd3; margin: 2rem 0 1rem 0; font-size: 1.2rem;">LinkedIn Company Banner <span style="color: #94b8d6; font-weight: 400;">(1584 × 396 px)</span></h3>
+  <div class="asset-grid banner-grid-3" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
     
-    <!-- LinkedIn Company Banner -->
     <div class="asset-card">
       <div class="asset-header">
-        <h2 class="asset-title">LinkedIn Company Banner</h2>
-        <span class="asset-meta">1584 × 396 px</span>
+        <h2 class="asset-title">Leeg</h2>
+        <span class="asset-meta">Alleen gradient</span>
       </div>
-      <img 
-        src="linkedin-company-banner.svg" 
-        alt="LinkedIn Company Banner" 
-        class="asset-preview"
-      />
+      <img src="banners/linkedin-company-empty.svg" alt="LinkedIn Company Banner - Empty" class="asset-preview"/>
       <div class="btn-group">
-        <a href="linkedin-company-banner.svg" download class="btn btn-primary">
-          ⬇️ Download SVG
-        </a>
-        <button onclick="downloadAsPng('linkedin-company-banner.svg', 'bpc-linkedin-company-banner.png', 1584, 396)" class="btn btn-secondary">
-          📸 Download PNG
-        </button>
+        <a href="banners/linkedin-company-empty.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/linkedin-company-empty.svg', 'bpc-linkedin-company-empty.png', 1584, 396)" class="btn btn-secondary">PNG</button>
       </div>
     </div>
     
-    <!-- LinkedIn Personal Banner -->
     <div class="asset-card">
       <div class="asset-header">
-        <h2 class="asset-title">LinkedIn Personal Banner</h2>
-        <span class="asset-meta">1584 × 396 px</span>
+        <h2 class="asset-title">Gedecoreerd</h2>
+        <span class="asset-meta">Pijlen & cirkels</span>
       </div>
-      <img 
-        src="linkedin-personal-banner.svg" 
-        alt="LinkedIn Personal Banner" 
-        class="asset-preview"
-      />
+      <img src="banners/linkedin-company-decorated.svg" alt="LinkedIn Company Banner - Decorated" class="asset-preview"/>
       <div class="btn-group">
-        <a href="linkedin-personal-banner.svg" download class="btn btn-primary">
-          ⬇️ Download SVG
-        </a>
-        <button onclick="downloadAsPng('linkedin-personal-banner.svg', 'bpc-linkedin-personal-banner.png', 1584, 396)" class="btn btn-secondary">
-          📸 Download PNG
-        </button>
+        <a href="banners/linkedin-company-decorated.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/linkedin-company-decorated.svg', 'bpc-linkedin-company-decorated.png', 1584, 396)" class="btn btn-secondary">PNG</button>
       </div>
     </div>
     
-    <!-- Presentation Slide -->
     <div class="asset-card">
       <div class="asset-header">
-        <h2 class="asset-title">Presentatie Slide Achtergrond</h2>
-        <span class="asset-meta">1920 × 1080 px (16:9)</span>
+        <h2 class="asset-title">Met Tekst</h2>
+        <span class="asset-meta">AI die werkt.</span>
       </div>
-      <img 
-        src="presentation-slide-bg.svg" 
-        alt="Presentation Slide Background" 
-        class="asset-preview"
-      />
+      <img src="banners/linkedin-company-text.svg" alt="LinkedIn Company Banner - With Text" class="asset-preview"/>
       <div class="btn-group">
-        <a href="presentation-slide-bg.svg" download class="btn btn-primary">
-          ⬇️ Download SVG
-        </a>
-        <button onclick="downloadAsPng('presentation-slide-bg.svg', 'bpc-presentation-slide-bg.png', 1920, 1080)" class="btn btn-secondary">
-          📸 Download PNG
-        </button>
+        <a href="banners/linkedin-company-text.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/linkedin-company-text.svg', 'bpc-linkedin-company-text.png', 1584, 396)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+  </div>
+  
+  <!-- LinkedIn Personal Banners -->
+  <h3 style="color: #5fbcd3; margin: 2rem 0 1rem 0; font-size: 1.2rem;">LinkedIn Personal Banner <span style="color: #94b8d6; font-weight: 400;">(1584 × 396 px)</span></h3>
+  <div class="asset-grid banner-grid-3" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Leeg</h2>
+        <span class="asset-meta">Alleen gradient</span>
+      </div>
+      <img src="banners/linkedin-personal-empty.svg" alt="LinkedIn Personal Banner - Empty" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/linkedin-personal-empty.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/linkedin-personal-empty.svg', 'bpc-linkedin-personal-empty.png', 1584, 396)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Gedecoreerd</h2>
+        <span class="asset-meta">Pijlen & cirkels</span>
+      </div>
+      <img src="banners/linkedin-personal-decorated.svg" alt="LinkedIn Personal Banner - Decorated" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/linkedin-personal-decorated.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/linkedin-personal-decorated.svg', 'bpc-linkedin-personal-decorated.png', 1584, 396)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Met Tekst</h2>
+        <span class="asset-meta">AI die werkt.</span>
+      </div>
+      <img src="banners/linkedin-personal-text.svg" alt="LinkedIn Personal Banner - With Text" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/linkedin-personal-text.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/linkedin-personal-text.svg', 'bpc-linkedin-personal-text.png', 1584, 396)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+  </div>
+  
+  <!-- Presentation Slides -->
+  <h3 style="color: #5fbcd3; margin: 2rem 0 1rem 0; font-size: 1.2rem;">Presentatie Slide Achtergrond <span style="color: #94b8d6; font-weight: 400;">(1920 × 1080 px / 16:9)</span></h3>
+  <div class="asset-grid banner-grid-3" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Leeg</h2>
+        <span class="asset-meta">Alleen gradient</span>
+      </div>
+      <img src="banners/presentation-empty.svg" alt="Presentation - Empty" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/presentation-empty.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/presentation-empty.svg', 'bpc-presentation-empty.png', 1920, 1080)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Gedecoreerd</h2>
+        <span class="asset-meta">Pijlen & cirkels</span>
+      </div>
+      <img src="banners/presentation-decorated.svg" alt="Presentation - Decorated" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/presentation-decorated.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/presentation-decorated.svg', 'bpc-presentation-decorated.png', 1920, 1080)" class="btn btn-secondary">PNG</button>
+      </div>
+    </div>
+    
+    <div class="asset-card">
+      <div class="asset-header">
+        <h2 class="asset-title">Met Tekst</h2>
+        <span class="asset-meta">Titelslide</span>
+      </div>
+      <img src="banners/presentation-text.svg" alt="Presentation - With Text" class="asset-preview"/>
+      <div class="btn-group">
+        <a href="banners/presentation-text.svg" download class="btn btn-primary" style="flex: 1; justify-content: center;">⬇️ SVG</a>
+        <button onclick="downloadAsPng('banners/presentation-text.svg', 'bpc-presentation-text.png', 1920, 1080)" class="btn btn-secondary">PNG</button>
       </div>
     </div>
     

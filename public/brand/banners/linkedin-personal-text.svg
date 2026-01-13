@@ -1,0 +1,75 @@
+<svg width="1584" height="396" viewBox="0 0 1584 396" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Main gradient background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#152f4a"/>
+      <stop offset="50%" stop-color="#1a3a5c"/>
+      <stop offset="100%" stop-color="#152f4a"/>
+    </linearGradient>
+    
+    <!-- Teal orb gradient -->
+    <radialGradient id="tealOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2d9cca" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2d9cca" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Sky orb gradient -->
+    <radialGradient id="skyOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5fbcd3" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#5fbcd3" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Arrow gradients -->
+    <linearGradient id="arrowGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5fbcd3"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3e8"/>
+      <stop offset="100%" stop-color="#5fbcd3"/>
+    </linearGradient>
+    
+    <!-- Blur filter -->
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="35"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1584" height="396" fill="url(#bgGradient)"/>
+  
+  <!-- Teal orb - top right -->
+  <ellipse cx="1350" cy="-80" rx="450" ry="380" fill="url(#tealOrb)" filter="url(#blur)"/>
+  
+  <!-- Sky orb - bottom left -->
+  <ellipse cx="150" cy="480" rx="380" ry="320" fill="url(#skyOrb)" filter="url(#blur)"/>
+  
+  <!-- Floating Arrow 1 -->
+  <g transform="translate(1350, 70)" opacity="0.2">
+    <path d="M20 0L40 56L20 44L0 56L20 0Z" fill="url(#arrowGrad1)"/>
+  </g>
+  
+  <!-- Floating Arrow 2 -->
+  <g transform="translate(1260, 200)" opacity="0.25">
+    <path d="M12 0L24 34L12 26L0 34L12 0Z" fill="url(#arrowGrad2)"/>
+  </g>
+  
+  <!-- Geometric circles -->
+  <circle cx="1400" cy="200" r="100" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.15"/>
+  <circle cx="1400" cy="200" r="70" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.08"/>
+  
+  <!-- Text: AI die werkt. -->
+  <text x="120" y="175" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="56" font-weight="700" fill="white">
+    AI die werkt.
+  </text>
+  
+  <!-- Text: En alles eromheen. -->
+  <text x="120" y="245" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="42" font-weight="600" fill="#5fbcd3">
+    En alles eromheen.
+  </text>
+  
+  <!-- Text: bestpracticecompany.nl -->
+  <text x="120" y="310" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="20" font-weight="500" fill="white" fill-opacity="0.6">
+    bestpracticecompany.nl
+  </text>
+</svg>

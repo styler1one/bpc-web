@@ -1,0 +1,111 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Main gradient background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#152f4a"/>
+      <stop offset="50%" stop-color="#1a3a5c"/>
+      <stop offset="100%" stop-color="#152f4a"/>
+    </linearGradient>
+    
+    <!-- Teal orb gradient -->
+    <radialGradient id="tealOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2d9cca" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#2d9cca" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Sky orb gradient -->
+    <radialGradient id="skyOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5fbcd3" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#5fbcd3" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Light teal orb -->
+    <radialGradient id="lightTealOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7dd3e8" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7dd3e8" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Arrow gradients -->
+    <linearGradient id="arrowGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5fbcd3"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3e8"/>
+      <stop offset="100%" stop-color="#5fbcd3"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#5fbcd3"/>
+    </linearGradient>
+    
+    <!-- Blur filters -->
+    <filter id="blurLarge" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="80"/>
+    </filter>
+    
+    <filter id="blurMedium" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+  
+  <!-- Large teal orb - top right -->
+  <ellipse cx="1700" cy="-100" rx="700" ry="600" fill="url(#tealOrb)" filter="url(#blurLarge)"/>
+  
+  <!-- Sky orb - bottom left -->
+  <ellipse cx="100" cy="1150" rx="600" ry="500" fill="url(#skyOrb)" filter="url(#blurLarge)"/>
+  
+  <!-- Medium orb - center top -->
+  <ellipse cx="960" cy="-200" rx="400" ry="350" fill="url(#lightTealOrb)" filter="url(#blurMedium)"/>
+  
+  <!-- Small accent orb - right side -->
+  <ellipse cx="1600" cy="700" rx="300" ry="280" fill="url(#skyOrb)" filter="url(#blurMedium)"/>
+  
+  <!-- Floating Arrow 1 - large, top right -->
+  <g transform="translate(1650, 150)" opacity="0.2">
+    <path d="M40 0L80 112L40 88L0 112L40 0Z" fill="url(#arrowGrad1)"/>
+  </g>
+  
+  <!-- Floating Arrow 2 - medium, right side -->
+  <g transform="translate(1500, 350)" opacity="0.3">
+    <path d="M25 0L50 70L25 55L0 70L25 0Z" fill="url(#arrowGrad2)"/>
+  </g>
+  
+  <!-- Floating Arrow 3 - small, bottom right -->
+  <g transform="translate(1580, 650)" opacity="0.25">
+    <path d="M18 0L36 50L18 40L0 50L18 0Z" fill="#7dd3e8"/>
+  </g>
+  
+  <!-- Floating Arrow 4 - left side, rotated -->
+  <g transform="translate(180, 400) rotate(-15)" opacity="0.15">
+    <path d="M30 0L60 84L30 66L0 84L30 0Z" fill="url(#arrowGrad3)"/>
+  </g>
+  
+  <!-- Floating Arrow 5 - small left -->
+  <g transform="translate(250, 700)" opacity="0.12">
+    <path d="M15 0L30 42L15 33L0 42L15 0Z" fill="url(#arrowGrad2)"/>
+  </g>
+  
+  <!-- Floating Arrow 6 - top center -->
+  <g transform="translate(900, 80)" opacity="0.1">
+    <path d="M20 0L40 56L20 44L0 56L20 0Z" fill="url(#arrowGrad1)"/>
+  </g>
+  
+  <!-- Geometric circles - right side -->
+  <circle cx="1700" cy="540" r="200" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.2"/>
+  <circle cx="1700" cy="540" r="150" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  <circle cx="1700" cy="540" r="100" fill="none" stroke="#5fbcd3" stroke-width="1" stroke-opacity="0.08"/>
+  
+  <!-- Geometric circles - left side smaller -->
+  <circle cx="200" cy="300" r="80" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.15"/>
+  <circle cx="200" cy="300" r="55" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.08"/>
+  
+  <!-- Gradient lines -->
+  <line x1="1350" y1="0" x2="1350" y2="200" stroke="url(#arrowGrad2)" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="1200" y1="1080" x2="1200" y2="920" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  <line x1="400" y1="0" x2="400" y2="120" stroke="url(#arrowGrad1)" stroke-width="1" stroke-opacity="0.15"/>
+  <line x1="600" y1="1080" x2="600" y2="980" stroke="white" stroke-width="1" stroke-opacity="0.08"/>
+</svg>
