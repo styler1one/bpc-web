@@ -38,7 +38,7 @@
   <!-- Background -->
   <rect width="1584" height="396" fill="url(#bgGradient)"/>
   
-  <!-- Teal orb - shifted more to left for text space -->
+  <!-- Teal orb - shifted left for text space on right -->
   <ellipse cx="300" cy="-80" rx="400" ry="350" fill="url(#tealOrb)" filter="url(#blur)"/>
   
   <!-- Sky orb - bottom left -->
@@ -54,11 +54,11 @@
     <path d="M12 0L24 34L12 26L0 34L12 0Z" fill="url(#arrowGrad2)"/>
   </g>
   
-  <!-- Overlapping geometric circles - left side - OFFSET centers -->
-  <circle cx="230" cy="220" r="90" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.12"/>
-  <circle cx="170" cy="280" r="60" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.08"/>
+  <!-- 2 Overlapping circles - left side (visible around photo) -->
+  <circle cx="230" cy="200" r="100" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.12"/>
+  <circle cx="170" cy="270" r="70" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.08"/>
   
-  <!-- Text: AI die werkt. - RIGHT ALIGNED for LinkedIn personal (photo overlaps left) -->
+  <!-- Text: AI die werkt. - RIGHT ALIGNED (photo overlaps left) -->
   <text x="1464" y="160" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="56" font-weight="700" fill="white" letter-spacing="-0.02em" text-anchor="end">
     AI die werkt.
   </text>
