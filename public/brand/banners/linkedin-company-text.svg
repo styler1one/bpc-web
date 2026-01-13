@@ -28,42 +28,59 @@
       <stop offset="0%" stop-color="#7dd3e8"/>
       <stop offset="100%" stop-color="#5fbcd3"/>
     </linearGradient>
+    <linearGradient id="arrowGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#5fbcd3"/>
+    </linearGradient>
     
     <!-- Blur filter -->
     <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="35"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="40"/>
     </filter>
   </defs>
   
   <!-- Background -->
   <rect width="1584" height="396" fill="url(#bgGradient)"/>
   
-  <!-- Teal orb - shifted left for text space on right -->
-  <ellipse cx="300" cy="-80" rx="400" ry="350" fill="url(#tealOrb)" filter="url(#blur)"/>
+  <!-- Teal orb - top right -->
+  <ellipse cx="1400" cy="-50" rx="400" ry="350" fill="url(#tealOrb)" filter="url(#blur)"/>
   
   <!-- Sky orb - bottom left -->
-  <ellipse cx="100" cy="450" rx="350" ry="300" fill="url(#skyOrb)" filter="url(#blur)"/>
+  <ellipse cx="200" cy="450" rx="350" ry="300" fill="url(#skyOrb)" filter="url(#blur)"/>
   
-  <!-- Floating Arrow 1 - left side -->
-  <g transform="translate(150, 80) rotate(-10)" opacity="0.15">
-    <path d="M18 0L36 50L18 40L0 50L18 0Z" fill="url(#arrowGrad1)"/>
+  <!-- Floating Arrow 1 - large, top right -->
+  <g transform="translate(1350, 60)" opacity="0.2">
+    <path d="M25 0L50 70L25 55L0 70L25 0Z" fill="url(#arrowGrad1)"/>
   </g>
   
-  <!-- Floating Arrow 2 - bottom left -->
-  <g transform="translate(80, 280)" opacity="0.12">
-    <path d="M12 0L24 34L12 26L0 34L12 0Z" fill="url(#arrowGrad2)"/>
+  <!-- Floating Arrow 2 - medium, right side -->
+  <g transform="translate(1200, 150)" opacity="0.3">
+    <path d="M15 0L30 42L15 33L0 42L15 0Z" fill="url(#arrowGrad2)"/>
   </g>
   
-  <!-- 2 Overlapping circles - left side (visible around logo) -->
-  <circle cx="230" cy="200" r="100" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.12"/>
-  <circle cx="170" cy="260" r="70" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.08"/>
+  <!-- Floating Arrow 3 - small, bottom right -->
+  <g transform="translate(1280, 280)" opacity="0.25">
+    <path d="M12 0L24 34L12 26L0 34L12 0Z" fill="#7dd3e8"/>
+  </g>
   
-  <!-- Text: AI die werkt. - RIGHT ALIGNED (logo overlaps left) -->
+  <!-- Floating Arrow 4 - left side, rotated -->
+  <g transform="translate(120, 180) rotate(-15)" opacity="0.15">
+    <path d="M18 0L36 50L18 40L0 50L18 0Z" fill="url(#arrowGrad3)"/>
+  </g>
+  
+  <!-- 2 Overlapping circles - like website -->
+  <circle cx="1420" cy="170" r="130" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.2"/>
+  <circle cx="1350" cy="220" r="100" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  
+  <!-- Gradient lines -->
+  <line x1="1100" y1="0" x2="1100" y2="100" stroke="url(#arrowGrad2)" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="1000" y1="396" x2="1000" y2="320" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  
+  <!-- TEXT OVERLAY - Right aligned for LinkedIn -->
   <text x="1464" y="160" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="64" font-weight="700" fill="white" letter-spacing="-0.02em" text-anchor="end">
     AI die werkt.
   </text>
   
-  <!-- Text: En alles eromheen. - right aligned -->
   <text x="1464" y="240" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="48" font-weight="600" fill="#5fbcd3" letter-spacing="-0.01em" text-anchor="end">
     En alles eromheen.
   </text>

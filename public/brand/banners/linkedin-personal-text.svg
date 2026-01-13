@@ -19,6 +19,12 @@
       <stop offset="100%" stop-color="#5fbcd3" stop-opacity="0"/>
     </radialGradient>
     
+    <!-- Secondary teal orb -->
+    <radialGradient id="tealOrb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7dd3e8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#7dd3e8" stop-opacity="0"/>
+    </radialGradient>
+    
     <!-- Arrow gradients -->
     <linearGradient id="arrowGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#5fbcd3"/>
@@ -26,6 +32,10 @@
     </linearGradient>
     <linearGradient id="arrowGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#7dd3e8"/>
+      <stop offset="100%" stop-color="#5fbcd3"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
       <stop offset="100%" stop-color="#5fbcd3"/>
     </linearGradient>
     
@@ -38,37 +48,57 @@
   <!-- Background -->
   <rect width="1584" height="396" fill="url(#bgGradient)"/>
   
-  <!-- Teal orb - shifted left for text space on right -->
-  <ellipse cx="300" cy="-80" rx="400" ry="350" fill="url(#tealOrb)" filter="url(#blur)"/>
+  <!-- Teal orb - top right -->
+  <ellipse cx="1350" cy="-80" rx="450" ry="380" fill="url(#tealOrb)" filter="url(#blur)"/>
   
   <!-- Sky orb - bottom left -->
-  <ellipse cx="100" cy="450" rx="350" ry="300" fill="url(#skyOrb)" filter="url(#blur)"/>
+  <ellipse cx="150" cy="480" rx="380" ry="320" fill="url(#skyOrb)" filter="url(#blur)"/>
   
-  <!-- Floating Arrow 1 - left side -->
-  <g transform="translate(150, 80) rotate(-10)" opacity="0.15">
-    <path d="M18 0L36 50L18 40L0 50L18 0Z" fill="url(#arrowGrad1)"/>
+  <!-- Small accent orb - center right -->
+  <ellipse cx="1100" cy="350" rx="200" ry="180" fill="url(#tealOrb2)" filter="url(#blur)"/>
+  
+  <!-- Floating Arrow 1 - large, top right -->
+  <g transform="translate(1320, 50)" opacity="0.2">
+    <path d="M25 0L50 70L25 55L0 70L25 0Z" fill="url(#arrowGrad1)"/>
   </g>
   
-  <!-- Floating Arrow 2 - bottom left -->
-  <g transform="translate(80, 280)" opacity="0.12">
-    <path d="M12 0L24 34L12 26L0 34L12 0Z" fill="url(#arrowGrad2)"/>
+  <!-- Floating Arrow 2 - medium -->
+  <g transform="translate(1180, 140)" opacity="0.3">
+    <path d="M15 0L30 42L15 33L0 42L15 0Z" fill="url(#arrowGrad2)"/>
   </g>
   
-  <!-- 2 Overlapping circles - left side (visible around photo) -->
-  <circle cx="230" cy="200" r="100" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.12"/>
-  <circle cx="170" cy="270" r="70" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.08"/>
+  <!-- Floating Arrow 3 - small -->
+  <g transform="translate(1250, 270)" opacity="0.25">
+    <path d="M12 0L24 34L12 26L0 34L12 0Z" fill="#7dd3e8"/>
+  </g>
   
-  <!-- Text: AI die werkt. - RIGHT ALIGNED (photo overlaps left) -->
+  <!-- Floating Arrow 4 - left side, rotated -->
+  <g transform="translate(100, 160) rotate(-15)" opacity="0.15">
+    <path d="M18 0L36 50L18 40L0 50L18 0Z" fill="url(#arrowGrad3)"/>
+  </g>
+  
+  <!-- Floating Arrow 5 - top center -->
+  <g transform="translate(700, 30)" opacity="0.12">
+    <path d="M10 0L20 28L10 22L0 28L10 0Z" fill="url(#arrowGrad2)"/>
+  </g>
+  
+  <!-- 2 Overlapping circles - like website -->
+  <circle cx="1420" cy="160" r="140" fill="none" stroke="#2d9cca" stroke-width="1" stroke-opacity="0.2"/>
+  <circle cx="1340" cy="230" r="105" fill="none" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  
+  <!-- Gradient lines -->
+  <line x1="1050" y1="0" x2="1050" y2="110" stroke="url(#arrowGrad2)" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="950" y1="396" x2="950" y2="310" stroke="white" stroke-width="1" stroke-opacity="0.1"/>
+  
+  <!-- TEXT OVERLAY - Right aligned for LinkedIn (photo overlaps left) -->
   <text x="1464" y="160" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="56" font-weight="700" fill="white" letter-spacing="-0.02em" text-anchor="end">
     AI die werkt.
   </text>
   
-  <!-- Text: En alles eromheen. - right aligned -->
   <text x="1464" y="230" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="40" font-weight="600" fill="#5fbcd3" letter-spacing="-0.01em" text-anchor="end">
     En alles eromheen.
   </text>
   
-  <!-- Text: bestpracticecompany.nl - right aligned -->
   <text x="1464" y="290" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="500" fill="white" fill-opacity="0.5" text-anchor="end">
     bestpracticecompany.nl
   </text>
