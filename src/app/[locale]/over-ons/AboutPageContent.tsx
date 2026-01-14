@@ -356,6 +356,7 @@ export function AboutPageContent() {
           FOUNDERS SECTION - Blue Gradient Background
           ========================================================================= */}
       <section 
+        id="founders"
         className="relative py-20 lg:py-28 overflow-hidden"
         aria-labelledby="founders-title"
         style={{

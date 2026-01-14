@@ -500,7 +500,7 @@ export function CareersPageContent() {
                 <span className="block text-white/70 text-sm">{t('team_quote.role')} • {t('team_quote.context')}</span>
               </cite>
               <Link
-                href="/over-ons"
+                href="/over-ons#founders"
                 className="inline-flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium transition-colors"
               >
                 {t('team_quote.meet_team')}
@@ -601,7 +601,7 @@ export function CareersPageContent() {
             {/* Secondary options */}
             <div className="mt-6 flex flex-wrap justify-center gap-4">
               <Link
-                href="/over-ons"
+                href="/over-ons#founders"
                 className="inline-flex items-center gap-2 text-bpc-teal hover:text-bpc-teal-600 font-medium"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
