@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/diensten/contracting',
     '/aanpak',
     '/over-ons',
+    '/werken-bij',
     '/contact',
   ];
 
