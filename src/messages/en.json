@@ -11,6 +11,7 @@
     "about": "About us",
     "approach": "Approach",
     "contact": "Contact",
+    "careers": "Careers",
     "cta": "Let's talk",
     "skip_to_content": "Skip to content"
   },
@@ -1300,6 +1301,7 @@
     "services_title": "Services",
     "company_title": "Company",
     "about": "About us",
+    "careers": "Careers",
     "contact": "Contact",
     "privacy": "Privacy",
     "terms": "Terms",
@@ -1337,5 +1339,212 @@
     "phone_number": "+31 85 000 0000",
     "email_address": "info@bestpractice.company",
     "phone_number_note": "Enter the real phone number here"
+  },
+  "careers_page": {
+    "title": "Work at Best Practice Company",
+    "meta_description": "Help build transformation that works. Senior positions for people who prefer building over presenting.",
+
+    "hero": {
+      "section_label": "Careers at BPC",
+      "title": "Help build transformation that works",
+      "subtitle": "With AI and technology as accelerators.",
+      "intro": "You've seen it before. Months of work. Beautiful presentations. And then... nothing. It stalls in the organization. Decisions get delayed. People disengage. The project gets 'parked'.",
+      "promise": "At Best Practice Company, we build until it works. Not until the deadline. Not until the budget runs out. Until it works."
+    },
+
+    "how_we_work": {
+      "section_label": "How we work",
+      "title": "No promises, just results",
+      "intro": "We work on transformation that needs to land in operations. AI and technology are means, not ends in themselves.",
+      "points": [
+        {
+          "title": "Small, senior teams",
+          "description": "No layers, no overhead. Direct access to the people doing the work."
+        },
+        {
+          "title": "To production and beyond",
+          "description": "We don't build pilots that disappear in a drawer. We build solutions that people actually use."
+        },
+        {
+          "title": "Within existing IT landscapes",
+          "description": "SAP, ServiceNow, Microsoft Dynamics – we know enterprise IT. We work with what's there, not against it."
+        },
+        {
+          "title": "Lasting involvement",
+          "description": "After go-live is when it really starts. We stay involved until adoption works and results are demonstrable."
+        }
+      ],
+      "reality_check": {
+        "title": "Honest about what's possible",
+        "text": "We don't promise revolutions. What we do promise: moving fast, adjusting where needed, and pragmatically dealing with changing technology and circumstances."
+      }
+    },
+
+    "who_fits": {
+      "section_label": "Who fits with us",
+      "title": "Does this sound like you?",
+      "intro": "We're looking for people who want to make an impact. Not in two years, but next month.",
+      "positive": {
+        "title": "You fit with us if:",
+        "points": [
+          "You have multiple years of experience in complex organizations",
+          "You understand both processes and technology – and the tension between them",
+          "You feel responsible for the result, not just your task",
+          "You can engage with both executives and the shop floor",
+          "You prefer clarity over politics"
+        ]
+      },
+      "negative": {
+        "title": "You don't fit with us if:",
+        "points": [
+          "You seek structure and predictability above all else",
+          "You want to advise without responsibility for execution",
+          "You're focused on your own career path, not the team result",
+          "You mainly have theoretical knowledge without practical experience"
+        ]
+      },
+      "closing": "We're looking for people who prefer building over presenting. And solving over explaining."
+    },
+
+    "vacancies": {
+      "section_label": "Open positions",
+      "title": "Where we're hiring",
+      "intro": "These roles support our story of transformation and execution. Not growing for the sake of growing, but because clients are asking us for more capacity.",
+      "apply_cta": "Interested? Get in touch",
+      "roles": [
+        {
+          "id": "ai-delivery-lead",
+          "title": "AI Delivery Lead",
+          "type": "Senior",
+          "why_visible": "This is proof that we build to production and beyond.",
+          "description": "As AI Delivery Lead, you're responsible for delivering AI solutions that actually go into production and get used. You oversee the whole, provide substantive direction, and contribute hands-on where needed.",
+          "responsibilities": [
+            "Lead AI Delivery Sprints from decision to production",
+            "Oversee architecture, integration and governance",
+            "Work with business, IT and compliance",
+            "Adjust course when circumstances change",
+            "Stay involved after go-live"
+          ],
+          "requirements": [
+            "Experience with AI solutions in production",
+            "Understanding of enterprise IT landscapes",
+            "Pragmatic mindset",
+            "Calm and overview under pressure"
+          ],
+          "why_bpc": "You don't build something 'for later'. You make it work. Now."
+        },
+        {
+          "id": "transformation-manager",
+          "title": "Transformation Manager",
+          "type": "Senior",
+          "why_visible": "Change that stays stuck in plans isn't change.",
+          "description": "As Transformation Manager, you ensure changes don't stay stuck in plans but actually get executed. You connect strategy, operations and technology.",
+          "responsibilities": [
+            "Lead complex change initiatives",
+            "Connect stakeholders at all levels",
+            "Keep progress, decision-making and ownership sharp",
+            "Work closely with AI Delivery and client teams",
+            "Ensure changes land in the organization"
+          ],
+          "requirements": [
+            "Experience with organizational change in complex environments",
+            "Comfortable with ambiguity",
+            "Clear, calm and decisive",
+            "No need for political games"
+          ],
+          "why_bpc": "Technology only creates value when people move with it."
+        },
+        {
+          "id": "senior-ai-consultant",
+          "title": "Senior AI Consultant",
+          "type": "Senior",
+          "why_visible": "The bridge between business need and technical solution.",
+          "description": "You work on AI solutions that directly connect to client processes and systems. No experiments for the sake of experimenting, but solutions that get used.",
+          "responsibilities": [
+            "Design and build AI solutions",
+            "Integrate into existing systems",
+            "Think along about use cases and feasibility",
+            "Collaborate with delivery and transformation teams"
+          ],
+          "requirements": [
+            "Strong technical foundation in AI/ML",
+            "Interest in business context",
+            "Realistic view of AI – no hype",
+            "Solution-oriented and pragmatic"
+          ],
+          "why_bpc": "What you build gets used. Not presented and forgotten."
+        },
+        {
+          "id": "operational-excellence",
+          "title": "Operational Excellence Specialist",
+          "type": "Senior",
+          "why_visible": "AI only works if the process underneath is right.",
+          "description": "You help organizations improve their processes and prepare them for smart technology. You look at how work flows first, then at tooling.",
+          "responsibilities": [
+            "Analysis of core processes",
+            "Identify improvement opportunities",
+            "Collaborate with AI teams",
+            "Ensure adoption"
+          ],
+          "requirements": [
+            "Experience in operations, finance, supply chain, HR or manufacturing",
+            "Analytical and pragmatic",
+            "Focus on improvement, not on reports",
+            "Hands-on mentality"
+          ],
+          "why_bpc": "You prepare organizations for AI that works."
+        }
+      ]
+    },
+
+    "what_we_offer": {
+      "section_label": "What you'll find here",
+      "title": "No hype, just this",
+      "items": [
+        {
+          "title": "Work that matters",
+          "description": "You see results of what you build within weeks. Not quarters."
+        },
+        {
+          "title": "Senior colleagues",
+          "description": "No juniors asking you questions. Colleagues who think along and take responsibility themselves."
+        },
+        {
+          "title": "Autonomy and responsibility",
+          "description": "No micromanagement. Clear expectations and room to decide how you get there."
+        },
+        {
+          "title": "No bureaucracy",
+          "description": "Short lines. Fast decisions. No politics."
+        },
+        {
+          "title": "Honesty",
+          "description": "We say what we mean. If something isn't possible, we say so. If something can be better, we say that too."
+        },
+        {
+          "title": "Room to help build",
+          "description": "BPC is growing. You can help shape how. Not as a favor, but because we need it."
+        }
+      ]
+    },
+
+    "team_quote": {
+      "quote": "I worked at large consultancies for 15 years. The difference here? What I build gets used. Not presented and forgotten.",
+      "author": "Senior consultant",
+      "context": "On the transition to BPC"
+    },
+
+    "for_clients": {
+      "title": "For our clients",
+      "text": "The people you see here might be working on your challenge tomorrow. Our team has experience with AI adoption in finance, transformation programs at enterprise organizations, and process optimization in complex environments."
+    },
+
+    "cta": {
+      "title": "Think this might be for you?",
+      "description": "Send an email to Ramon. No form, no application process. Just a conversation to see if there's a match.",
+      "button": "Email Ramon",
+      "email": "ramon@bestpractice.company",
+      "alternative": "Or just call us. We prefer getting to know each other in conversation rather than through documents."
+    }
   }
 }

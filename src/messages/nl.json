@@ -11,6 +11,7 @@
     "about": "Over ons",
     "approach": "Aanpak",
     "contact": "Contact",
+    "careers": "Werken bij",
     "cta": "Let's talk",
     "skip_to_content": "Ga naar inhoud"
   },
@@ -1300,6 +1301,7 @@
     "services_title": "Diensten",
     "company_title": "Bedrijf",
     "about": "Over ons",
+    "careers": "Werken bij",
     "contact": "Contact",
     "privacy": "Privacy",
     "terms": "Voorwaarden",
@@ -1337,5 +1339,212 @@
     "phone_number": "+31 85 000 0000",
     "email_address": "info@bestpractice.company",
     "phone_number_note": "Vul hier het echte telefoonnummer in"
+  },
+  "careers_page": {
+    "title": "Werken bij Best Practice Company",
+    "meta_description": "Bouw mee aan transformatie die werkt. Senior posities voor mensen die liever bouwen dan presenteren.",
+
+    "hero": {
+      "section_label": "Werken bij BPC",
+      "title": "Bouw mee aan transformatie die werkt",
+      "subtitle": "Met AI en technologie als versnellers.",
+      "intro": "Je hebt het vaker meegemaakt. Maanden werk. Mooie presentaties. En dan... niets. Het blijft hangen in de organisatie. Besluitvorming stokt. Mensen haken af. Het project wordt 'geparkeerd'.",
+      "promise": "Bij Best Practice Company bouwen we tot het werkt. Niet tot de deadline. Niet tot het budget op is. Tot het werkt."
+    },
+
+    "how_we_work": {
+      "section_label": "Hoe wij werken",
+      "title": "Geen beloftes, wel resultaat",
+      "intro": "Wij werken aan transformatie die moet landen in de operatie. AI en technologie zijn middelen, geen doel op zich.",
+      "points": [
+        {
+          "title": "Kleine, senior teams",
+          "description": "Geen lagen, geen overhead. Directe toegang tot de mensen die het werk doen."
+        },
+        {
+          "title": "Tot productie en verder",
+          "description": "Wij bouwen geen pilots die in een la verdwijnen. Wij bouwen oplossingen die mensen gebruiken."
+        },
+        {
+          "title": "Binnen bestaande IT-landschappen",
+          "description": "SAP, ServiceNow, Microsoft Dynamics – wij kennen enterprise IT. We werken met wat er is, niet ertegenin."
+        },
+        {
+          "title": "Blijvend betrokken",
+          "description": "Na livegang begint het pas. Wij blijven betrokken tot de adoptie werkt en het resultaat aantoonbaar is."
+        }
+      ],
+      "reality_check": {
+        "title": "Eerlijk over wat kan",
+        "text": "Wij beloven geen revoluties. Wel: snel schakelen, bijsturen waar nodig, en pragmatisch omgaan met veranderende technologie en omstandigheden."
+      }
+    },
+
+    "who_fits": {
+      "section_label": "Wie past bij ons",
+      "title": "Herken je dit?",
+      "intro": "Wij zoeken mensen die impact willen maken. Niet over twee jaar, maar volgende maand.",
+      "positive": {
+        "title": "Je past bij ons als:",
+        "points": [
+          "Je hebt meerdere jaren ervaring in complexe organisaties",
+          "Je begrijpt processen én technologie – en de spanning daartussen",
+          "Je voelt je verantwoordelijk voor het resultaat, niet alleen je taak",
+          "Je kunt schakelen met directie én werkvloer",
+          "Je houdt van duidelijkheid, niet van politiek"
+        ]
+      },
+      "negative": {
+        "title": "Je past niet bij ons als:",
+        "points": [
+          "Je zoekt structuur en voorspelbaarheid boven alles",
+          "Je wilt adviseren zonder verantwoordelijkheid voor de uitvoering",
+          "Je bent gericht op je eigen carrièrepad, niet op het teamresultaat",
+          "Je hebt vooral theoretische kennis zonder praktijkervaring"
+        ]
+      },
+      "closing": "Wij zoeken mensen die liever bouwen dan presenteren. En liever oplossen dan verklaren."
+    },
+
+    "vacancies": {
+      "section_label": "Open posities",
+      "title": "Waar we mensen zoeken",
+      "intro": "Deze rollen ondersteunen ons verhaal van transformatie en executie. Niet om te groeien om het groeien, maar omdat klanten ons vragen om meer capaciteit.",
+      "apply_cta": "Interesse? Neem contact op",
+      "roles": [
+        {
+          "id": "ai-delivery-lead",
+          "title": "AI Delivery Lead",
+          "type": "Senior",
+          "why_visible": "Dit is hét bewijs dat we bouwen tot productie en verder.",
+          "description": "Als AI Delivery Lead ben je verantwoordelijk voor het realiseren van AI-oplossingen die daadwerkelijk in productie gaan en gebruikt worden. Je overziet het geheel, stuurt inhoudelijk bij en werkt zelf mee waar nodig.",
+          "responsibilities": [
+            "Leidt AI Delivery Sprints van besluit tot productie",
+            "Overziet architectuur, integratie en governance",
+            "Werkt samen met business, IT en compliance",
+            "Stuurt bij als omstandigheden veranderen",
+            "Blijft betrokken na livegang"
+          ],
+          "requirements": [
+            "Ervaring met AI-oplossingen in productie",
+            "Begrip van enterprise IT-landschappen",
+            "Pragmatische instelling",
+            "Rust en overzicht onder druk"
+          ],
+          "why_bpc": "Je bouwt niet iets 'voor later'. Je maakt het werkend. Nu."
+        },
+        {
+          "id": "transformation-manager",
+          "title": "Transformatie Manager",
+          "type": "Senior",
+          "why_visible": "Verandering die blijft hangen in plannen is geen verandering.",
+          "description": "Als Transformatie Manager zorg je dat veranderingen niet blijven hangen in plannen, maar daadwerkelijk worden uitgevoerd. Je verbindt strategie, operatie en technologie.",
+          "responsibilities": [
+            "Stuurt complexe verandertrajecten aan",
+            "Verbindt stakeholders op alle niveaus",
+            "Houdt voortgang, besluitvorming en eigenaarschap scherp",
+            "Werkt nauw samen met AI Delivery en klantteams",
+            "Zorgt dat veranderingen landen in de organisatie"
+          ],
+          "requirements": [
+            "Ervaring met organisatieverandering in complexe omgevingen",
+            "Comfortabel met ambiguïteit",
+            "Duidelijk, rustig en besluitvaardig",
+            "Geen behoefte aan politiek spel"
+          ],
+          "why_bpc": "Technologie heeft pas waarde als mensen meebewegen."
+        },
+        {
+          "id": "senior-ai-consultant",
+          "title": "Senior AI Consultant",
+          "type": "Senior",
+          "why_visible": "De brug tussen businessvraag en technische oplossing.",
+          "description": "Je werkt aan AI-oplossingen die direct aansluiten op processen en systemen van klanten. Geen experimenten om het experiment, maar oplossingen die gebruikt worden.",
+          "responsibilities": [
+            "Ontwerpen en bouwen van AI-oplossingen",
+            "Integreren in bestaande systemen",
+            "Meedenken over use cases en haalbaarheid",
+            "Samenwerken met delivery en transformatie teams"
+          ],
+          "requirements": [
+            "Sterke technische basis in AI/ML",
+            "Interesse in businesscontext",
+            "Nuchtere kijk op AI – geen hype",
+            "Oplossingsgericht en pragmatisch"
+          ],
+          "why_bpc": "Wat je bouwt, wordt gebruikt. Niet gepresenteerd en vergeten."
+        },
+        {
+          "id": "operational-excellence",
+          "title": "Operational Excellence Specialist",
+          "type": "Senior",
+          "why_visible": "AI werkt alleen als het proces eronder klopt.",
+          "description": "Je helpt organisaties hun processen te verbeteren en klaar te maken voor slimme technologie. Je kijkt eerst naar hoe het werk loopt, daarna pas naar tooling.",
+          "responsibilities": [
+            "Analyse van kernprocessen",
+            "Identificeren van verbeterkansen",
+            "Samenwerken met AI-teams",
+            "Borgen van adoptie"
+          ],
+          "requirements": [
+            "Ervaring in operations, finance, supply chain, HR of manufacturing",
+            "Analytisch én pragmatisch",
+            "Focus op verbetering, niet op rapporten",
+            "Hands-on mentaliteit"
+          ],
+          "why_bpc": "Je maakt organisaties klaar voor AI die werkt."
+        }
+      ]
+    },
+
+    "what_we_offer": {
+      "section_label": "Wat je bij ons vindt",
+      "title": "Geen hype, wel dit",
+      "items": [
+        {
+          "title": "Werk dat ertoe doet",
+          "description": "Je ziet binnen weken resultaat van wat je bouwt. Niet binnen kwartalen."
+        },
+        {
+          "title": "Senior collega's",
+          "description": "Geen juniors die jou vragen stellen. Collega's die meedenken en zelf verantwoordelijkheid nemen."
+        },
+        {
+          "title": "Autonomie en verantwoordelijkheid",
+          "description": "Geen micromanagement. Wel heldere verwachtingen en ruimte om zelf te bepalen hoe je daar komt."
+        },
+        {
+          "title": "Geen bureaucratie",
+          "description": "Korte lijnen. Snelle beslissingen. Geen politiek."
+        },
+        {
+          "title": "Eerlijkheid",
+          "description": "We zeggen wat we bedoelen. Als iets niet kan, zeggen we dat. Als iets beter kan, ook."
+        },
+        {
+          "title": "Ruimte om mee te bouwen",
+          "description": "BPC groeit. Jij kunt meedenken over hoe. Niet als gunst, maar omdat we het nodig hebben."
+        }
+      ]
+    },
+
+    "team_quote": {
+      "quote": "Ik heb 15 jaar bij grote consultancies gewerkt. Het verschil hier? Wat ik bouw, wordt gebruikt. Niet gepresenteerd en vergeten.",
+      "author": "Senior consultant",
+      "context": "Over de overgang naar BPC"
+    },
+
+    "for_clients": {
+      "title": "Voor onze klanten",
+      "text": "De mensen die je hier ziet, werken morgen mogelijk aan jouw vraagstuk. Ons team heeft ervaring met AI-adoptie in finance, transformatieprogramma's bij enterprise organisaties, en procesoptimalisatie in complexe omgevingen."
+    },
+
+    "cta": {
+      "title": "Denk je dat dit bij je past?",
+      "description": "Stuur een mail naar Ramon. Geen formulier, geen sollicitatieprocedure. Gewoon een gesprek om te kijken of er een match is.",
+      "button": "Mail Ramon",
+      "email": "ramon@bestpractice.company",
+      "alternative": "Of bel ons gewoon even. We maken liever kennis in gesprek dan via documenten."
+    }
   }
 }

@@ -159,6 +159,14 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  href="/werken-bij"
+                  className="text-gray-400 hover:text-bpc-teal-400 transition-colors"
+                >
+                  {t('careers')}
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/contact"
                   className="text-gray-400 hover:text-bpc-teal-400 transition-colors"
                 >
