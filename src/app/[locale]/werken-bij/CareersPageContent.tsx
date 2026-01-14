@@ -23,6 +23,7 @@ interface VacancyRole {
   id: string;
   title: string;
   type: string;
+  location: string;
   why_visible: string;
   description: string;
   responsibilities: string[];
@@ -87,9 +88,16 @@ function VacancyCard({ role, isExpanded, onToggle }: { role: VacancyRole; isExpa
         aria-expanded={isExpanded}
       >
         <div className="flex-1">
-          <div className="flex items-center gap-3 mb-2">
+          <div className="flex flex-wrap items-center gap-2 mb-2">
             <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-bpc-teal/10 text-bpc-teal-700">
               {role.type}
+            </span>
+            <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-600">
+              <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              {role.location}
             </span>
           </div>
           <h3 className="text-xl font-display font-bold text-bpc-navy-900 mb-1">
@@ -410,6 +418,25 @@ export function CareersPageContent() {
                 />
               ))}
             </div>
+
+            {/* Open Application */}
+            <div className="mt-8 p-6 rounded-2xl border-2 border-dashed border-gray-300 bg-gray-50/50 text-center">
+              <h3 className="text-lg font-display font-bold text-bpc-navy-900 mb-2">
+                {t('open_application.title')}
+              </h3>
+              <p className="text-bpc-navy-600 mb-4 max-w-lg mx-auto">
+                {t('open_application.description')}
+              </p>
+              <a
+                href={`mailto:${t('cta.email')}?subject=Open%20sollicitatie`}
+                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl border-2 border-bpc-teal text-bpc-teal font-semibold hover:bg-bpc-teal hover:text-white transition-all"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                </svg>
+                {t('open_application.button')}
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -467,11 +494,20 @@ export function CareersPageContent() {
             <blockquote className="text-2xl md:text-3xl font-display font-medium text-white mb-6 leading-relaxed">
               {t('team_quote.quote')}
             </blockquote>
-            <footer>
+            <footer className="space-y-3">
               <cite className="not-italic">
                 <span className="block text-white font-semibold">{t('team_quote.author')}</span>
-                <span className="block text-white/70 text-sm">{t('team_quote.context')}</span>
+                <span className="block text-white/70 text-sm">{t('team_quote.role')} • {t('team_quote.context')}</span>
               </cite>
+              <Link
+                href="/over-ons"
+                className="inline-flex items-center gap-2 text-white/80 hover:text-white text-sm font-medium transition-colors"
+              >
+                {t('team_quote.meet_team')}
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
             </footer>
           </div>
         </div>
@@ -480,16 +516,34 @@ export function CareersPageContent() {
       {/* =========================================================================
           FOR CLIENTS NOTE - Connection to client perspective
           ========================================================================= */}
-      <section className="py-12 lg:py-16" aria-label="Note for clients">
+      <section className="py-12 lg:py-16" aria-labelledby="for-clients-title">
         <div className="container-content">
           <div className="max-w-3xl mx-auto">
-            <div className="p-6 lg:p-8 rounded-2xl bg-bpc-navy-900 text-white text-center">
-              <h3 className="text-xl font-display font-bold mb-3">
-                {t('for_clients.title')}
-              </h3>
-              <p className="text-gray-300">
-                {t('for_clients.text')}
-              </p>
+            <div className="p-8 lg:p-10 rounded-2xl bg-gradient-to-br from-bpc-navy-900 to-bpc-navy-800 text-white">
+              <div className="flex flex-col md:flex-row md:items-center gap-6">
+                <div className="flex-1">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-white/80 text-xs font-medium mb-3">
+                    {t('for_clients.section_label')}
+                  </div>
+                  <h3 id="for-clients-title" className="text-xl font-display font-bold mb-3">
+                    {t('for_clients.title')}
+                  </h3>
+                  <p className="text-gray-300">
+                    {t('for_clients.text')}
+                  </p>
+                </div>
+                <div className="flex-shrink-0">
+                  <Link
+                    href="/diensten"
+                    className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-bpc-navy-900 font-semibold hover:bg-gray-100 transition-colors"
+                  >
+                    {t('for_clients.cta')}
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -507,6 +561,8 @@ export function CareersPageContent() {
             <p className="text-lg text-bpc-navy-600 mb-8">
               {t('cta.description')}
             </p>
+            
+            {/* Primary CTA - Email */}
             <a
               href={`mailto:${t('cta.email')}`}
               className="btn-primary text-lg px-10 py-4 inline-flex items-center gap-2 group"
@@ -522,14 +578,44 @@ export function CareersPageContent() {
               </svg>
               <span>{t('cta.button')}</span>
             </a>
+
+            {/* LinkedIn alternative */}
+            <div className="mt-4">
+              <a
+                href={t('cta.linkedin')}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-bpc-navy-600 hover:text-bpc-teal transition-colors"
+              >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                <span className="font-medium">{t('cta.linkedin_text')}</span>
+              </a>
+            </div>
+            
             <p className="mt-6 text-bpc-navy-500">
               {t('cta.alternative')}
             </p>
-            <div className="mt-4">
+
+            {/* Secondary options */}
+            <div className="mt-6 flex flex-wrap justify-center gap-4">
+              <Link
+                href="/over-ons"
+                className="inline-flex items-center gap-2 text-bpc-teal hover:text-bpc-teal-600 font-medium"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+                {t('cta.meet_team')}
+              </Link>
               <Link
                 href="/contact"
-                className="text-bpc-teal hover:text-bpc-teal-600 font-medium underline underline-offset-2"
+                className="inline-flex items-center gap-2 text-bpc-navy-600 hover:text-bpc-navy-800 font-medium"
               >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
                 Contact
               </Link>
             </div>

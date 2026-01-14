@@ -55,6 +55,7 @@ export function Header() {
     { href: '/diensten', label: t('services'), id: 'services' },
     { href: '/aanpak', label: t('approach'), id: 'approach' },
     { href: '/over-ons', label: t('about'), id: 'about' },
+    { href: '/werken-bij', label: t('careers'), id: 'careers' },
     { href: '/contact', label: t('contact'), id: 'contact' },
   ];
 

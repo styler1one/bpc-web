@@ -1411,11 +1411,13 @@
       "title": "Where we're hiring",
       "intro": "These roles support our story of transformation and execution. Not growing for the sake of growing, but because clients are asking us for more capacity.",
       "apply_cta": "Interested? Get in touch",
+      "location_label": "Netherlands • Hybrid",
       "roles": [
         {
           "id": "ai-delivery-lead",
           "title": "AI Delivery Lead",
           "type": "Senior",
+          "location": "Netherlands • Hybrid",
           "why_visible": "This is proof that we build to production and beyond.",
           "description": "As AI Delivery Lead, you're responsible for delivering AI solutions that actually go into production and get used. You oversee the whole, provide substantive direction, and contribute hands-on where needed.",
           "responsibilities": [
@@ -1437,6 +1439,7 @@
           "id": "transformation-manager",
           "title": "Transformation Manager",
           "type": "Senior",
+          "location": "Netherlands • Hybrid",
           "why_visible": "Change that stays stuck in plans isn't change.",
           "description": "As Transformation Manager, you ensure changes don't stay stuck in plans but actually get executed. You connect strategy, operations and technology.",
           "responsibilities": [
@@ -1458,6 +1461,7 @@
           "id": "senior-ai-consultant",
           "title": "Senior AI Consultant",
           "type": "Senior",
+          "location": "Netherlands • Hybrid",
           "why_visible": "The bridge between business need and technical solution.",
           "description": "You work on AI solutions that directly connect to client processes and systems. No experiments for the sake of experimenting, but solutions that get used.",
           "responsibilities": [
@@ -1478,6 +1482,7 @@
           "id": "operational-excellence",
           "title": "Operational Excellence Specialist",
           "type": "Senior",
+          "location": "Netherlands • Hybrid",
           "why_visible": "AI only works if the process underneath is right.",
           "description": "You help organizations improve their processes and prepare them for smart technology. You look at how work flows first, then at tooling.",
           "responsibilities": [
@@ -1530,21 +1535,34 @@
 
     "team_quote": {
       "quote": "I worked at large consultancies for 15 years. The difference here? What I build gets used. Not presented and forgotten.",
-      "author": "Senior consultant",
-      "context": "On the transition to BPC"
+      "author": "Henk Westdorp",
+      "role": "Founder",
+      "context": "On the transition to BPC",
+      "meet_team": "Meet the team"
     },
 
     "for_clients": {
-      "title": "For our clients",
-      "text": "The people you see here might be working on your challenge tomorrow. Our team has experience with AI adoption in finance, transformation programs at enterprise organizations, and process optimization in complex environments."
+      "section_label": "For clients",
+      "title": "Curious who you'll be working with?",
+      "text": "The people you see here might be working on your challenge tomorrow. Our team has experience with AI adoption in finance, transformation programs at enterprise organizations, and process optimization in complex environments.",
+      "cta": "View our services"
+    },
+
+    "open_application": {
+      "title": "Don't see your role?",
+      "description": "We're always looking for senior talent that fits our way of working. Send an open application and tell us what drives you.",
+      "button": "Open application"
     },
 
     "cta": {
       "title": "Think this might be for you?",
-      "description": "Send an email to Ramon. No form, no application process. Just a conversation to see if there's a match.",
+      "description": "Get in touch with Ramon Spaan, founder of BPC. No forms, no application process. Just a conversation to see if there's a match.",
       "button": "Email Ramon",
       "email": "ramon@bestpractice.company",
-      "alternative": "Or just call us. We prefer getting to know each other in conversation rather than through documents."
+      "linkedin": "https://www.linkedin.com/in/ramonspaan/",
+      "linkedin_text": "Or find Ramon on LinkedIn",
+      "alternative": "Prefer to call? That works too. We prefer getting to know each other in conversation rather than through documents.",
+      "meet_team": "Meet the team first"
     }
   }
 }

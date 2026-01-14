@@ -1411,11 +1411,13 @@
       "title": "Waar we mensen zoeken",
       "intro": "Deze rollen ondersteunen ons verhaal van transformatie en executie. Niet om te groeien om het groeien, maar omdat klanten ons vragen om meer capaciteit.",
       "apply_cta": "Interesse? Neem contact op",
+      "location_label": "Nederland • Hybride",
       "roles": [
         {
           "id": "ai-delivery-lead",
           "title": "AI Delivery Lead",
           "type": "Senior",
+          "location": "Nederland • Hybride",
           "why_visible": "Dit is hét bewijs dat we bouwen tot productie en verder.",
           "description": "Als AI Delivery Lead ben je verantwoordelijk voor het realiseren van AI-oplossingen die daadwerkelijk in productie gaan en gebruikt worden. Je overziet het geheel, stuurt inhoudelijk bij en werkt zelf mee waar nodig.",
           "responsibilities": [
@@ -1437,6 +1439,7 @@
           "id": "transformation-manager",
           "title": "Transformatie Manager",
           "type": "Senior",
+          "location": "Nederland • Hybride",
           "why_visible": "Verandering die blijft hangen in plannen is geen verandering.",
           "description": "Als Transformatie Manager zorg je dat veranderingen niet blijven hangen in plannen, maar daadwerkelijk worden uitgevoerd. Je verbindt strategie, operatie en technologie.",
           "responsibilities": [
@@ -1458,6 +1461,7 @@
           "id": "senior-ai-consultant",
           "title": "Senior AI Consultant",
           "type": "Senior",
+          "location": "Nederland • Hybride",
           "why_visible": "De brug tussen businessvraag en technische oplossing.",
           "description": "Je werkt aan AI-oplossingen die direct aansluiten op processen en systemen van klanten. Geen experimenten om het experiment, maar oplossingen die gebruikt worden.",
           "responsibilities": [
@@ -1478,6 +1482,7 @@
           "id": "operational-excellence",
           "title": "Operational Excellence Specialist",
           "type": "Senior",
+          "location": "Nederland • Hybride",
           "why_visible": "AI werkt alleen als het proces eronder klopt.",
           "description": "Je helpt organisaties hun processen te verbeteren en klaar te maken voor slimme technologie. Je kijkt eerst naar hoe het werk loopt, daarna pas naar tooling.",
           "responsibilities": [
@@ -1530,21 +1535,34 @@
 
     "team_quote": {
       "quote": "Ik heb 15 jaar bij grote consultancies gewerkt. Het verschil hier? Wat ik bouw, wordt gebruikt. Niet gepresenteerd en vergeten.",
-      "author": "Senior consultant",
-      "context": "Over de overgang naar BPC"
+      "author": "Henk Westdorp",
+      "role": "Founder",
+      "context": "Over de overgang naar BPC",
+      "meet_team": "Ontmoet het team"
     },
 
     "for_clients": {
-      "title": "Voor onze klanten",
-      "text": "De mensen die je hier ziet, werken morgen mogelijk aan jouw vraagstuk. Ons team heeft ervaring met AI-adoptie in finance, transformatieprogramma's bij enterprise organisaties, en procesoptimalisatie in complexe omgevingen."
+      "section_label": "Voor klanten",
+      "title": "Benieuwd met wie je gaat werken?",
+      "text": "De mensen die je hier ziet, werken morgen mogelijk aan jouw vraagstuk. Ons team heeft ervaring met AI-adoptie in finance, transformatieprogramma's bij enterprise organisaties, en procesoptimalisatie in complexe omgevingen.",
+      "cta": "Bekijk onze diensten"
+    },
+
+    "open_application": {
+      "title": "Staat jouw rol er niet tussen?",
+      "description": "We zijn altijd op zoek naar senior talent dat past bij onze manier van werken. Stuur een open sollicitatie en vertel ons wat je drijft.",
+      "button": "Open sollicitatie"
     },
 
     "cta": {
       "title": "Denk je dat dit bij je past?",
-      "description": "Stuur een mail naar Ramon. Geen formulier, geen sollicitatieprocedure. Gewoon een gesprek om te kijken of er een match is.",
+      "description": "Neem contact op met Ramon Spaan, founder van BPC. Geen formulieren, geen sollicitatieprocedure. Gewoon een gesprek om te kijken of er een match is.",
       "button": "Mail Ramon",
       "email": "ramon@bestpractice.company",
-      "alternative": "Of bel ons gewoon even. We maken liever kennis in gesprek dan via documenten."
+      "linkedin": "https://www.linkedin.com/in/ramonspaan/",
+      "linkedin_text": "Of bekijk Ramon op LinkedIn",
+      "alternative": "Liever bellen? Dat kan ook. We maken liever kennis in gesprek dan via documenten.",
+      "meet_team": "Ontmoet eerst het team"
     }
   }
 }
