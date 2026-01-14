@@ -1354,20 +1354,20 @@
 
     "how_we_work": {
       "section_label": "How we work",
-      "title": "No promises, just results",
-      "intro": "We work on transformation that needs to land in operations. AI and technology are means, not ends in themselves.",
+      "title": "Results you can see",
+      "intro": "We work on transformation that lands in operations. AI and technology are accelerators toward concrete impact.",
       "points": [
         {
           "title": "Small, senior teams",
-          "description": "No layers, no overhead. Direct access to the people doing the work."
+          "description": "Direct lines. You work with the people who decide and build."
         },
         {
           "title": "To production and beyond",
-          "description": "We don't build pilots that disappear in a drawer. We build solutions that people actually use."
+          "description": "What we build gets used. Daily. By real people in real organizations."
         },
         {
           "title": "Within existing IT landscapes",
-          "description": "SAP, ServiceNow, Microsoft Dynamics – we know enterprise IT. We work with what's there, not against it."
+          "description": "SAP, ServiceNow, Microsoft Dynamics – we know enterprise IT. We build on what's already there."
         },
         {
           "title": "Lasting involvement",
@@ -1375,33 +1375,19 @@
         }
       ],
       "reality_check": {
-        "title": "Honest about what's possible",
-        "text": "We don't promise revolutions. What we do promise: moving fast, adjusting where needed, and pragmatically dealing with changing technology and circumstances."
+        "title": "Honest and pragmatic",
+        "text": "Moving fast, adjusting where needed, and pragmatically dealing with changing technology. That's how we work."
       }
     },
 
     "who_fits": {
       "section_label": "Who fits with us",
       "title": "Does this sound like you?",
-      "intro": "We're looking for people who want to make an impact. Not in two years, but next month.",
-      "positive": {
-        "title": "You fit with us if:",
-        "points": [
-          "You have multiple years of experience in complex organizations",
-          "You understand both processes and technology – and the tension between them",
-          "You feel responsible for the result, not just your task",
-          "You can engage with both executives and the shop floor",
-          "You prefer clarity over politics"
-        ]
-      },
-      "negative": {
-        "title": "You don't fit with us if:",
-        "points": [
-          "You seek structure and predictability above all else",
-          "You want to advise without responsibility for execution",
-          "You're focused on your own career path, not the team result",
-          "You mainly have theoretical knowledge without practical experience"
-        ]
+      "intro": "We're looking for people who want to make an impact. Next month, not in two years.",
+      "story": {
+        "paragraph1": "You have years of experience in complex organizations. You understand how processes and technology interact — and why they often clash. You feel responsible for the end result, not just your piece.",
+        "paragraph2": "You're comfortable in environments where you decide how you work. Where decisions are made quickly. Where you engage with executives and the shop floor, depending on what's needed.",
+        "paragraph3": "This is a place for people who take ownership. Who value results over process. Who build and advise."
       },
       "closing": "We're looking for people who prefer building over presenting. And solving over explaining."
     },
@@ -1409,7 +1395,7 @@
     "vacancies": {
       "section_label": "Open positions",
       "title": "Where we're hiring",
-      "intro": "These roles support our story of transformation and execution. Not growing for the sake of growing, but because clients are asking us for more capacity.",
+      "intro": "Clients are asking us for more capacity. These roles support our story of transformation and execution.",
       "apply_cta": "Interested? Get in touch",
       "location_label": "Netherlands • Hybrid",
       "roles": [
@@ -1440,8 +1426,8 @@
           "title": "Transformation Manager",
           "type": "Senior",
           "location": "Netherlands • Hybrid",
-          "why_visible": "Change that stays stuck in plans isn't change.",
-          "description": "As Transformation Manager, you ensure changes don't stay stuck in plans but actually get executed. You connect strategy, operations and technology.",
+          "why_visible": "Change that actually lands in the organization.",
+          "description": "As Transformation Manager, you ensure changes actually get executed. You connect strategy, operations and technology into one working whole.",
           "responsibilities": [
             "Lead complex change initiatives",
             "Connect stakeholders at all levels",
@@ -1453,7 +1439,7 @@
             "Experience with organizational change in complex environments",
             "Comfortable with ambiguity",
             "Clear, calm and decisive",
-            "No need for political games"
+            "Clear communicator, focused on results"
           ],
           "why_bpc": "Technology only creates value when people move with it."
         },
@@ -1463,7 +1449,7 @@
           "type": "Senior",
           "location": "Netherlands • Hybrid",
           "why_visible": "The bridge between business need and technical solution.",
-          "description": "You work on AI solutions that directly connect to client processes and systems. No experiments for the sake of experimenting, but solutions that get used.",
+          "description": "You work on AI solutions that directly connect to client processes and systems. Solutions that people use daily.",
           "responsibilities": [
             "Design and build AI solutions",
             "Integrate into existing systems",
@@ -1473,10 +1459,10 @@
           "requirements": [
             "Strong technical foundation in AI/ML",
             "Interest in business context",
-            "Realistic view of AI – no hype",
+            "Realistic, grounded view of AI",
             "Solution-oriented and pragmatic"
           ],
-          "why_bpc": "What you build gets used. Not presented and forgotten."
+          "why_bpc": "What you build gets used. Every day."
         },
         {
           "id": "operational-excellence",
@@ -1494,7 +1480,7 @@
           "requirements": [
             "Experience in operations, finance, supply chain, HR or manufacturing",
             "Analytical and pragmatic",
-            "Focus on improvement, not on reports",
+            "Focus on improvement you can measure",
             "Hands-on mentality"
           ],
           "why_bpc": "You prepare organizations for AI that works."
@@ -1504,37 +1490,37 @@
 
     "what_we_offer": {
       "section_label": "What you'll find here",
-      "title": "No hype, just this",
+      "title": "This is what you'll find",
       "items": [
         {
           "title": "Work that matters",
-          "description": "You see results of what you build within weeks. Not quarters."
+          "description": "You see results of what you build within weeks. Impact you can measure."
         },
         {
           "title": "Senior colleagues",
-          "description": "No juniors asking you questions. Colleagues who think along and take responsibility themselves."
+          "description": "People who think at your level. Who take responsibility themselves and keep you sharp."
         },
         {
           "title": "Autonomy and responsibility",
-          "description": "No micromanagement. Clear expectations and room to decide how you get there."
+          "description": "Freedom to decide how you achieve results. With clear expectations."
         },
         {
-          "title": "No bureaucracy",
-          "description": "Short lines. Fast decisions. No politics."
+          "title": "Fast decisions",
+          "description": "Short lines. Direct communication. Things happen here."
         },
         {
           "title": "Honesty",
-          "description": "We say what we mean. If something isn't possible, we say so. If something can be better, we say that too."
+          "description": "We say what we mean. We're open about what's possible and what can be better."
         },
         {
           "title": "Room to help build",
-          "description": "BPC is growing. You can help shape how. Not as a favor, but because we need it."
+          "description": "BPC is growing. You can help shape how. Because we need it."
         }
       ]
     },
 
     "team_quote": {
-      "quote": "I worked at large consultancies for 15 years. The difference here? What I build gets used. Not presented and forgotten.",
+      "quote": "I worked at large consultancies for 15 years. The difference here? What I build actually gets used. Every single day.",
       "author": "Henk Westdorp",
       "role": "Founder",
       "context": "On the transition to BPC",
@@ -1555,13 +1541,13 @@
     },
 
     "cta": {
-      "title": "Think this might be for you?",
-      "description": "Get in touch with Ramon Spaan, founder of BPC. No forms, no application process. Just a conversation to see if there's a match.",
+      "title": "Does this appeal to you?",
+      "description": "Get in touch with Ramon Spaan, founder of BPC. A conversation is how we start. Just seeing if there's a match.",
       "button": "Email Ramon",
       "email": "ramon@bestpractice.company",
       "linkedin": "https://www.linkedin.com/in/ramonspaan/",
       "linkedin_text": "Or find Ramon on LinkedIn",
-      "alternative": "Prefer to call? That works too. We prefer getting to know each other in conversation rather than through documents.",
+      "alternative": "Prefer to call? That works too. We like getting to know each other in conversation.",
       "meet_team": "Meet the team first"
     }
   }

@@ -1354,20 +1354,20 @@
 
     "how_we_work": {
       "section_label": "Hoe wij werken",
-      "title": "Geen beloftes, wel resultaat",
-      "intro": "Wij werken aan transformatie die moet landen in de operatie. AI en technologie zijn middelen, geen doel op zich.",
+      "title": "Resultaat dat je kunt zien",
+      "intro": "Wij werken aan transformatie die landt in de operatie. AI en technologie zijn versnellers naar concrete impact.",
       "points": [
         {
           "title": "Kleine, senior teams",
-          "description": "Geen lagen, geen overhead. Directe toegang tot de mensen die het werk doen."
+          "description": "Directe lijnen. Je werkt met de mensen die beslissen én bouwen."
         },
         {
           "title": "Tot productie en verder",
-          "description": "Wij bouwen geen pilots die in een la verdwijnen. Wij bouwen oplossingen die mensen gebruiken."
+          "description": "Wat wij bouwen, wordt gebruikt. Dagelijks. Door echte mensen in echte organisaties."
         },
         {
           "title": "Binnen bestaande IT-landschappen",
-          "description": "SAP, ServiceNow, Microsoft Dynamics – wij kennen enterprise IT. We werken met wat er is, niet ertegenin."
+          "description": "SAP, ServiceNow, Microsoft Dynamics – wij kennen enterprise IT. We bouwen voort op wat er al staat."
         },
         {
           "title": "Blijvend betrokken",
@@ -1375,33 +1375,19 @@
         }
       ],
       "reality_check": {
-        "title": "Eerlijk over wat kan",
-        "text": "Wij beloven geen revoluties. Wel: snel schakelen, bijsturen waar nodig, en pragmatisch omgaan met veranderende technologie en omstandigheden."
+        "title": "Eerlijk en pragmatisch",
+        "text": "Snel schakelen, bijsturen waar nodig, en pragmatisch omgaan met veranderende technologie. Dat is hoe wij werken."
       }
     },
 
     "who_fits": {
       "section_label": "Wie past bij ons",
       "title": "Herken je dit?",
-      "intro": "Wij zoeken mensen die impact willen maken. Niet over twee jaar, maar volgende maand.",
-      "positive": {
-        "title": "Je past bij ons als:",
-        "points": [
-          "Je hebt meerdere jaren ervaring in complexe organisaties",
-          "Je begrijpt processen én technologie – en de spanning daartussen",
-          "Je voelt je verantwoordelijk voor het resultaat, niet alleen je taak",
-          "Je kunt schakelen met directie én werkvloer",
-          "Je houdt van duidelijkheid, niet van politiek"
-        ]
-      },
-      "negative": {
-        "title": "Je past niet bij ons als:",
-        "points": [
-          "Je zoekt structuur en voorspelbaarheid boven alles",
-          "Je wilt adviseren zonder verantwoordelijkheid voor de uitvoering",
-          "Je bent gericht op je eigen carrièrepad, niet op het teamresultaat",
-          "Je hebt vooral theoretische kennis zonder praktijkervaring"
-        ]
+      "intro": "Wij zoeken mensen die impact willen maken. Volgende maand, niet over twee jaar.",
+      "story": {
+        "paragraph1": "Je hebt jaren ervaring in complexe organisaties. Je begrijpt hoe processen en technologie op elkaar inwerken — en waarom dat vaak schuurt. Je voelt je verantwoordelijk voor het eindresultaat, niet alleen voor jouw stukje.",
+        "paragraph2": "Je bent comfortabel in omgevingen waar je zelf bepaalt hoe je werkt. Waar beslissingen snel gaan. Waar je met directie én werkvloer schakelt, afhankelijk van wat nodig is.",
+        "paragraph3": "Dit is een plek voor mensen die eigenaarschap nemen. Die resultaat belangrijker vinden dan proces. Die bouwen én adviseren."
       },
       "closing": "Wij zoeken mensen die liever bouwen dan presenteren. En liever oplossen dan verklaren."
     },
@@ -1409,7 +1395,7 @@
     "vacancies": {
       "section_label": "Open posities",
       "title": "Waar we mensen zoeken",
-      "intro": "Deze rollen ondersteunen ons verhaal van transformatie en executie. Niet om te groeien om het groeien, maar omdat klanten ons vragen om meer capaciteit.",
+      "intro": "Klanten vragen ons om meer capaciteit. Deze rollen ondersteunen ons verhaal van transformatie én executie.",
       "apply_cta": "Interesse? Neem contact op",
       "location_label": "Nederland • Hybride",
       "roles": [
@@ -1440,8 +1426,8 @@
           "title": "Transformatie Manager",
           "type": "Senior",
           "location": "Nederland • Hybride",
-          "why_visible": "Verandering die blijft hangen in plannen is geen verandering.",
-          "description": "Als Transformatie Manager zorg je dat veranderingen niet blijven hangen in plannen, maar daadwerkelijk worden uitgevoerd. Je verbindt strategie, operatie en technologie.",
+          "why_visible": "Verandering die daadwerkelijk landt in de organisatie.",
+          "description": "Als Transformatie Manager zorg je dat veranderingen daadwerkelijk worden uitgevoerd. Je verbindt strategie, operatie en technologie tot één werkend geheel.",
           "responsibilities": [
             "Stuurt complexe verandertrajecten aan",
             "Verbindt stakeholders op alle niveaus",
@@ -1453,7 +1439,7 @@
             "Ervaring met organisatieverandering in complexe omgevingen",
             "Comfortabel met ambiguïteit",
             "Duidelijk, rustig en besluitvaardig",
-            "Geen behoefte aan politiek spel"
+            "Helder in communicatie, gericht op resultaat"
           ],
           "why_bpc": "Technologie heeft pas waarde als mensen meebewegen."
         },
@@ -1463,7 +1449,7 @@
           "type": "Senior",
           "location": "Nederland • Hybride",
           "why_visible": "De brug tussen businessvraag en technische oplossing.",
-          "description": "Je werkt aan AI-oplossingen die direct aansluiten op processen en systemen van klanten. Geen experimenten om het experiment, maar oplossingen die gebruikt worden.",
+          "description": "Je werkt aan AI-oplossingen die direct aansluiten op processen en systemen van klanten. Oplossingen die mensen dagelijks gebruiken.",
           "responsibilities": [
             "Ontwerpen en bouwen van AI-oplossingen",
             "Integreren in bestaande systemen",
@@ -1473,10 +1459,10 @@
           "requirements": [
             "Sterke technische basis in AI/ML",
             "Interesse in businesscontext",
-            "Nuchtere kijk op AI – geen hype",
+            "Nuchtere, realistische kijk op AI",
             "Oplossingsgericht en pragmatisch"
           ],
-          "why_bpc": "Wat je bouwt, wordt gebruikt. Niet gepresenteerd en vergeten."
+          "why_bpc": "Wat je bouwt, wordt gebruikt. Dagelijks."
         },
         {
           "id": "operational-excellence",
@@ -1494,7 +1480,7 @@
           "requirements": [
             "Ervaring in operations, finance, supply chain, HR of manufacturing",
             "Analytisch én pragmatisch",
-            "Focus op verbetering, niet op rapporten",
+            "Focus op verbetering die je kunt meten",
             "Hands-on mentaliteit"
           ],
           "why_bpc": "Je maakt organisaties klaar voor AI die werkt."
@@ -1504,37 +1490,37 @@
 
     "what_we_offer": {
       "section_label": "Wat je bij ons vindt",
-      "title": "Geen hype, wel dit",
+      "title": "Dit vind je hier",
       "items": [
         {
           "title": "Werk dat ertoe doet",
-          "description": "Je ziet binnen weken resultaat van wat je bouwt. Niet binnen kwartalen."
+          "description": "Je ziet binnen weken resultaat van wat je bouwt. Impact die je kunt meten."
         },
         {
           "title": "Senior collega's",
-          "description": "Geen juniors die jou vragen stellen. Collega's die meedenken en zelf verantwoordelijkheid nemen."
+          "description": "Mensen die op jouw niveau meedenken. Die zelf verantwoordelijkheid nemen en jou scherp houden."
         },
         {
           "title": "Autonomie en verantwoordelijkheid",
-          "description": "Geen micromanagement. Wel heldere verwachtingen en ruimte om zelf te bepalen hoe je daar komt."
+          "description": "Vrijheid om zelf te bepalen hoe je resultaat bereikt. Met heldere verwachtingen."
         },
         {
-          "title": "Geen bureaucratie",
-          "description": "Korte lijnen. Snelle beslissingen. Geen politiek."
+          "title": "Snelle beslissingen",
+          "description": "Korte lijnen. Directe communicatie. Dingen gebeuren hier."
         },
         {
           "title": "Eerlijkheid",
-          "description": "We zeggen wat we bedoelen. Als iets niet kan, zeggen we dat. Als iets beter kan, ook."
+          "description": "We zeggen wat we bedoelen. We zijn open over wat kan en wat beter kan."
         },
         {
           "title": "Ruimte om mee te bouwen",
-          "description": "BPC groeit. Jij kunt meedenken over hoe. Niet als gunst, maar omdat we het nodig hebben."
+          "description": "BPC groeit. Jij kunt meedenken over hoe. Omdat we het nodig hebben."
         }
       ]
     },
 
     "team_quote": {
-      "quote": "Ik heb 15 jaar bij grote consultancies gewerkt. Het verschil hier? Wat ik bouw, wordt gebruikt. Niet gepresenteerd en vergeten.",
+      "quote": "Ik heb 15 jaar bij grote consultancies gewerkt. Het verschil hier? Wat ik bouw, wordt daadwerkelijk gebruikt. Elke dag weer.",
       "author": "Henk Westdorp",
       "role": "Founder",
       "context": "Over de overgang naar BPC",
@@ -1555,13 +1541,13 @@
     },
 
     "cta": {
-      "title": "Denk je dat dit bij je past?",
-      "description": "Neem contact op met Ramon Spaan, founder van BPC. Geen formulieren, geen sollicitatieprocedure. Gewoon een gesprek om te kijken of er een match is.",
+      "title": "Spreekt dit je aan?",
+      "description": "Neem contact op met Ramon Spaan, founder van BPC. Een gesprek is hoe we beginnen. Gewoon kijken of er een match is.",
       "button": "Mail Ramon",
       "email": "ramon@bestpractice.company",
       "linkedin": "https://www.linkedin.com/in/ramonspaan/",
       "linkedin_text": "Of bekijk Ramon op LinkedIn",
-      "alternative": "Liever bellen? Dat kan ook. We maken liever kennis in gesprek dan via documenten.",
+      "alternative": "Liever bellen? Dat kan ook. We maken graag kennis in gesprek.",
       "meet_team": "Ontmoet eerst het team"
     }
   }

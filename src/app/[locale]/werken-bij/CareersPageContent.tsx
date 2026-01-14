@@ -14,9 +14,10 @@ interface WorkPoint {
   description: string;
 }
 
-interface WhoFitsPoints {
-  title: string;
-  points: string[];
+interface WhoFitsStory {
+  paragraph1: string;
+  paragraph2: string;
+  paragraph3: string;
 }
 
 interface VacancyRole {
@@ -228,8 +229,7 @@ export function CareersPageContent() {
 
   // Get data from translations
   const workPoints = t.raw('how_we_work.points') as WorkPoint[];
-  const positivePoints = t.raw('who_fits.positive') as WhoFitsPoints;
-  const negativePoints = t.raw('who_fits.negative') as WhoFitsPoints;
+  const whoFitsStory = t.raw('who_fits.story') as WhoFitsStory;
   const roles = t.raw('vacancies.roles') as VacancyRole[];
   const offerItems = t.raw('what_we_offer.items') as OfferItem[];
 
@@ -315,11 +315,11 @@ export function CareersPageContent() {
       </section>
 
       {/* =========================================================================
-          WHO FITS SECTION
+          WHO FITS SECTION - Narrative approach
           ========================================================================= */}
       <section className="py-16 lg:py-24 bg-gradient-to-b from-gray-50 to-white" aria-labelledby="who-fits-title">
         <div className="container-content">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             {/* Header */}
             <div className="text-center mb-12">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-bpc-navy/5 text-bpc-navy-700 text-sm font-medium mb-4">
@@ -333,57 +333,23 @@ export function CareersPageContent() {
               </p>
             </div>
 
-            {/* Positive and negative points */}
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              {/* Positive */}
-              <div className="p-6 rounded-2xl bg-white border border-bpc-teal/20">
-                <div className="flex items-center gap-2 mb-4">
-                  <div className="w-8 h-8 rounded-full bg-bpc-teal/10 flex items-center justify-center">
-                    <svg className="w-4 h-4 text-bpc-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <h3 className="font-display font-bold text-bpc-navy-900">
-                    {positivePoints.title}
-                  </h3>
-                </div>
-                <ul className="space-y-3">
-                  {positivePoints.points.map((point, i) => (
-                    <li key={i} className="flex items-start gap-3 text-bpc-navy-700">
-                      <span className="flex-shrink-0 w-1.5 h-1.5 mt-2 rounded-full bg-bpc-teal" aria-hidden="true" />
-                      {point}
-                    </li>
-                  ))}
-                </ul>
+            {/* Story paragraphs */}
+            <div className="p-8 lg:p-10 rounded-3xl bg-white border border-gray-100 shadow-sm">
+              <div className="space-y-6 text-lg text-bpc-navy-700 leading-relaxed">
+                <p>{whoFitsStory.paragraph1}</p>
+                <p>{whoFitsStory.paragraph2}</p>
+                <p className="font-medium text-bpc-navy-900">
+                  {whoFitsStory.paragraph3}
+                </p>
               </div>
-
-              {/* Negative */}
-              <div className="p-6 rounded-2xl bg-white border border-gray-200">
-                <div className="flex items-center gap-2 mb-4">
-                  <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center">
-                    <svg className="w-4 h-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                  </div>
-                  <h3 className="font-display font-bold text-bpc-navy-900">
-                    {negativePoints.title}
-                  </h3>
-                </div>
-                <ul className="space-y-3">
-                  {negativePoints.points.map((point, i) => (
-                    <li key={i} className="flex items-start gap-3 text-bpc-navy-600">
-                      <span className="flex-shrink-0 w-1.5 h-1.5 mt-2 rounded-full bg-gray-400" aria-hidden="true" />
-                      {point}
-                    </li>
-                  ))}
-                </ul>
+              
+              {/* Closing statement */}
+              <div className="mt-8 pt-6 border-t border-gray-100">
+                <p className="text-xl text-bpc-navy-800 font-display font-medium italic text-center">
+                  {t('who_fits.closing')}
+                </p>
               </div>
             </div>
-
-            {/* Closing statement */}
-            <p className="text-center text-lg text-bpc-navy-800 font-medium italic">
-              {t('who_fits.closing')}
-            </p>
           </div>
         </div>
       </section>
