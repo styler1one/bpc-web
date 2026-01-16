@@ -17,17 +17,47 @@
   },
   "hero": {
     "tagline": "AI that works.",
-    "title": "From AI ambition to production",
-    "subtitle": "in 8 to 12 weeks",
-    "description": "Work smarter. Better decisions. Measurable results. With lasting control over security, compliance and full ownership of everything we build together.",
+    "title": "From AI ambition to transformation that lands",
+    "subtitle": "In 8-12 weeks. With governance, adoption and ownership built in.",
+    "description": "AI is the accelerator. But real change requires more. We bring together strategy, people and technology into results that keep working.",
     "cta_primary": "Schedule a call",
-    "cta_secondary": "See how it works",
+    "cta_secondary": "View services",
     "trust_line": "Trusted by organizations across Europe",
     "trust_badges": {
       "eu_ai_act": "EU AI Act ready",
       "eu_hosting": "100% European hosting",
       "gdpr": "GDPR compliant"
     }
+  },
+  "routeboard": {
+    "section_label": "How can we help?",
+    "title": "Three ways to make transformation work",
+    "consulting": {
+      "name": "Consulting",
+      "tagline": "Setting direction, making choices",
+      "description": "From strategy to governance, from program management to adoption. We help make the right choices and ensure they land.",
+      "cta": "View Consulting"
+    },
+    "contracting": {
+      "name": "Contracting",
+      "tagline": "Senior reinforcement where needed",
+      "description": "Experienced professionals who understand both processes and technology. For critical phases or ongoing team reinforcement.",
+      "cta": "View Contracting"
+    },
+    "creations": {
+      "name": "Creations",
+      "tagline": "Building working solutions",
+      "description": "From AI assistants to platforms. Ready-made or custom. Built to last, integrated into your systems.",
+      "cta": "View Creations"
+    }
+  },
+  "trust_bullets": {
+    "title": "Why organizations choose us",
+    "items": [
+      "Senior team, short lines — no rotating consultants",
+      "From advice to execution — no reports for the drawer",
+      "Governance standard — AI safely in production"
+    ]
   },
   "problem": {
     "section_label": "Sound familiar?",
@@ -421,7 +451,7 @@
     "intro": {
       "title": "What we do",
       "text": "Consulting at Best Practice Company isn't advice from a distance. We work alongside you. We think along in the boardroom and on the work floor. Our consultants combine strategic insight with operational experience – they know how large organizations work and where change gets stuck.",
-      "focus": "Our focus is on transformations where strategy, technology, governance, and adoption come together. AI is our current specialization, but our experience goes further."
+      "focus": "AI is often the accelerator. Our core is transformation that lands: governance, decision-making, adoption and execution. That's where we make the difference."
     },
     "services": {
       "title": "How we help you",

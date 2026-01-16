@@ -1,6 +1,7 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { type Locale } from '@/i18n/config';
 import { HeroSection } from '@/components/sections/HeroSection';
+import { RouteboardSection } from '@/components/sections/RouteboardSection';
 import { ProblemSection } from '@/components/sections/ProblemSection';
 import { ServicesSection } from '@/components/sections/ServicesSection';
 import { ResultsSection } from '@/components/sections/ResultsSection';
@@ -19,6 +20,7 @@ export default function HomePage({
   return (
     <>
       <HeroSection />
+      <RouteboardSection />
       <ProblemSection />
       <ServicesSection />
       <ResultsSection />

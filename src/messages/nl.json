@@ -17,17 +17,47 @@
   },
   "hero": {
     "tagline": "AI die werkt.",
-    "title": "Van AI-ambitie naar productie",
-    "subtitle": "in 8 tot 12 weken",
-    "description": "Slimmer werken. Betere beslissingen. Meetbaar resultaat. Met blijvende grip op security, compliance en volledige eigenaarschap van alles wat we samen bouwen.",
+    "title": "Van AI-ambitie naar transformatie die landt",
+    "subtitle": "In 8-12 weken. Met governance, adoptie en eigenaarschap ingebouwd.",
+    "description": "AI is de versneller. Maar echte verandering vraagt meer. Wij brengen strategie, mensen en technologie samen tot resultaat dat blijft werken.",
     "cta_primary": "Plan een gesprek",
-    "cta_secondary": "Bekijk hoe het werkt",
+    "cta_secondary": "Bekijk de diensten",
     "trust_line": "Vertrouwd door organisaties in heel Europa",
     "trust_badges": {
       "eu_ai_act": "EU AI Act ready",
       "eu_hosting": "100% Europese hosting",
       "gdpr": "AVG-compliant"
     }
+  },
+  "routeboard": {
+    "section_label": "Hoe kunnen we helpen?",
+    "title": "Drie manieren om transformatie te laten werken",
+    "consulting": {
+      "name": "Consulting",
+      "tagline": "Richting bepalen, keuzes maken",
+      "description": "Van strategie tot governance, van programmamanagement tot adoptie. Wij helpen de juiste keuzes maken én zorgen dat ze landen.",
+      "cta": "Bekijk Consulting"
+    },
+    "contracting": {
+      "name": "Contracting",
+      "tagline": "Senior versterking waar nodig",
+      "description": "Ervaren professionals die processen én technologie begrijpen. Voor kritieke fases of doorlopende versterking van je team.",
+      "cta": "Bekijk Contracting"
+    },
+    "creations": {
+      "name": "Creations",
+      "tagline": "Werkende oplossingen bouwen",
+      "description": "Van AI-assistenten tot platforms. Kant-en-klaar of op maat. Gebouwd om te blijven, geïntegreerd in jouw systemen.",
+      "cta": "Bekijk Creations"
+    }
+  },
+  "trust_bullets": {
+    "title": "Waarom organisaties voor ons kiezen",
+    "items": [
+      "Senior team, korte lijnen — geen wisselende consultants",
+      "Van advies naar uitvoering — geen rapporten voor de la",
+      "Governance standaard — AI veilig in productie"
+    ]
   },
   "problem": {
     "section_label": "Herkenbaar?",
@@ -421,7 +451,7 @@
     "intro": {
       "title": "Wat wij doen",
       "text": "Consulting bij Best Practice Company is geen advies op afstand. Wij werken mee. Wij denken mee in de boardroom én op de werkvloer. Onze consultants combineren strategisch inzicht met operationele ervaring – ze weten hoe grote organisaties werken en waar verandering vastloopt.",
-      "focus": "Onze focus ligt op transformaties waar strategie, technologie, governance en adoptie samenkomen. AI is daarin onze huidige specialisatie, maar onze ervaring reikt verder."
+      "focus": "AI is vaak de versneller. Onze kern is transformatie die landt: governance, besluitvorming, adoptie en executie. Dat is waar we het verschil maken."
     },
     "services": {
       "title": "Waar we je mee helpen",

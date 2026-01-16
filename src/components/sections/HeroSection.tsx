@@ -106,7 +106,7 @@ export function HeroSection() {
             <span className="block text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-4">
               {t('title')}
             </span>
-            <span className="block text-2xl md:text-3xl lg:text-4xl font-display font-bold text-bpc-teal-400 mb-6">
+            <span className="block text-xl md:text-2xl lg:text-3xl font-display font-medium text-bpc-teal-400 mb-6">
               {t('subtitle')}
             </span>
           </h1>
