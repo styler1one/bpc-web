@@ -61,8 +61,8 @@
   },
   "transitions": {
     "routeboard_to_problem": {
-      "title": "You want AI to work.",
-      "text": "But implementing AI isn't an IT project — it touches processes, people and governance. That's where our work begins."
+      "title": "You have AI ambition.",
+      "text": "But execution requires more than technology alone. It touches processes, people and governance. That's where our work begins."
     },
     "problem_to_services": {
       "text": "Sound familiar? This is exactly what we're built for."

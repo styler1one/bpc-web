@@ -61,8 +61,8 @@
   },
   "transitions": {
     "routeboard_to_problem": {
-      "title": "Je wilt AI laten werken.",
-      "text": "Maar AI implementeren is geen IT-project — het raakt processen, mensen en governance. Daar begint ons werk."
+      "title": "Je hebt AI-ambitie.",
+      "text": "Maar de uitvoering vraagt meer dan technologie alleen. Het raakt processen, mensen en governance. Daar begint ons werk."
     },
     "problem_to_services": {
       "text": "Herkenbaar? Dit is precies waar we voor zijn gebouwd."
