@@ -61,9 +61,8 @@
   },
   "transitions": {
     "routeboard_to_problem": {
-      "label": "Why AI?",
-      "title": "AI is where we make the most impact right now",
-      "text": "Technology changes fast. But many organizations face the same challenges when trying to deploy AI."
+      "title": "You want AI to work.",
+      "text": "But implementing AI isn't an IT project — it touches processes, people and governance. That's where our work begins."
     },
     "problem_to_services": {
       "text": "Sound familiar? This is exactly what we're built for."

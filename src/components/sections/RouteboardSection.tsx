@@ -199,12 +199,6 @@ export function RouteboardSection() {
 
         {/* Transition to Problem section */}
         <div className="max-w-3xl mx-auto text-center pt-8 border-t border-slate-200">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-700 text-sm font-medium mb-4">
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-            </svg>
-            {tTransition('routeboard_to_problem.label')}
-          </div>
           <h3 className="text-2xl md:text-3xl font-display font-bold text-bpc-navy-900 mb-3">
             {tTransition('routeboard_to_problem.title')}
           </h3>
@@ -213,7 +207,7 @@ export function RouteboardSection() {
           </p>
           {/* Arrow pointing down */}
           <div className="mt-6" aria-hidden="true">
-            <svg className="w-6 h-6 mx-auto text-amber-500 animate-bounce motion-reduce:animate-none" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg className="w-6 h-6 mx-auto text-bpc-teal animate-bounce motion-reduce:animate-none" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
             </svg>
           </div>

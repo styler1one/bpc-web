@@ -61,9 +61,8 @@
   },
   "transitions": {
     "routeboard_to_problem": {
-      "label": "Waarom AI?",
-      "title": "AI is waar we nu de meeste impact maken",
-      "text": "Technologie verandert snel. Maar veel organisaties lopen tegen dezelfde uitdagingen aan wanneer ze AI willen inzetten."
+      "title": "Je wilt AI laten werken.",
+      "text": "Maar AI implementeren is geen IT-project — het raakt processen, mensen en governance. Daar begint ons werk."
     },
     "problem_to_services": {
       "text": "Herkenbaar? Dit is precies waar we voor zijn gebouwd."
