@@ -59,6 +59,25 @@
       "Governance standaard — AI veilig in productie"
     ]
   },
+  "transitions": {
+    "routeboard_to_problem": {
+      "label": "Waarom AI?",
+      "title": "AI is waar we nu de meeste impact maken",
+      "text": "Technologie verandert snel. Maar veel organisaties lopen tegen dezelfde uitdagingen aan wanneer ze AI willen inzetten."
+    },
+    "problem_to_services": {
+      "text": "Herkenbaar? Dit is precies waar we voor zijn gebouwd."
+    },
+    "services_to_results": {
+      "text": "Geen beloftes, maar bewijs."
+    },
+    "results_to_proof": {
+      "text": "En soms bouwen we kant-en-klare oplossingen die je direct kunt inzetten."
+    },
+    "proof_to_experience": {
+      "text": "Maar hoe voelt het om met ons samen te werken?"
+    }
+  },
   "problem": {
     "section_label": "Herkenbaar?",
     "title": "Je bent niet alleen",

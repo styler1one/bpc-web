@@ -59,6 +59,25 @@
       "Governance standard — AI safely in production"
     ]
   },
+  "transitions": {
+    "routeboard_to_problem": {
+      "label": "Why AI?",
+      "title": "AI is where we make the most impact right now",
+      "text": "Technology changes fast. But many organizations face the same challenges when trying to deploy AI."
+    },
+    "problem_to_services": {
+      "text": "Sound familiar? This is exactly what we're built for."
+    },
+    "services_to_results": {
+      "text": "No promises, just proof."
+    },
+    "results_to_proof": {
+      "text": "And sometimes we build ready-made solutions you can deploy directly."
+    },
+    "proof_to_experience": {
+      "text": "But what does it feel like to work with us?"
+    }
+  },
   "problem": {
     "section_label": "Sound familiar?",
     "title": "You're not alone",

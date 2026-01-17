@@ -29,6 +29,7 @@ const statConfigs: StatConfig[] = [
 
 export function ResultsSection() {
   const t = useTranslations('results');
+  const tTransition = useTranslations('transitions');
 
   const exampleItems = t.raw('examples.items') as Array<{ context: string; outcome: string }>;
   const guaranteePoints = t.raw('guarantee.points') as string[];
@@ -122,7 +123,7 @@ export function ResultsSection() {
         </div>
 
         {/* Guarantee section */}
-        <div className="bg-gradient-to-r from-bpc-teal/10 to-bpc-navy-800/50 backdrop-blur-sm rounded-3xl border border-bpc-teal/20 p-8 md:p-10">
+        <div className="bg-gradient-to-r from-bpc-teal/10 to-bpc-navy-800/50 backdrop-blur-sm rounded-3xl border border-bpc-teal/20 p-8 md:p-10 mb-12">
           <div className="flex flex-col md:flex-row md:items-center gap-6">
             <div className="flex-shrink-0" aria-hidden="true">
               <div className="w-16 h-16 rounded-2xl bg-bpc-teal/20 flex items-center justify-center">
@@ -142,6 +143,18 @@ export function ResultsSection() {
                 ))}
               </ul>
             </div>
+          </div>
+        </div>
+
+        {/* Transition to Proof */}
+        <div className="text-center pt-8 border-t border-white/10">
+          <p className="text-xl font-semibold text-white/90 mb-2">
+            {tTransition('results_to_proof.text')}
+          </p>
+          <div aria-hidden="true">
+            <svg className="w-6 h-6 mx-auto text-bpc-teal-400 animate-bounce motion-reduce:animate-none" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
           </div>
         </div>
       </div>

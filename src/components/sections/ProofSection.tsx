@@ -5,6 +5,7 @@ import { Link } from '@/i18n/navigation';
 
 export function ProofSection() {
   const t = useTranslations('proof');
+  const tTransition = useTranslations('transitions');
 
   const highlights = t.raw('product.highlights') as string[];
 
@@ -93,7 +94,7 @@ export function ProofSection() {
           </div>
 
           {/* Footer link */}
-          <div className="mt-6 text-center">
+          <div className="mt-6 text-center mb-12">
             <p className="text-bpc-navy-600">
               {t('footer.text')}{' '}
               <Link 
@@ -106,6 +107,18 @@ export function ProofSection() {
                 </svg>
               </Link>
             </p>
+          </div>
+
+          {/* Transition to Experience */}
+          <div className="text-center pt-8 border-t border-gray-200">
+            <p className="text-xl font-semibold text-bpc-navy-700 mb-2">
+              {tTransition('proof_to_experience.text')}
+            </p>
+            <div aria-hidden="true">
+              <svg className="w-6 h-6 mx-auto text-bpc-teal animate-bounce motion-reduce:animate-none" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </div>
           </div>
         </div>
       </div>

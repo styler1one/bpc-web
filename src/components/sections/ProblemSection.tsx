@@ -43,6 +43,7 @@ const challengeConfigs: ChallengeConfig[] = [
 
 export function ProblemSection() {
   const t = useTranslations('problem');
+  const tTransition = useTranslations('transitions');
 
   return (
     <section className="relative py-24 overflow-hidden bg-gradient-to-b from-slate-50 to-white">
@@ -110,11 +111,15 @@ export function ProblemSection() {
           ))}
         </div>
 
-        {/* Conclusion */}
+        {/* Conclusion with transition */}
         <div className="relative bg-gradient-to-r from-bpc-navy to-slate-800 rounded-2xl p-8 text-center">
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSA2MCAwIEwgMCAwIDAgNjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] rounded-2xl" aria-hidden="true" />
-          <p className="relative text-lg md:text-xl text-white/90 font-medium max-w-3xl mx-auto">
+          <p className="relative text-lg md:text-xl text-white/90 font-medium max-w-3xl mx-auto mb-4">
             {t('conclusion')}
+          </p>
+          {/* Transition text */}
+          <p className="relative text-bpc-teal-400 font-semibold">
+            {tTransition('problem_to_services.text')}
           </p>
           {/* Decorative arrow */}
           <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2" aria-hidden="true">

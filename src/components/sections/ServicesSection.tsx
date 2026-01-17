@@ -173,6 +173,7 @@ function ServiceCard({
 
 export function ServicesSection() {
   const t = useTranslations('services');
+  const tTransition = useTranslations('transitions');
 
   const services: Omit<ServiceCardProps, 'whatYouGet' | 'typicalProjects'>[] = [
     {
@@ -242,7 +243,7 @@ export function ServicesSection() {
         </div>
 
         {/* Service cards */}
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-8 mb-16">
           {services.map((service) => (
             <ServiceCard 
               key={service.variant} 
@@ -251,6 +252,18 @@ export function ServicesSection() {
               typicalProjects={t('typical_projects')}
             />
           ))}
+        </div>
+
+        {/* Transition to Results */}
+        <div className="text-center pt-8 border-t border-gray-200">
+          <p className="text-xl font-semibold text-bpc-navy-700 mb-2">
+            {tTransition('services_to_results.text')}
+          </p>
+          <div aria-hidden="true">
+            <svg className="w-6 h-6 mx-auto text-bpc-teal animate-bounce motion-reduce:animate-none" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
+          </div>
         </div>
       </div>
     </section>
