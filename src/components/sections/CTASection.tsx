@@ -99,7 +99,27 @@ export function CTASection() {
               </div>
 
               {/* Contact alternatives */}
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 flex-wrap">
+                {/* Schedule meeting - featured */}
+                <a 
+                  href={siteConfig.booking.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center gap-3 px-6 py-3 rounded-xl bg-bpc-teal/10 hover:bg-bpc-teal/20 border border-bpc-teal/20 hover:border-bpc-teal/30 transition-colors focus-ring"
+                >
+                  <div 
+                    className="w-10 h-10 rounded-lg bg-bpc-teal/20 flex items-center justify-center group-hover:scale-110 transition-transform"
+                    aria-hidden="true"
+                  >
+                    <svg className="w-5 h-5 text-bpc-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                    </svg>
+                  </div>
+                  <div className="text-left">
+                    <div className="font-semibold text-bpc-teal-700">{t('schedule')}</div>
+                  </div>
+                </a>
+
                 <a 
                   href={getPhoneHref(siteConfig.contact.phone)}
                   className="group flex items-center gap-3 px-6 py-3 rounded-xl bg-bpc-navy/5 hover:bg-bpc-navy/10 transition-colors focus-ring"
@@ -120,19 +140,19 @@ export function CTASection() {
                 
                 <a 
                   href={getEmailHref(siteConfig.contact.email)}
-                  className="group flex items-center gap-3 px-6 py-3 rounded-xl bg-bpc-teal/5 hover:bg-bpc-teal/10 transition-colors focus-ring"
+                  className="group flex items-center gap-3 px-6 py-3 rounded-xl bg-bpc-navy/5 hover:bg-bpc-navy/10 transition-colors focus-ring"
                 >
                   <div 
-                    className="w-10 h-10 rounded-lg bg-bpc-teal/10 flex items-center justify-center group-hover:scale-110 transition-transform"
+                    className="w-10 h-10 rounded-lg bg-bpc-navy/10 flex items-center justify-center group-hover:scale-110 transition-transform"
                     aria-hidden="true"
                   >
-                    <svg className="w-5 h-5 text-bpc-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="w-5 h-5 text-bpc-navy" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                   </div>
                   <div className="text-left">
                     <div className="text-xs text-bpc-navy-500">{t('email')}</div>
-                    <div className="font-semibold text-bpc-teal-700">{siteConfig.contact.email}</div>
+                    <div className="font-semibold text-bpc-navy-700">{siteConfig.contact.email}</div>
                   </div>
                 </a>
               </div>

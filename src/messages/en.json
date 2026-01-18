@@ -368,6 +368,7 @@
     "or": "or",
     "phone": "Call directly",
     "email": "Email us",
+    "schedule": "Book directly",
     "note": "No sales pitch. Just an honest conversation about what's possible."
   },
   "services_page": {
@@ -1194,6 +1195,7 @@
       "section_label": "The founders",
       "title": "The people behind Best Practice Company",
       "intro": "A small, senior team that delivers from strategy to production. No layers, no overhead – direct access to the people doing the work.",
+      "schedule_meeting": "Schedule a call",
       "team": [
         {
           "name": "Jeroen Matthijssen",
@@ -1217,7 +1219,8 @@
           "name": "Geert Menting",
           "role": "Founder",
           "image": "/team/geert.jpg",
-          "linkedin": "https://www.linkedin.com/in/gmenting/"
+          "linkedin": "https://www.linkedin.com/in/gmenting/",
+          "booking": true
         }
       ]
     },
@@ -1339,7 +1342,9 @@
     },
     "direct": {
       "title": "Or contact us directly",
-      "prefer_call": "Prefer to call or email directly? Of course you can."
+      "prefer_call": "Prefer to call or email directly? Of course you can.",
+      "schedule_meeting": "Schedule directly",
+      "schedule_description": "Book a no-obligation call"
     },
     "expectations": {
       "title": "What can you expect?",

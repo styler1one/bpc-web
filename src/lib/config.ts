@@ -26,6 +26,11 @@ export const siteConfig = {
   social: {
     linkedin: 'https://www.linkedin.com/company/best-practice-consulting-bv/',
   },
+
+  // Booking
+  booking: {
+    url: 'https://outlook.office.com/bookwithme/user/e24fb78dcb5249b0ad5bdb243afdf606@bestpractice.consulting/meetingtype/RSrsgKRz4Euy0892PXPZ5A2?anonymous&ep=mlink',
+  },
 } as const;
 
 /**

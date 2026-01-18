@@ -368,6 +368,7 @@
     "or": "of",
     "phone": "Bel direct",
     "email": "Mail ons",
+    "schedule": "Plan direct in",
     "note": "Geen verkooppraatje. Gewoon een eerlijk gesprek over wat mogelijk is."
   },
   "services_page": {
@@ -1194,6 +1195,7 @@
       "section_label": "De founders",
       "title": "De mensen achter Best Practice Company",
       "intro": "Een klein, senior team dat van strategie tot productie levert. Geen lagen, geen overhead – directe toegang tot de mensen die het werk doen.",
+      "schedule_meeting": "Plan een gesprek",
       "team": [
         {
           "name": "Jeroen Matthijssen",
@@ -1217,7 +1219,8 @@
           "name": "Geert Menting",
           "role": "Founder",
           "image": "/team/geert.jpg",
-          "linkedin": "https://www.linkedin.com/in/gmenting/"
+          "linkedin": "https://www.linkedin.com/in/gmenting/",
+          "booking": true
         }
       ]
     },
@@ -1339,7 +1342,9 @@
     },
     "direct": {
       "title": "Of neem direct contact op",
-      "prefer_call": "Liever direct bellen of mailen? Dat kan natuurlijk ook."
+      "prefer_call": "Liever direct bellen of mailen? Dat kan natuurlijk ook.",
+      "schedule_meeting": "Direct inplannen",
+      "schedule_description": "Plan een vrijblijvend gesprek"
     },
     "expectations": {
       "title": "Wat kun je verwachten?",

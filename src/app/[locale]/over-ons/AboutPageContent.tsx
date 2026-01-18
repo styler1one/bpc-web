@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { cn } from '@/lib/utils';
+import { siteConfig } from '@/lib/config';
 import Image from 'next/image';
 
 /* =============================================================================
@@ -51,9 +52,15 @@ interface FounderProps {
   role: string;
   image: string;
   linkedin: string;
+  booking?: boolean;
 }
 
-function FounderCard({ name, role, image, linkedin }: FounderProps) {
+interface FounderCardProps extends FounderProps {
+  bookingUrl?: string;
+  bookingLabel?: string;
+}
+
+function FounderCard({ name, role, image, linkedin, booking, bookingUrl, bookingLabel }: FounderCardProps) {
   return (
     <div className="flex flex-col items-center text-center group">
       <div className="relative mb-5">
@@ -77,19 +84,38 @@ function FounderCard({ name, role, image, linkedin }: FounderProps) {
       <p className="text-bpc-teal-300 font-medium mb-3">
         {role}
       </p>
-      {/* LinkedIn link */}
-      <a
-        href={linkedin}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 text-white/80 text-sm hover:bg-white/20 hover:text-white transition-all duration-300"
-        aria-label={`${name} op LinkedIn`}
-      >
-        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-        </svg>
-        <span>LinkedIn</span>
-      </a>
+      {/* Social links */}
+      <div className="flex flex-col gap-2">
+        {/* LinkedIn link */}
+        <a
+          href={linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 text-white/80 text-sm hover:bg-white/20 hover:text-white transition-all duration-300"
+          aria-label={`${name} op LinkedIn`}
+        >
+          <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+        
+        {/* Booking link - only shown if booking is true */}
+        {booking && bookingUrl && (
+          <a
+            href={bookingUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-bpc-teal/30 text-white text-sm hover:bg-bpc-teal/50 transition-all duration-300 border border-bpc-teal/40"
+            aria-label={`${bookingLabel} met ${name}`}
+          >
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+            </svg>
+            <span>{bookingLabel}</span>
+          </a>
+        )}
+      </div>
     </div>
   );
 }
@@ -391,7 +417,12 @@ export function AboutPageContent() {
             {/* Founders grid */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
               {founders.map((founder, i) => (
-                <FounderCard key={`founder-${i}`} {...founder} />
+                <FounderCard 
+                  key={`founder-${i}`} 
+                  {...founder} 
+                  bookingUrl={siteConfig.booking.url}
+                  bookingLabel={t('founders.schedule_meeting')}
+                />
               ))}
             </div>
           </div>
