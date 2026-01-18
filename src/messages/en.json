@@ -464,6 +464,7 @@
     "hero": {
       "label": "Consulting",
       "title": "Setting direction, making choices, ensuring change lands",
+      "subtitle": "Pragmatic, collaborative, and focused on results that last.",
       "description": "Transformations rarely fail because of technology. They fail due to unclear direction, inadequate governance, or lack of buy-in. We help you make the right choices and ensure change actually lands."
     },
     "intro": {
@@ -488,7 +489,11 @@
         },
         {
           "name": "Operational readiness",
-          "description": "Transformations often fail because organizations aren't ready to operate effectively after the change. We prepare your teams, processes and systems so you can deliver from day one."
+          "description": "Transformations often fail because organizations aren't ready to operate effectively after the change. Without readiness work running parallel to your transformation, you'll fall behind — and you won't catch up. We prepare your teams, processes and systems so you can deliver from day one."
+        },
+        {
+          "name": "Sourcing and vendor selection",
+          "description": "Selecting the right partner is critical. We help define requirements, organize competitive tenders, objectively evaluate vendors, and negotiate through to contracting."
         },
         {
           "name": "ERP and cloud transitions",
@@ -506,6 +511,10 @@
         {
           "title": "Advice that ends in action",
           "description": "We step into your organization, build alongside you, and ensure change actually lands. Every piece of advice is aimed at implementation – and we stay involved until it works."
+        },
+        {
+          "title": "Proven approach with accelerators",
+          "description": "We don't start from scratch. We use proven frameworks, reference products and best practices to save time and reduce risk."
         },
         {
           "title": "Honest about what's possible",

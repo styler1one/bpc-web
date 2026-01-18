@@ -464,6 +464,7 @@
     "hero": {
       "label": "Consulting",
       "title": "Richting bepalen, keuzes maken, verandering borgen",
+      "subtitle": "Pragmatisch, samenwerkend, en gericht op resultaat dat blijft.",
       "description": "Transformaties mislukken zelden door technologie. Ze mislukken door onduidelijke richting, gebrekkige governance of gebrek aan draagvlak. Wij helpen je de juiste keuzes maken én zorgen dat verandering daadwerkelijk landt."
     },
     "intro": {
@@ -488,7 +489,11 @@
         },
         {
           "name": "Operational readiness",
-          "description": "Transformaties mislukken vaak doordat organisaties niet klaar zijn om effectief te opereren na de verandering. Wij bereiden je teams, processen en systemen voor zodat je vanaf dag één kunt leveren."
+          "description": "Transformaties mislukken vaak doordat organisaties niet klaar zijn om effectief te opereren na de verandering. Zonder readiness-werk parallel aan je transformatie loop je achter — en haal je dat niet meer in. Wij bereiden je teams, processen en systemen voor zodat je vanaf dag één kunt leveren."
+        },
+        {
+          "name": "Sourcing en vendor selectie",
+          "description": "De juiste partner selecteren is kritisch. Wij helpen bij het definiëren van requirements, organiseren van competitieve tenders, objectief evalueren van leveranciers, en onderhandelen tot aan contractering."
         },
         {
           "name": "ERP en cloud transities",
@@ -506,6 +511,10 @@
         {
           "title": "Advies dat eindigt in actie",
           "description": "Wij stappen in je organisatie, bouwen mee, en zorgen dat verandering daadwerkelijk landt. Elk advies is gericht op implementatie – en we blijven betrokken tot het werkt."
+        },
+        {
+          "title": "Bewezen aanpak met versnellers",
+          "description": "Wij starten niet vanaf nul. We gebruiken bewezen frameworks, referentieproducten en best practices om tijd te besparen en risico te verlagen."
         },
         {
           "title": "Eerlijk over wat kan",

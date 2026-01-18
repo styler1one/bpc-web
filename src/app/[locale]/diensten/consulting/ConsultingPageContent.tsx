@@ -116,6 +116,9 @@ export function ConsultingPageContent() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-4">
               {t('hero.title')}
             </h1>
+            <p className="text-lg text-bpc-teal-400 font-medium mb-4">
+              {t('hero.subtitle')}
+            </p>
             <p className="text-xl text-white/80 leading-relaxed">
               {t('hero.description')}
             </p>
@@ -165,7 +168,7 @@ export function ConsultingPageContent() {
           <h2 className="text-3xl font-display font-bold text-bpc-navy-900 mb-12 text-center">
             {t('approach.title')}
           </h2>
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
             {approachItems.map((item, index) => (
               <ApproachItem
                 key={`approach-${index}`}
