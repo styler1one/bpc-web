@@ -54,8 +54,8 @@
   "trust_bullets": {
     "title": "Waarom organisaties voor ons kiezen",
     "items": [
-      "Senior team, korte lijnen — geen wisselende consultants",
-      "Van advies naar uitvoering — geen rapporten voor de la",
+      "Senior team, korte lijnen — directe toegang tot expertise",
+      "Wij blijven tot het werkt — elk advies eindigt in actie",
       "Governance standaard — AI veilig in productie"
     ]
   },
@@ -179,8 +179,8 @@
   },
   "results": {
     "section_label": "Wat bereik jij?",
-    "title": "Resultaten die je kunt meten",
-    "subtitle": "Dit is wat organisaties zoals die van jou behalen",
+    "title": "Meetbare impact die blijft",
+    "subtitle": "Dit is wat organisaties zoals die van jou behalen met onze aanpak",
     "stats": {
       "time_saved": "20-40%",
       "time_saved_label": "minder tijd aan repetitieve taken",
@@ -488,7 +488,7 @@
         },
         {
           "name": "Operational readiness",
-          "description": "Is je organisatie klaar voor de verandering? Wij bereiden teams, processen en systemen voor op wat komen gaat."
+          "description": "Transformaties mislukken vaak doordat organisaties niet klaar zijn om effectief te opereren na de verandering. Wij bereiden je teams, processen en systemen voor zodat je vanaf dag één kunt leveren."
         },
         {
           "name": "ERP en cloud transities",
@@ -505,7 +505,7 @@
         },
         {
           "title": "Advies dat eindigt in actie",
-          "description": "Wij leveren geen rapporten die in een la verdwijnen. Elk advies is gericht op implementatie – en we blijven betrokken tot het werkt."
+          "description": "Wij stappen in je organisatie, bouwen mee, en zorgen dat verandering daadwerkelijk landt. Elk advies is gericht op implementatie – en we blijven betrokken tot het werkt."
         },
         {
           "title": "Eerlijk over wat kan",
@@ -1128,15 +1128,15 @@
     "hero": {
       "section_label": "Over ons",
       "title": "Best Practice Company",
-      "subtitle": "AI die werkt. Dat is wie wij zijn.",
-      "text": "Een senior team dat complexe transformaties begeleidt en realiseert. Van strategie tot productie, in één team. Wij blijven tot het werkt."
+      "subtitle": "Transformatie die landt. AI als versneller.",
+      "text": "Een boutique consultancy met senior professionals die complexe transformaties begeleiden en realiseren. Wij combineren expertise in organisatie, mensen, processen en technologie. Van strategie tot productie, in één team. Wij blijven tot het werkt."
     },
 
     "mission": {
       "section_label": "Onze missie",
       "title": "Waarom wij bestaan",
       "text": "Wij helpen organisaties om duurzaam te transformeren en te groeien door slimme technologie werkend te maken in de dagelijkse praktijk.",
-      "elaboration": "Niet door te adviseren en te vertrekken, maar door strategie te vertalen naar oplossingen die mensen gebruiken en die aantoonbaar resultaat opleveren."
+      "elaboration": "Niet door te adviseren en te vertrekken, maar door in je organisatie te stappen, mee te bouwen, en te zorgen dat verandering daadwerkelijk landt. Met meetbare en duurzame impact."
     },
 
     "vision": {

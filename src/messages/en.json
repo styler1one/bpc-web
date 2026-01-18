@@ -54,8 +54,8 @@
   "trust_bullets": {
     "title": "Why organizations choose us",
     "items": [
-      "Senior team, short lines — no rotating consultants",
-      "From advice to execution — no reports for the drawer",
+      "Senior team, short lines — direct access to expertise",
+      "We stay until it works — every advice ends in action",
       "Governance standard — AI safely in production"
     ]
   },
@@ -179,8 +179,8 @@
   },
   "results": {
     "section_label": "What will you achieve?",
-    "title": "Results you can measure",
-    "subtitle": "This is what organizations like yours achieve",
+    "title": "Measurable impact that lasts",
+    "subtitle": "This is what organizations like yours achieve with our approach",
     "stats": {
       "time_saved": "20-40%",
       "time_saved_label": "less time on repetitive tasks",
@@ -488,7 +488,7 @@
         },
         {
           "name": "Operational readiness",
-          "description": "Is your organization ready for the change? We prepare teams, processes, and systems for what's coming."
+          "description": "Transformations often fail because organizations aren't ready to operate effectively after the change. We prepare your teams, processes and systems so you can deliver from day one."
         },
         {
           "name": "ERP and cloud transitions",
@@ -505,7 +505,7 @@
         },
         {
           "title": "Advice that ends in action",
-          "description": "We don't deliver reports that disappear in a drawer. Every piece of advice is aimed at implementation – and we stay involved until it works."
+          "description": "We step into your organization, build alongside you, and ensure change actually lands. Every piece of advice is aimed at implementation – and we stay involved until it works."
         },
         {
           "title": "Honest about what's possible",
@@ -1128,15 +1128,15 @@
     "hero": {
       "section_label": "About us",
       "title": "Best Practice Company",
-      "subtitle": "AI that works. That's who we are.",
-      "text": "A senior team that guides and delivers complex transformations. From strategy to production, in one team. We stay until it works."
+      "subtitle": "Transformation that lands. AI as accelerator.",
+      "text": "A boutique consultancy with senior professionals who guide and deliver complex transformations. We combine expertise in organization, people, processes and technology. From strategy to production, in one team. We stay until it works."
     },
 
     "mission": {
       "section_label": "Our mission",
       "title": "Why we exist",
       "text": "We help organizations transform and grow sustainably by making smart technology work in daily practice.",
-      "elaboration": "Not by advising and leaving, but by translating strategy into solutions that people use and that demonstrably deliver results."
+      "elaboration": "Not by advising and leaving, but by stepping into your organization, building alongside you, and ensuring change actually lands. With measurable and sustainable impact."
     },
 
     "vision": {
